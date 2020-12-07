@@ -1,0 +1,61 @@
+---
+layout: default
+title: Brent Pappas
+---
+<h1>About Me</h1>
+<hr />
+<figure class="figure ml-5 float-right">
+    <img src="assets/img/pic1.JPG" class="img-fluid rounded"
+        alt="Picture of me in a funny Christmas shirt at Wynwood Walls">
+    <figcaption class="figure-caption">
+        A picture of me in a silly Christmas shirt,
+        <br>
+        standing in front of the Wynwood Walls <br>
+        in Miami, Florida. Photo by taken by <a href="https://www.megpukel.com/">Meg Pukel</a>
+    </figcaption>
+</figure>
+
+<p>I am an undergraduate student at the University of Central Florida (UCF) pursuing a Bachelor's degree in
+    Computer
+    Science</p>
+
+<p>I currently work at Bags Inc. as a Quality Assurance Analyst. There I work in a small team of talented
+    individuals to
+    troubleshoot novel software bugs and devise methods of efficiently testing software</p>
+
+<p>If you would like to contact me, please <a
+        href="https://docs.google.com/document/d/1zHW6NAX_zjq_iuKL94nZ7W4JM1tnA7tvGYyU792CAcg/edit?usp=sharing">please
+        click here</a> to view my resume. It has my most up to date contact information</p>
+
+<h2>What I'm Into</h2>
+<ul>
+    <li>Programming languages (shocking, I know)
+        <ul>
+            <li>Python. I mainly use Python to automate tedious tasks in my life or to solve programming
+                problems in
+                my free time, but I have experience developing <a href="http://www.dollarsfordrs.com">websites</a>
+                and <a href="https://rapidapi.com/PappasBrent/api/periodic-table-of-elements/">APIs</a> in Flask
+            </li>
+            <li>JavaScript. This is the language I usually use for web development. My most recent large project
+                made in
+                JS is <a href="http://www.pallet-town.me">Pallet Town</a>, a tool to help
+                people play the Pokemon Trading Card Game online via <a
+                    href="https://www.tabletopsimulator.com/">Tabletop Simulator</a>. I've also made a bunch of
+                games in JS, click the link at the top of the page to if you would like to try some of them
+            </li>
+            <li>Rust. I'm still only learning Rust (it's hard!), but I am really enjoying it so far. My only
+                project made with Rust as of yet is an emulator for the CHIP-8 virtual machine. It's open
+                source, so please peruse the code
+                <a href="https://github.com/PappasBrent/rust-chip-8-emulator">on GitHub</a>
+            </li>
+            <li>C, Java, Haskell, Erlang. These are mainly languages that I've learned just for university
+                classes. I tutored CS 1 in C and Object Oriented Programming in Java for about a year at UCF, so
+                I'm decently familiar with them
+            </li>
+        </ul>
+    </li>
+    <li>Juggling <big>🤹‍♂️</big></li>
+    <li>Board games and card games</li>
+    <li>Reading. One book that I recently read and would strongly recommend is <i>Sapiens</i> by Professor Yuval
+        Noah Harari </li>
+</ul>
