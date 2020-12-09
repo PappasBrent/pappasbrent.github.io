@@ -2,7 +2,7 @@
 layout: post
 title:  "My New Site"
 date:   2020-12-07 08:52:00 -0500
-categories: blog post
+categories: blog
 ---
 Hello! I've recently decided to remake my personal website using [GitHub Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
 
