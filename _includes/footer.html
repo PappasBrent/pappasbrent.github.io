@@ -52,7 +52,10 @@
 
     <div class="row mt-4">
         <div class="col">
-            &copy; 2020 Brent Pappas
+            &copy; <span id="copyright-year">{{ site.time | date: '%Y' }}</span> Brent Pappas
         </div>
     </div>
+    <script>
+        document.getElementById("copyright-year").textContent = new Date().getFullYear();
+    </script>
 </footer>
