@@ -88,4 +88,4 @@ lingered since its initial release in 2012, and I think reading the Dragon Book
 (particularly the chapters on lexing and parsing) will help me better
 understand SuperC and thus be able to debug it more effectively.
 Truthfully I am a little nervous, but I am very grateful that I have
-been the opportunity to contribute to a project like this 🙂
+been given the opportunity to contribute to a project like this 🙂
