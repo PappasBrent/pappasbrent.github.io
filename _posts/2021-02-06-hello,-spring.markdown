@@ -63,7 +63,7 @@ research into the program analysis under Dr. Paul Gazzillo at UCF. Currently,
 I am researching two tools: Checked C, and 3C. Created by Microsoft,
 Checked C is a backwards-compatible extension to C that provides
 "[safe pointer types](https://www.microsoft.com/en-us/research/publication/checkedc-making-c-safe-by-extension/)"
-![alt](/assets/img/checked-c.png){:class="float-left mt-4 mr-4 mb-4 rounded"}
+![Checked C](/assets/img/checked-c.png){:class="float-left mt-4 mr-4 mb-4 rounded"}
 to make C spatially safe (i.e., no out of bounds memory accesses can occur).
 With Checked C, one can divide their work into
 "checked" and "unchecked" regions, so that code reviewers can know which
