@@ -98,7 +98,7 @@ way I judge writing quality, and I was startled to realize that I often make
 many of the mistakes that Orwell outlines in this essay. I am glad that I read
 this now before starting grad school, and hope that the writing rules Orwell
 proposes will help me write clear research papers in the future. Additionally,
-I have just started *Atomic Habits* by Charles Duhigg, and so far have found it
+I have just started *The Power of Habit* by Charles Duhigg, and so far have found it
 more entertaining than I thought it would be. By the time I write my next post
 I should have finished it, and will provide more thoughts on it then.
 
