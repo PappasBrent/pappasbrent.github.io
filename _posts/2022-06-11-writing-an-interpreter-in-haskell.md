@@ -237,4 +237,6 @@ All tests pass - nice!
 In this post, I listed steps I took to create a BF interpreter in Haskell.
 I hope you enjoyed reading it :), I want to write more technical posts like this in the future.
 
+The full source code for the interpreter can be found [here](https://github.com/PappasBrent/brainfuck-haskell.git).
+
 Have a good one!
