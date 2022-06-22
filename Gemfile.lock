@@ -258,6 +258,7 @@ DEPENDENCIES
   github-pages
   jekyll-feed
   jekyll-sitemap
+  minima
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
