@@ -65,7 +65,7 @@ data BFCommand
 
 Using Haskell's parser combinator library [Parsec](https://hackage.haskell.org/package/parsec), one can parse a string representation of a BF program into the above data type as follows:
 ```haskell
-parseBF :: GenParser String st [BFCommand]
+parseBF :: Parsec String st [BFCommand]
 parseBF =
   many $
     choice
