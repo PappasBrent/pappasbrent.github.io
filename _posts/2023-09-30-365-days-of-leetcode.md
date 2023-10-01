@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      365 Days of LeetCode
-date:       2023-09-30 9:00:00 EDT
+date:       2023-09-30 09:00:00 EDT
 categories: blog
 ---
 
