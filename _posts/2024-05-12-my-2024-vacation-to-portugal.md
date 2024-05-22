@@ -107,8 +107,8 @@ Jerónimos](/assets/img/mosterio-dos-jeronimos.jpg){:class="rounded
 - Cabo da Roca: Absolutely breathtaking. We traveled to the westernmost point of
   continental Europe after visiting Pena Palace, and the view totally blew me
   away. The ocean seemed to stretch on endlessly toward the horizon, and the
-  waves undulated gently under the sun like sleepy serpent. This was definitely
-  my favorite part of the trip.
+  waves undulated gently under the sun like a sleepy serpent. This was
+  definitely my favorite part of the trip.
 
   ![Ocean view at Cabo da Roca](/assets/img/cabo-da-roca.jpg){:class="rounded
   mx-auto d-block"}
