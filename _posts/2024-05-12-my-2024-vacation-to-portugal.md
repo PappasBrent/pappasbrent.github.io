@@ -14,9 +14,9 @@ brief thoughts on them.
 - 3D Fun Art Museum Lisboa: This museum had a few funny illusions that made for
   some great photos (which are little too silly for me to want to share haha).
 
-- Calouste Gulbenkian Museum: Tucked away in a library, this musuem was replete
+- Calouste Gulbenkian Museum: Tucked away in a library, this museum was replete
   with artifacts from cultures all across the globe! We started exploring this
-  musuem in the afternoon, but spent so long admiring everything that the museum
+  museum in the afternoon, but spent so long admiring everything that the museum
   staff had to kick us out before we could finish walking through the last
   section on European history.
 
@@ -36,13 +36,13 @@ Jerónimos](/assets/img/mosterio-dos-jeronimos.jpg){:class="rounded
   classic, [_A Suspeita_](https://youtu.be/m4Fciq8LPz0?si=BOT5RHJkdAnmoTkI), and
   it was great.
 
-- The Museum of Art, Architecture, and Technology (MAAT): This musuem presented
+- The Museum of Art, Architecture, and Technology (MAAT): This museum presented
   a look into the industrial history of Lisbon, and into global efforts towards
   a more sustainable future.
 
 - The Museum of the Orient: This was our favorite museum. There were just so
   many artifacts (snuff bottles, paintings, dresses, suits of armor, and more!)
-  that we didn't have time to appreciate it all before the musuem closed and the
+  that we didn't have time to appreciate it all before the museum closed and the
   staff told us to leave. Oh well, on the bright side we got in for free because
   we apparently came on International Day.
 
