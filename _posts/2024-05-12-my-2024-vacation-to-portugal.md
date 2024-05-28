@@ -9,8 +9,6 @@ After attending ICSE a few weeks ago, my girlfriend and I had a blast exploring
 in and around Lisbon, Portugal. Here are all the places we visited, as well my
 brief thoughts on them.
 
-<!-- TODO: Change the publication date! -->
-
 ## Museums
 
 - 3D Fun Art Museum Lisboa: This museum had a few funny illusions that made for
