@@ -1,0 +1,269 @@
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+:root {
+    /* --main-bg-color: #eff1f5; */
+    --main-bg-color: #ffffff;
+    --secondary-bg-color: #eeeeee;
+    --main-text-color: #000000;
+    --subtitle-color: #6c6f85;
+    --link-color: #1e66f5;
+    --nav-item-margin-left: 24px;
+}
+
+*, *::before, *::after {
+    font-family: roboto;
+    box-sizing: border-box;
+    margin: 0;
+    background: var(--main-bg-color);
+    line-height: 1.5;
+}
+
+body {
+    margin-top: 18px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+    body > div {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body > div {
+        width: 90%;
+    }
+}
+
+body > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+}
+
+body > div > * {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-top: 18px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-top: 18px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    margin-top: 16px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+a.brand {
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+svg, path {
+    color: inherit;
+}
+
+ul.navbar-nav {
+    list-style: none;
+    display: flex;
+}
+
+li.nav-item > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--subtitle-color);
+}
+
+li.nav-item>a:hover {
+    color: var(--primary-text-color);
+}
+
+@media screen and (min-width: 1200px) {
+    li.nav-item {
+        margin-left: var(--nav-item-margin-left);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+        flex-direction: column;
+    }
+
+    ul.navbar-nav {
+        padding-left: 0;
+        flex-direction: column;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0;
+}
+
+@media screen and (min-width: 500px) {
+    footer ul {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    footer ul {
+        flex-direction: column;
+    }
+}
+
+footer > #copyright {
+    margin-top: 18px;
+}
+
+div.card {
+    padding: 1.25rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+}
+
+div.card:nth-child(n + 1) {
+    margin-top: 18px;
+}
+
+div.card a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+div.card a:hover {
+    text-decoration: underline;
+}
+
+div.card > h6 {
+    margin-bottom: 14px;
+}
+
+@media screen and (min-width: 1200px) {
+    main > div {
+        column-gap: 18px;
+        display: grid;
+        grid-template-rows: 2;
+        grid-template-columns: 2;
+    }
+
+    main > div > img {
+        grid-row-start: 1;
+        grid-row-end: span 2;
+        grid-column-start: 2;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    main > div > img {
+        margin: 18px auto 0 auto;
+        display: block;
+    }
+}
+
+article > div:nth-child(n+1) {
+    margin-top: 16px;
+}
+
+.row {
+    display: flex;
+}
+
+.row-centered {
+    justify-content: center;
+}
+
+#reading-list { 
+    margin-top: 32px;
+    border-collapse: collapse;
+}
+
+#reading-list td, #reading-list th {
+    background: inherit;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+#reading-list tbody tr:hover {
+    background: var(--secondary-bg-color);
+}
+
+#top-hr {
+    margin-bottom: 18px;
+}
+
+#bottom-hr {
+    margin: 18px 0;
+}
+
+pre {
+    background-color: var(--secondary-bg-color);
+    border-radius: 0.25rem;
+    border: 1px solid black;
+    font-family: monospace;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.rounded-border {
+    border-radius: 0.25rem;
+    text-align: center;
+    border: 2px solid black;
+}
