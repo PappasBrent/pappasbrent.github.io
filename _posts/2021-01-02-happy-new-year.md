@@ -45,7 +45,15 @@ whereas data tables can make the answers to questions about it more obvious.
 
 After finishing that book, I decided to brush up on my functional programming
 skills by reading [_Learn You a Haskell for Great Good!_](http://learnyouahaskell.com/).
-![Haskell logo](https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Logo_of_the_Haskell_programming_language.svg/512px-Logo_of_the_Haskell_programming_language.svg.png){:class="float-right m-4" width="256px"}
+
+<div class="row row-centered">
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Logo_of_the_Haskell_programming_language.svg/512px-Logo_of_the_Haskell_programming_language.svg.png"
+alt="Haskell logo"
+class="rounded-border"
+style="width: 256px;"
+>
+</div>
+
 I programmed in Haskell while taking a programming languages course at UCF
 taught by Dr. Gary Leavens, and I really enjoyed it. Since then I've wanted to
 learn more about Haskell and functional programming, and now that I've finished
@@ -58,7 +66,14 @@ I'm not sure if I'll be building any projects in Haskell any time soon, but
 at least I can finally say that I know what a monad is 😃
 (spoiler: a value with context)
 
-![Runelock screenshot](/assets/img/runelock.png){:class="float-left m-4" width="192px"}
+<div class="row row-centered">
+<img src="/assets/img/runelock.png"
+alt="Runelock screenshot"
+class="rounded-border"
+style="width: 192px;"
+>
+</div>
+
 Oh, and last Friday night I finished a new game, Runelock! I started this one
 all the way back in summer, made zero progress on it during the fall semester,
 and finally finished it a few days ago. Besides being busy with class, work,
@@ -73,7 +88,14 @@ Anyway, you can [check it out here!](https://lightwatch.itch.io/runelock)
 the Itch.io desktop app. If you face this issue, try playing it in your browser
 instead).
 
-![Dragon Book, 2nd Edition](https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Purple_dragon_book_b.jpg/220px-Purple_dragon_book_b.jpg){:class="float-right m-4" width="110px"}
+<div class="row row-centered">
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Purple_dragon_book_b.jpg/220px-Purple_dragon_book_b.jpg"
+alt="Dragon Book, 2nd Edition"
+class="rounded-border"
+style="width: 192px;"
+>
+</div>
+
 Finally, this week I began reading
 _Compilers: Principles, Techniques, and Tools_ (commonly known as
 "The Dragon Book", due to the dragon on the cover [which is purple in the

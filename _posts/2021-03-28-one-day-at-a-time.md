@@ -58,7 +58,9 @@ Ascii Graph Object Notation - not the best acronym, but it's somewhat fitting
 and also contains the word "go" in it so I figured it would suffice), and made
 it to improve my skills in language parsing and Go. Basically, it converts text
 structured like this:
-```
+
+<div class="row row-centered">
+<pre>
            [D]
            |
            |
@@ -75,7 +77,9 @@ AC
 |
 |
 [C]
-```
+</pre>
+</div>
+
 Into a Go object that represents a 2D graph. It's mainly just a pet project
 made for fun, but it could be useful for creating diagrams, designing game
 levels, and mapping out business requirements.

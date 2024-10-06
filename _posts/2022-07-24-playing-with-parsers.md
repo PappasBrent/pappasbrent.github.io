@@ -38,7 +38,8 @@ Here are the steps I took to do that, sans downloading all the necessary compile
 First, I designed a small language of arithmetic expressions.
 Here is the full grammar in EBNF form:
 
-```ebnf
+<div class="row row-centered">
+<pre>
 expr      =   addsub;
 addsub    =   muldiv {('+' | '-') muldiv};
 muldiv    =   neg {('*' | '/') neg};
@@ -46,7 +47,8 @@ neg       =   {'-'} parenint;
 parenint  =   ('(' expr ')') | int;
 int       =   digit{digit};
 digit     =   0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
-```
+</pre>
+</div>
 
 ### Operator Precedence
 Next I decided on the the operator precedence levels.
@@ -183,7 +185,9 @@ I've recorded all the raw results of my experiments in the file `results.csv` in
 You can [go here](https://github.com/PappasBrent/comparing-parsers/blob/main/table.csv) to view it on Github, which lets you easily filter and search through it.
 The time it took the parsers to run on 100, 1K, and 10K lines of input were comparable, so I graphed them in a bar chart:
 
+<div class="row row-centered">
 <img src="/assets/img/100-1k-10k-resized.jpg" class="rounded mx-auto d-block" style="width: 750px">
+</div>
 
 The C/C++/Rust implementations were the fastest.
 This is likely because these languages aren't garbage collected, and have minimal runtime environments (basically just their standard libraries).
@@ -204,7 +208,9 @@ I think it is interesting to note that the Typescript implementation is just sli
 Now, let's move on to the 100K lines of input.
 I could still fit all the parser execution times for this file in a single bar chart, so here it is:
 
+<div class="row row-centered">
 <img src="/assets/img/100k-resized.jpg" class="rounded mx-auto d-block" style="width: 750px">
+</div>
 
 The Python implementation continues to scale poorly.
 I tried to improve its performance a few times by changing how the parser's lookahead worked, but in the end I wasn't able to salvage it.
@@ -220,7 +226,9 @@ In any case, the next time I decide to solve a parsing problem using functional 
 Finally, I graphed the parser execution times on the 1M lines of input.
 I did not plot the execution times for Python and Haskell in this graph since they took so much longer than the other parsers to finish (13.4s and 72.5 sec, respectively).
 
+<div class="row row-centered">
 <img src="/assets/img/1M-resized.jpg" class="rounded mx-auto d-block" style="width: 750px">
+</div>
 
 What I found most shocking here is how slow the Rust implementation is at this point.
 Since Rust isn't garbage collected, I would expected it to keep pace with C and C++.

@@ -26,7 +26,14 @@ my skills (e.g. [Hack The Box](https://www.hackthebox.eu/)). I am also
 pleased to say that some of this information is already paying dividends
 in my cybersecurity classes :)
 
-![Samuel Johnson](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Samuel_Johnson_by_Joshua_Reynolds_2.png/170px-Samuel_Johnson_by_Joshua_Reynolds_2.png){:class="float-right mt-4 mb-4 ml-4 rounded"}
+<div class="row row-centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Samuel_Johnson_by_Joshua_Reynolds_2.png/170px-Samuel_Johnson_by_Joshua_Reynolds_2.png"
+alt="Samuel Johnson"
+class="rounded-border"
+style="width: 256px;"
+>
+</div>
+
 Speaking of which, my classes this semester are off to a good start.
 In addition to my cybersecurity classes, I elected to take an online class
 on film history. I don't usually spend my time watching movies, so that class
@@ -63,8 +70,16 @@ research into the program analysis under Dr. Paul Gazzillo at UCF. Currently,
 I am researching two tools: Checked C, and 3C. Created by Microsoft,
 Checked C is a backwards-compatible extension to C that provides
 "[safe pointer types](https://www.microsoft.com/en-us/research/publication/checkedc-making-c-safe-by-extension/)"
-![Checked C](/assets/img/checked-c.png){:class="float-left mt-4 mr-4 mb-4 rounded"}
 to make C spatially safe (i.e., no out of bounds memory accesses can occur).
+
+<div class="row row-centered">
+<img src="/assets/img/checked-c.png"
+alt="Checked C"
+class="rounded-border"
+style="width: 256px;"
+>
+</div>
+
 With Checked C, one can divide their work into
 "checked" and "unchecked" regions, so that code reviewers can know which
 regions of code to look at when trying to debug spatial safety violations.

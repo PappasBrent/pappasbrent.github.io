@@ -3,16 +3,23 @@
 
 {%- include head.html -%}
 
-<body class="bg-light">
-    {%- include header.html -%}
+<body>
+    <div>
 
-    <div style="width: 80%; margin: 0 auto;">
+        {%- include header.html -%}
+
         <main>
             <h1> {{ page.title }} </h1>
-            <hr>
+            <hr id="top-hr">
+
             {{ content }}
+
         </main>
+
+        <hr id="bottom-hr">
+
         {%- include footer.html -%}
+
     </div>
 </body>
 

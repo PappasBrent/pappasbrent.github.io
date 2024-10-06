@@ -31,7 +31,9 @@ For my implementation, I chose to make each cell large enough to hold an 8-bit i
 ## Parsing
 I began by reviewing the syntax for BF.
 One could express the abstract syntax for BF in [Extended Backus-Naur](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form) (EBNF) form as follows:
-```
+
+<div class="row row-centered">
+<pre>
 BF_PROGRAM  ::= { BF_COMMAND }  //  A BF program consists of many BF commands
 
 BF_COMMAND  ::= 
@@ -45,10 +47,13 @@ BF_COMMAND  ::=
     | COMMENT                   //  All other ASCII characters are comments
 
 COMMENT ::= all_ascii_characters - "+-><[].,"
-```
+</pre>
+</div>
 
 This directly translates to the following Haskell data declaration:
-```haskell
+
+<div class="row row-centered">
+<pre>
 -- main.hs
 
 data BFCommand
@@ -61,10 +66,13 @@ data BFCommand
   | ReadCell
   | Comment Char
   deriving (Show)
-```
+</pre>
+</div>
 
 Using Haskell's parser combinator library [Parsec](https://hackage.haskell.org/package/parsec), one can parse a string representation of a BF program into the above data type as follows:
-```haskell
+
+<div class="row row-centered">
+<pre>
 parseBF :: Parsec String st [BFCommand]
 parseBF =
   many $
@@ -81,27 +89,37 @@ parseBF =
       ]
   where
     literalsBF = "+-><[].,"
-```
+</pre>
+</div>
+
 If you're familiar with parser combinators, this should be easy to read.
 If you're not, then I'd recommend watching [this talk](https://youtu.be/RDalzi7mhdY) and reading this [web page](https://hasura.io/blog/parser-combinators-walkthrough/).
 
 And that's it!
 We already have enough to parse a BF program, e.g.
-```haskell
+
+<div class="row row-centered">
+<pre>
 main = do
   let program = Data.String.fromString "+-[-]>>>><+[-[-]]"
    in case parse parseBF "main" program of
         Left pe -> print "Parse error"
         Right bcs -> print bcs
-```
+</pre>
+</div>
+
 Compile using `ghc` and run as follows:
-```bash
+
+<div class="row row-centered">
+<pre>
 $ ghc main.hs
 [1 of 1] Compiling Main             ( main.hs, main.o )
 Linking main ...
 $ ./main
 [IncCell,DecCell,Loop [DecCell],MvRight,MvRight,MvRight,MvRight,MvLeft,IncCell,Loop [DecCell,Loop [DecCell]]]
-```
+</pre>
+</div>
+
 It works!
 Yay!
 
@@ -109,22 +127,31 @@ Yay!
 So we can parse BF programs, but how do we evaluate them?
 Well, first we'll need a way of representing the tape.
 This also easily translates to a data declaration:
-```haskell
+
+<div class="row row-centered">
+<pre>
 data Tape = Tape [Int8] Int8 [Int8]
-```
+</pre>
+</div>
+
 Here, the `Int8` type constant is the currently focused cell, and the left and right `[Int8]` type constants represent the tape to the left and right of the cell, respectively.
 We can create a new infinitely long tape as follows:"
 
-```haskell
+<div class="row row-centered">
+<pre>
 newBFTape :: Tape
 newBFTape = Tape (repeat 0) 0 (repeat 0)
-```
+</pre>
+</div>
+
 This is where the laziness of Haskell shines - even though we are creating an infinitely long data structure, it will only increase in size when we need it to.
 This lets us simulate an unbounded tape without running out of memory.
 
 
 We can create a separate function to represent each BF command:
-```haskell
+
+<div class="row row-centered">
+<pre>
 incCell :: Tape -> Tape
 incCell (Tape ls x rs) = Tape ls (x + 1) rs
 
@@ -146,14 +173,18 @@ readCell :: Tape -> IO Tape
 readCell t@(Tape ls x rs) = do
   c <- getChar
   return (Tape ls (toEnum $ ord c) rs)
-```
+</pre>
+</div>
+
 I've included the `fromEnum` and `toEnum` commands to convert the data in a cell from/to ASCII encoding.
 This lets us print the contents of a cell as an ASCII character instead of as an 8-bit integer.
 
 Notice that we have not yet defined a function for the the loop command.
 That's because it's evaluation is closely related to the evaluation of BF programs in general: to evaluate a loop, we essentially evaluate another BF program using the same tape as the first.
 To highlight the related nature of evaluating a loop command and a BF program, I've listed the code for these two functions next two each other:
-```haskell
+
+<div class="row row-centered">
+<pre>
 loopBF :: String -> Tape -> [BFCommand] -> IO (String, Tape)
 loopBF s t@(Tape ls 0 rs) _ = return (s, t)
 loopBF s t bfcs = do
@@ -179,7 +210,8 @@ evalBF s t bfcs = do
         t' <- readCell t
         evalBF s t' bcs
       Comment com -> evalBF s t bcs
-```
+</pre>
+</div>
 In the `loopBF` function, we have two cases:
 1.  If the value at the cell at which we are to begin the loop is zero, then we do nothing.
 2.  Otherwise, we evaluate the program contained in the loop using the same tape that we had at the start of the loop, and run the loop again under the resulting tape and output string.
@@ -196,7 +228,8 @@ Our evaluator function returns an IO monad wrapping a tuple containing two eleme
 To test that the parser and evaluator do what they're supposed to, we can pass an input string to the parser, parse it, evaluate the parsed sequence of BF commands under a new tape, and check that the output string matches the expected output for that program.
 We could also test that the tape is in the state we expect it to be after the program terminates, but for now I think just checking the evaluator's output string against its expected output is enough:
 
-```haskell
+<div class="row row-centered">
+<pre>
 tests :: [(String, String)]
 tests =
   [ ("+[-->-[>>+>-----<<]<--<---]>-.>>>+.>>..+++[.>]<<<<.+++.------.<<-.>>>>+.", "Hello, World!"),
@@ -215,21 +248,27 @@ runTest input expected = case parse parseBF "test" (fromString input) of
 
 runTests :: IO [String]
 runTests = mapM (uncurry runTest) tests
-```
+</pre>
+</div>
 
 We can run our tests as follows:
-```haskell
+
+<div class="row row-centered">
+<pre>
 main :: IO ()
 main = do results <- runTests; print results
-```
+</pre>
+</div>
 
-```bash
+<div class="row row-centered">
+<pre>
 $ ghc main.hs
 [1 of 1] Compiling Main             ( main.hs, main.o )
 Linking main ...
 $ ./main
 ["Pass","Pass","Pass","Pass","Pass"]
-```
+</pre>
+</div>
 
 All tests pass - nice!
 

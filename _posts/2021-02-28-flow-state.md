@@ -19,7 +19,13 @@ Though I greatly enjoy the company of others and collaborating with my
 peers on larger projects, this time of solitude is an event that I look
 forward to each week.
 
-![Cup of Coffee](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/800px-A_small_cup_of_coffee.JPG){:class="float-right mt-4 mb-4 ml-4 rounded" style="width:240px"}
+<div class="row row-centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/800px-A_small_cup_of_coffee.JPG"
+alt="Cup of coffee"
+class="rounded-border"
+style="width: 240px;"
+>
+</div>
 
 I was able to identify this time as a ritual worth repeating in part because
 of a book that I read this month: *The 5 A.M. Miracle*, by Jeff Sanders.
@@ -66,7 +72,12 @@ I am totally comfortable with all of this new knowledge, but I plan to zero
 in on the parts that confuse me most so that I may quickly learn the skills
 needed to meaningfully contribute to these projects.
 
-![Go Logo](https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg){:class="float-left mt-4 mr-4 mb-4 rounded" style="width:240px"}
+<div class="row row-centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg"
+alt="Go logo"
+style="width: 240px;"
+>
+</div>
 
 My final goal is to finish a personal project of mine that I began last
 month. I want to keep this last one a secret, but I will say that it is

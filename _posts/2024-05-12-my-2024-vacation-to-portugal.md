@@ -27,9 +27,13 @@ brief thoughts on them.
   girlfriend and I to get some great pictures, such as this one of the monastery
   courtyard:
 
-  ![Courtyard of the Mosteiro
-Jerónimos](/assets/img/mosterio-dos-jeronimos.jpg){:class="rounded
-  mx-auto d-block"}
+  <div class="row row-centered">
+  <img src="/assets/img/mosterio-dos-jeronimos.jpg"
+  alt="Courtyard of the Mosteiro Jerónimos"
+  class="rounded-border"
+  style="width: 312px;"
+  >
+  </div>
 
 - Museu da Marioneta: This was actually the first museum we visited, and it was
   very funny and quirky. At the end we got to watch the Portuguese stop motion
@@ -58,8 +62,13 @@ Jerónimos](/assets/img/mosterio-dos-jeronimos.jpg){:class="rounded
   we stopped by it, and there was even a guy with a bubble wand blowing a ton of
   bubbles!
 
-  ![Me in front of the Arco da Rua Augusta](/assets/img/arco-da-rua-augusta.jpg){:class="rounded
-  mx-auto d-block"}
+  <div class="row row-centered">
+  <img src="/assets/img/arco-da-rua-augusta.jpg"
+  alt="Me in front of the Arco da Rua Augusta"
+  class="rounded-border"
+  style="width: 256px;"
+  >
+  </div>
 
 - Belém Tower: We didn't go inside but the outside was cool. My girlfriend
   painted a picture of the tower one day while I was at ICSE.
@@ -76,7 +85,13 @@ Jerónimos](/assets/img/mosterio-dos-jeronimos.jpg){:class="rounded
   greenhouses were in disrepair), and finally took a semi-hidden side-trail to
   climb back down the mountain. The whole experience felt somewhat magical.
 
-  ![Pena Palace](/assets/img/pena-palace.jpg){:class="rounded mx-auto d-block"}
+  <div class="row row-centered">
+  <img src="/assets/img/pena-palace.jpg"
+  alt="Pena Palace"
+  class="rounded-border"
+  style="width: 256px;"
+  >
+  </div>
 
 - Padrão dos Descobrimentos: An interesting monument to the discovery of America
   and the New World. The cool thing about this monument is that one side of it
@@ -108,14 +123,24 @@ Jerónimos](/assets/img/mosterio-dos-jeronimos.jpg){:class="rounded
   waves undulated gently under the sun like a sleepy serpent. This was
   definitely my favorite part of the trip.
 
-  ![Ocean view at Cabo da Roca](/assets/img/cabo-da-roca.jpg){:class="rounded
-  mx-auto d-block"}
+  <div class="row row-centered">
+  <img src="/assets/img/cabo-da-roca.jpg"
+  alt="Ocean view at Cabo da Roca"
+  class="rounded-border"
+  style="width: 312px;"
+  >
+  </div>
 
 - Parque da Pedra: This park was fun to explore. On the side of the park close
   to the aqueduct, we saw some cute wooden scupltures!
 
-  ![Wooden sculptures at Parque da Pedra](/assets/img/parque-da-pedra-wood-sculptures.jpg){:class="rounded
-  mx-auto d-block"}
+  <div class="row row-centered">
+  <img src="/assets/img/parque-da-pedra-wood-sculptures.jpg"
+  alt="Wooden sculptures at Parque da Pedra"
+  class="rounded-border"
+  style="width: 256px;"
+  >
+  </div>
 
 - Tropical Botanical Garden of Lisbon: The front of the park is nice but
   unfortunately the rest of it was kind of run down and gross.
