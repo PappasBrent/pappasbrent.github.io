@@ -194,10 +194,6 @@ div.card a:hover {
     text-decoration: underline;
 }
 
-div.card > h6 {
-    margin-bottom: 14px;
-}
-
 @media screen and (min-width: 1200px) {
     main > div {
         column-gap: 18px;
