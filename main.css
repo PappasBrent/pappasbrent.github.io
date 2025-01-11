@@ -233,8 +233,11 @@ article > div:nth-child(n+1) {
     border-collapse: collapse;
 }
 
+#reading-list * {
+    background: inherit
+} 
+
 #reading-list td, #reading-list th {
-    background: inherit;
     border-bottom: 2px solid black;
     padding: 8px;
 }
