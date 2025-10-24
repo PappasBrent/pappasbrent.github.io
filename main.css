@@ -231,21 +231,21 @@ article > div:nth-child(n+1) {
     justify-content: center;
 }
 
-#reading-list { 
-    margin-top: 32px;
+table { 
+    margin: 0 auto;
     border-collapse: collapse;
 }
 
-#reading-list * {
+table * {
     background: inherit
 } 
 
-#reading-list td, #reading-list th {
+table td, table th {
     border-bottom: 2px solid black;
     padding: 8px;
 }
 
-#reading-list tbody tr:hover {
+table tbody tr:hover {
     background: var(--secondary-bg-color);
 }
 
