@@ -3,58 +3,6 @@ layout: default
 title: Hardening Build Systems
 ---
 
-<!-- <style> -->
-<!-- table { -->
-<!--   table-layout: fixed; -->
-<!--   width: 90%; -->
-<!--   margin: 10px auto; -->
-<!--   border-collapse: collapse; -->
-<!--   border-top: 1px solid #999999; -->
-<!--   border-bottom: 1px solid #999999; -->
-<!-- } -->
-<!---->
-<!-- th, -->
-<!-- td { -->
-<!--   vertical-align: top; -->
-<!--   padding: 0.6em; -->
-<!-- } -->
-<!---->
-<!-- tr :nth-child(2), -->
-<!-- tr :nth-child(3) { -->
-<!--   text-align: right; -->
-<!--   width: 15%; -->
-<!-- } -->
-<!---->
-<!-- tr :nth-child(1), -->
-<!-- tr :nth-child(4) { -->
-<!--   text-align: left; -->
-<!--   width: 35%; -->
-<!-- } -->
-<!---->
-<!-- tfoot tr :nth-child(1) { -->
-<!--   text-align: right; -->
-<!-- } -->
-<!---->
-<!-- tfoot tr :nth-child(2) { -->
-<!--   text-align: left; -->
-<!-- } -->
-<!---->
-<!-- tfoot { -->
-<!--   border-top: 1px solid #999999; -->
-<!-- } -->
-<!---->
-<!-- tbody tr:nth-child(odd) { -->
-<!--   background-color: #eeeeee; -->
-<!-- } -->
-<!---->
-<!-- caption { -->
-<!--   padding: 1em; -->
-<!--   font-style: italic; -->
-<!--   caption-side: bottom; -->
-<!--   letter-spacing: 1px; -->
-<!-- } -->
-<!-- </style> -->
-
 Specifying, analyzing, and securing build systems in real-world code.
 
 ## Project description
