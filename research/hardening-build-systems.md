@@ -21,12 +21,12 @@ attack](https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack
 1. Collect a dataset of real-world programs with build systems (e.g., Make-,
    CMake-, and Autotools-based build systems) we can study. This includes
    collecting programs from the following sources:
-   1. GNU packages.
-   2. Apache Software Foundation programs.
+   1. [GNU packages](http://mirror.rit.edu/gnu/).
+   2. [Apache Software Foundation programs](https://downloads.apache.org/).
    3. GitHub's most starred repos.
 2. Investigate techniques for specifying build phases (e.g., configuration,
-   compilation, and testing phases) for collected projects, and these build
-   phases' file and command .
+   compilation, and testing phases) for collected projects, and for specifying
+   build phase phases' file and command permissions.
    1. We will begin by manually specifying project build phases. While
       completing this step, we will look for patterns in build phase
       specifications that we can use to perform to perform this goal's next
