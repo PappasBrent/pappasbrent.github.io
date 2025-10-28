@@ -61,7 +61,7 @@ attack](https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack
    1. We may find vulnerabilities (or even hidden backdoors!) in real-world
       code. Whoever finds one can have the honor of reporting it to project
       maintainers, potentially netting themselves a CVE (common vulnerability
-      and exposure), which would look awesome on your resume/CV :wink:.
+      and exposure), which would look awesome on your resume/CV ;)
    2. Lastly, we would run the tools we will have developed by this point on a
       benchmark of real-world build systems, and compare their ability to
       detect and prevent build system vulnerabilities to that of other tools
