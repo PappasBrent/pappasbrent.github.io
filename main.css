@@ -219,6 +219,10 @@ div.card a:hover {
     }
 }
 
+img {
+    max-width: 100%;
+}
+
 article > div:nth-child(n+1) {
     margin-top: 16px;
 }
