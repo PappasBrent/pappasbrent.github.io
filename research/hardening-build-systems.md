@@ -74,11 +74,16 @@ attack](https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack
 
 ## Team
 
-| Role                     | Name            |
-| ------------------------ | --------------- |
-| Faculty advisor          | Paul            |
-| Graduate project manager | Brent Pappas    |
-| Undergraduate researcher | Adam Betinsky   |
-| Undergraduate researcher | Thai Nguyen     |
-| Undergraduate researcher | David Gusmao    |
-| Undergraduate researcher | Michael Johnson |
+| Role                     | Name             |
+| ------------------------ | ---------------- |
+| Faculty advisor          | Paul             |
+| Graduate project manager | Brent Pappas     |
+| Undergraduate researcher | Adam Betinsky    |
+| Undergraduate researcher | Thai Nguyen      |
+| Undergraduate researcher | David Gusmao     |
+| Undergraduate researcher | Michael Johnson  |
+| Undergraduate researcher | Brayden Coggin   |
+| Undergraduate researcher | Daniel Henriquez |
+| Undergraduate researcher | Thiago Airoldi   |
+
+<!-- | Undergraduate researcher | Kevin Dasrath    | -->
