@@ -201,8 +201,8 @@ div.card a:hover {
     main > div {
         column-gap: 18px;
         display: grid;
-        grid-template-rows: 2;
-        grid-template-columns: 2;
+        grid-template-rows: 2fr;
+        grid-template-columns: 2fr;
     }
 
     main > div > img {
