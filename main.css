@@ -197,6 +197,15 @@ div.card a:hover {
     text-decoration: underline;
 }
 
+.reading-card > hr {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.book-title {
+    font-weight: normal;
+}
+
 @media screen and (min-width: 1200px) {
     main > div {
         column-gap: 18px;
