@@ -66,38 +66,14 @@ a:hover {
     text-decoration: underline;
 }
 
-h1 {
-    font-size: 36px;
-}
+h1 { font-size: 36px; }
+h2 { font-size: 32px; }
+h3 { font-size: 28px; }
+h4 { font-size: 24px; }
+h5 { font-size: 20px; }
+h6 { font-size: 16px; }
 
-h2 {
-    font-size: 32px;
-    margin-top: 18px;
-}
-
-h3 {
-    font-size: 28px;
-    margin-top: 18px;
-}
-
-h4 {
-    font-size: 24px;
-    margin-top: 18px;
-}
-
-h5 {
-    font-size: 20px;
-    margin-top: 18px;
-}
-
-h6 {
-    font-size: 16px;
-    margin-top: 18px;
-}
-
-p {
-    margin-top: 16px;
-}
+p { margin-top: 10px; }
 
 nav {
     width: 100%;
@@ -179,7 +155,7 @@ footer > #copyright {
 }
 
 div.card {
-    padding: 1.25rem;
+    padding: 1rem;
     border: 1px solid black;
     border-radius: 0.25rem;
 }
