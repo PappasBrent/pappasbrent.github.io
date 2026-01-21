@@ -86,3 +86,4 @@ attack](https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack
 | Undergraduate researcher | Brayden Coggin   |
 | Undergraduate researcher | Daniel Henriquez |
 | Undergraduate researcher | Thiago Airoldi   |
+| Undergraduate researcher | Rasmin Ahmed     |
