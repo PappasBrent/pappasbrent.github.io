@@ -1,6 +1,7 @@
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
+_drafts
 _site
 ignore/
 vendor
