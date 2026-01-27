@@ -3,6 +3,11 @@ layout: default
 title: Resources
 ---
 
+- **2026-01-27**: I received the [UCF GTA Excellence
+  Award](https://drive.google.com/file/d/1Kd-x4YRnj-afcUHU3BdGAANa2EJtrD3S/view?usp=sharing)
+  for providing exceptional assistance for the course COP-3402 Systems
+  Software.
+
 - **2026-01-08**: I recorded my entry for [UCF's 2026 Knights in Focus
   competition](https://graduate.ucf.edu/knights-in-focus/) discussing my
   research on hardening software build systems, and published the video to
