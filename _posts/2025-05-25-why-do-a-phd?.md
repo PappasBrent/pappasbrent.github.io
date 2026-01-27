@@ -9,7 +9,7 @@ In this post, I describe the challenges of the Computer Science PhD, and I
 believe they are ultimately why they are worth overcoming.
 
 This post is a follow-up to a talk I gave at Sonoma State University earlier
-this month, after my collaborator Dr. Suzanne Rivoire invited me come and
+this month, after my collaborator Dr. Suzanne Rivoire invited me to come and
 present a guest lecture on graduate school life to her undergraduate students.
 Huge thanks to Dr. Rivoire for inviting me to share my experiences, as well as
 to my advisor Dr. Paul Gazzillo for giving me the idea to follow the talk up
