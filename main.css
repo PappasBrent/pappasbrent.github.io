@@ -22,22 +22,21 @@
 }
 
 body {
-    margin-top: 18px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-@media screen and (min-width: 1200px) {
-    body > div {
-        width: 60%;
+@media screen and (min-width: 481pt) {
+    body {
+        width: 480pt;
+        margin: 0 auto;
     }
 }
-
-@media screen and (max-width: 1200px) {
-    body > div {
-        width: 90%;
+j
+@media screen and (max-width: 481pt) {
+    body {
+        width: 100%;
     }
 }
 
@@ -106,13 +105,13 @@ li.nav-item>a:hover {
     color: var(--primary-text-color);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 481pt) {
     li.nav-item {
         margin-left: var(--nav-item-margin-left);
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 481pt) {
     nav {
         flex-direction: column;
     }
