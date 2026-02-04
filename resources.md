@@ -41,3 +41,17 @@ title: Resources
   Style](https://www.gutenberg.org/files/37134/37134-h/37134-h.htm): William
   Strunk provides fundamental writing advice. I recommend reading a later
   edition, such as the 4th edition, for additional insights from E.B. White.
+
+- [The Craft of Writing
+  Effectively](https://youtu.be/vtIzMaLkCaM?si=Xv1-GPC9vH2TKr5T): Larry
+  McEnerney, director emeritus of the University of Chicago Writing Program,
+  argues that most academics were taught how to write incorrectly, and gives
+  advice on how to fix this by persuading your readers that your work is
+  valuable to them.
+
+- [Politics and the English
+  Language](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/):
+  George Orwell's essay on writing is often touted by academics as a gold mine
+  for writing advice, and although I think my above recommendations are
+  superior, I concede that this essay has its merits. In particular, the advice
+  about providing concrete examples is very useful.
