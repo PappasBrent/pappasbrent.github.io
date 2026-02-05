@@ -8,6 +8,10 @@ title: Resources
   for providing exceptional assistance for the course COP-3402 Systems
   Software.
 
+- **2026-01-16**: I was selected as a CRA Scholarship Invitee to participate in
+  the 2026 CRA-WP Grad Cohort Workshop. This invitation includes full financial
+  support for me to attend the event.
+
 - **2026-01-08**: I recorded my entry for [UCF's 2026 Knights in Focus
   competition](https://graduate.ucf.edu/knights-in-focus/) discussing my
   research on hardening software build systems, and published the video to
