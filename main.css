@@ -25,26 +25,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: snow;
+    min-height: 100vh;
 }
 
-@media screen and (min-width: 481pt) {
-    body {
-        width: 480pt;
+@media screen and (min-width: 600pt) {
+    body > div {
+        width: 600pt;
         margin: 0 auto;
-    }
-}
-j
-@media screen and (max-width: 481pt) {
-    body {
-        width: 100%;
     }
 }
 
 body > div {
+    background: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 18px;
+    box-shadow: #AAA 0 0 15px;
 }
 
 body > div > * {
@@ -97,7 +95,7 @@ ul.navbar-nav {
 
 li.nav-item > a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 12pt;
     color: var(--subtitle-color);
 }
 
@@ -105,13 +103,13 @@ li.nav-item>a:hover {
     color: var(--primary-text-color);
 }
 
-@media screen and (min-width: 481pt) {
-    li.nav-item {
+@media screen and (min-width: 600pt) {
+    li.nav-item:not(:first-child) {
         margin-left: var(--nav-item-margin-left);
     }
 }
 
-@media screen and (max-width: 481pt) {
+@media screen and (max-width: 600pt) {
     nav {
         flex-direction: column;
     }
@@ -134,14 +132,14 @@ footer ul {
     padding-left: 0;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600pt) {
     footer ul {
         width: 100%;
         align-items: center;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600pt) {
     footer ul {
         flex-direction: column;
     }
@@ -181,7 +179,7 @@ div.card a:hover {
     font-weight: normal;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 600pt) {
     main > div {
         column-gap: 18px;
         display: grid;
@@ -196,7 +194,7 @@ div.card a:hover {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600pt) {
     main > div > img {
         margin: 18px auto 0 auto;
         display: block;
@@ -255,7 +253,8 @@ pre {
 }
 
 .rounded-border {
-    border-radius: 0.25rem;
+    border-radius: 15px;
     text-align: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    box-shadow: #888 0 0 10px;
 }
