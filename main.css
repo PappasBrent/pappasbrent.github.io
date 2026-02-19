@@ -37,6 +37,7 @@ body {
 }
 
 body > div {
+    min-height: 100vh;
     background: white;
     display: flex;
     flex-direction: column;
@@ -237,6 +238,10 @@ tr:nth-child(even) {
 
 #top-hr {
     margin-bottom: 18px;
+}
+
+#filler {
+    flex-grow: 1;
 }
 
 #bottom-hr {
