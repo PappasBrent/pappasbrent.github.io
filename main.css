@@ -29,9 +29,9 @@ body {
     min-height: 100vh;
 }
 
-@media screen and (min-width: 600pt) {
+@media screen and (min-width: 640pt) {
     body > div {
-        width: 600pt;
+        width: 640pt;
         margin: 0 auto;
     }
 }
@@ -103,13 +103,13 @@ li.nav-item>a:hover {
     color: var(--primary-text-color);
 }
 
-@media screen and (min-width: 600pt) {
+@media screen and (min-width: 640pt) {
     li.nav-item:not(:first-child) {
         margin-left: var(--nav-item-margin-left);
     }
 }
 
-@media screen and (max-width: 600pt) {
+@media screen and (max-width: 640pt) {
     nav {
         flex-direction: column;
     }
@@ -132,14 +132,14 @@ footer ul {
     padding-left: 0;
 }
 
-@media screen and (min-width: 600pt) {
+@media screen and (min-width: 640pt) {
     footer ul {
         width: 100%;
         align-items: center;
     }
 }
 
-@media screen and (max-width: 600pt) {
+@media screen and (max-width: 640pt) {
     footer ul {
         flex-direction: column;
     }
@@ -179,7 +179,7 @@ div.card a:hover {
     font-weight: normal;
 }
 
-@media screen and (min-width: 600pt) {
+@media screen and (min-width: 640pt) {
     main > div {
         column-gap: 18px;
         display: grid;
@@ -194,7 +194,7 @@ div.card a:hover {
     }
 }
 
-@media screen and (max-width: 600pt) {
+@media screen and (max-width: 640pt) {
     main > div > img {
         margin: 18px auto 0 auto;
         display: block;
