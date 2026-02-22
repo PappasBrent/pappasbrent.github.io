@@ -27,6 +27,14 @@ title: Resources
   Steenberg explains why he only writes code using the 1989 C standard, despite
   it being decades old.
 
+- [What Programming is Never
+  About](https://youtu.be/Lzc3HcIgXis?si=Gn8qKu7DZ1KF265Z): NASA developer
+  Abner Coimbre inveighs against "clean code" and pedantic software engineering
+  practices promoted by academic institutions, and champions the idea that
+  programming is truly just about _solving problems_. This lecture isn't
+  perfect, but still very strong, especially considering that at the time
+  Coimbre gave it he was only 23 years old and half-drunk.
+
 ## Writing
 
 - [Style: Lessons in Clarity and
