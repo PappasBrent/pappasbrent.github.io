@@ -3,7 +3,12 @@ layout: default
 title: Resources
 ---
 
-- **2026-01-27**: I received the [UCF GTA Excellence
+- **2026-02-23**: I received the university-level [UCF GTA Excellence
+  Award](https://drive.google.com/file/d/17G9zGkZdGVgldvZM5u9xAr1xgcUMaAyz/view?usp=drive_link)
+  for providing exceptional assistance for the course COP-3402 Systems
+  Software.
+
+- **2026-01-27**: I received the college-level [UCF GTA Excellence
   Award](https://drive.google.com/file/d/1Kd-x4YRnj-afcUHU3BdGAANa2EJtrD3S/view?usp=sharing)
   for providing exceptional assistance for the course COP-3402 Systems
   Software.
