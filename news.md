@@ -3,6 +3,11 @@ layout: default
 title: Resources
 ---
 
+- **2026-03-26**: The available and reusable badges were awarded to the
+  [artifact](https://zenodo.org/records/18233892) that Dr. Paul Gazzillo and I
+  had submitted to accompany our [ICSE 2026 NIER
+  paper](https://arxiv.org/abs/2601.08995).
+
 - **2026-02-23**: I received the university-level [UCF GTA Excellence
   Award](https://drive.google.com/file/d/17G9zGkZdGVgldvZM5u9xAr1xgcUMaAyz/view?usp=drive_link)
   for providing exceptional assistance for the course COP-3402 Systems
