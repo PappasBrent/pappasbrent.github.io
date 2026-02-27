@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Resources
+title: News
 ---
 
 - **2026-03-26**: The available and reusable badges were awarded to the
