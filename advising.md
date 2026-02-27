@@ -16,7 +16,7 @@ title: Advising
 - Julian Velez. Undergraduate Research Assistant. 2025. Human factors in software engineering.
 - Jorge Toledo. Undergraduate Research Assistant. 2025. Human factors in software engineering.
 - Hasini Daliboyina. Undergraduate Research Assistant. 2025. Human factors in software engineering.
-- David Gusmao. Undergraduate Research Assistant. 2025 - Present. Human factors in software engineering and analysis and security of software development pipelines.
+- [David Gusmao](http://d4davidg.github.io/). Undergraduate Research Assistant. 2025 - Present. Human factors in software engineering and analysis and security of software development pipelines.
 - Anju Thomas. Undergraduate Research Assistant. 2025. Human factors in software engineering.
 - Adam Betinsky. Undergraduate Research Assistant. 2025 - Present. Human factors in software engineering and analysis and security of software development pipelines.
 - [Zachary Burkett](https://zachburkett.website/). Undergraduate Research Assistant. 2024. Semantics-aware translation of C preprocessor.
