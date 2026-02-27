@@ -19,5 +19,5 @@ title: Advising
 - David Gusmao. Undergraduate Research Assistant. 2025 - Present. Human factors in software engineering and analysis and security of software development pipelines.
 - Anju Thomas. Undergraduate Research Assistant. 2025. Human factors in software engineering.
 - Adam Betinsky. Undergraduate Research Assistant. 2025 - Present. Human factors in software engineering and analysis and security of software development pipelines.
-- [Zachary Burkett]("https://zachburkett.website/"). Undergraduate Research Assistant. 2024. Semantics-aware translation of C preprocessor.
+- [Zachary Burkett](https://zachburkett.website/). Undergraduate Research Assistant. 2024. Semantics-aware translation of C preprocessor.
 - [Joseph Zalusky](https://silvermight.com/). Undergraduate Research Assistant. 2024. Semantics-aware translation of C preprocessor macros.
