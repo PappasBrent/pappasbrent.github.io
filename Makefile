@@ -1,7 +1,6 @@
-NAMES	=	advising publications teaching
-TSVS	=	$(NAMES:%=tsv/%.tsv)
-TYPS	=	$(NAMES:%=typ/%.typ)
-HTMLS	=	$(NAMES:%=%.html)
+TSVS	=	$(wildcard tsv/*.tsv)
+TYPS	=	$(TSVS:tsv/%.tsv=typ/%.typ)
+HTMLS	=	$(TSVS:tsv/%.tsv=%.html)
 CV	=	assets/pdf/cv.pdf
 
 .PHONY: all
@@ -15,5 +14,5 @@ $(HTMLS):	%.html		: tsv/%.tsv	scripts/export-%.sh
 $(TYPS):	typ/%.typ	: tsv/%.tsv	scripts/export-%.sh
 	bash scripts/export-${@:typ/%.typ=%.sh} typst > "$@" 
 
-$(CV):	$(TYPS)
+$(CV):	$(TYPS) typ/cv.typ
 	typst compile typ/cv.typ $@
