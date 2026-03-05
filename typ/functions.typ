@@ -10,20 +10,6 @@
     }
 }
 
-#let education(
-  where: none,
-  school: none,
-  start_date: none,
-  end_date: none,
-  degree: none,
-  major: none,
-  gpa: none,
-  courses: ()) = box[
-    #degree - #major\; GPA: #gpa #h(1fr) #school \
-    #start_date - #end_date #h(1fr) #where \
-    *Courses*: #print_list(courses)
-  ]
-
 #let skill(name: none, elements: ()) = box[
   *#name*: #print_list(elements)
 ]
@@ -57,13 +43,4 @@
 
 #let workshop(name: none, where: none, date: none) = box[
   *#name* #h(1fr) #where - #date
-]
-
-#let volunteering(
-  name: none
-  , where: none
-  , date: none
-  , responsibilities: ()) = box[
-    *#name* #h(1fr) #where - #date
-    #list(..responsibilities.map(r => [*#r.name*: #r.body]))
 ]

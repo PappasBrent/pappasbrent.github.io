@@ -1,6 +1,8 @@
 #import "advising.typ":     advising
+#import "education.typ":    education
 #import "publications.typ": publications
 #import "teaching.typ":     teaching
+#import "service.typ":      service
 
 #import "functions.typ": *
 
@@ -27,45 +29,7 @@ GitHub: #link("https://www.github.com/PappasBrent")
 
 = Education
 
-#education(
-  where: "Orlando, Florida"
-  , school: "University of Central Florida (UCF)"
-  , start_date: "August 2021"
-  , end_date: "Present"
-  , degree: "PhD"
-  , major: "Computer Science"
-  , gpa: 3.983
-  , courses: ("Software Engineering",
-              "Formal Specification of Software Systems")
-)
-
-#education(
-  where: "Orlando, Florida"
-  , school: "UCF"
-  , start_date: "August 2021"
-  , end_date: "December 2025"
-  , degree: "Master of Science"
-  , major: "Computer Science"
-  , gpa: 3.983
-  , courses: ("Analysis of Algorithms"
-              , "Complexity Theory"
-              , "Computer Architecture"
-              , "Compiler Construction")
-)
-
-#education(
-  where: "Orlando, Florida"
-  , school: "UCF"
-  , start_date: "August 2017"
-  , end_date: "May 2021"
-  , degree: "Bachelor of Science"
-  , major: "Computer Science"
-  , gpa: 3.849
-  , courses: ("Data structures and Algorithms"
-              , "Systems Software"
-              , "Programming Languages"
-              , "Discrete Structures")
-)
+#education
 
 = Skills Summary
 #skill(name: "Languages", elements: ("Python3", "C/C++", "Bash", "HTML/CSS/JavaScript")) \
@@ -334,139 +298,9 @@ Cyber Research (CAE-R). "
 
 #workshop(name: "Programming Language Mentoring Workshop (PLMW)", where: "San Diego, California", date: "June 13-14, 2022")
 
-= Volunteering
+= Service
 
-#volunteering(
-  name: "UCF CS Grad Symposium 2025 Student Panelist"
-  , where: "Orlando, Florida"
-  , date: "October 2025"
-  , responsibilities: (
-    (
-      name: "Early PhD advice"
-    , body: "Recommended that new graduate students remain humble and start honing their communication skills immediately after starting a PhD."
-    ),
-  )
-)
-
-#volunteering(
-  name: "UCF \"Surviving Graduate School\" Panelist"
-  , where: "Orlando, Florida"
-  , date: "August 2025"
-  , responsibilities: (
-    (
-      name: "Community engagement"
-    , body: "Taught prospective graduate students how to become active in the UCF community and obtain financial support from UCF for travel."
-    ),
-    (
-      name: "Finance tips"
-    , body: "Explained how to obtain financial support from UCF for research-related travel."
-    ),
-  )
-)
-
-#volunteering(
-  name: "UCF GradLaunch PhD Panelist"
-  , where: "Orlando, Florida"
-  , date: "August 2025"
-  , responsibilities: (
-    (
-      name: "Advising"
-    , body: "Instructed new graduate students how to manage their time and organize their day in order to be productive researchers."
-    ),
-  )
-)
-
-#volunteering(
-  name: "UCF Graduate School Info Session PhD Student Panel"
-  , where: "Orlando, Florida"
-  , date: "May 2025"
-  , responsibilities: (
-    (
-      name: "Advising"
-    , body: "Answered undergraduate students’ questions about UCF’s Computer Science PhD program."
-    ),
-  )
-)
-
-#volunteering(
-  name: "OOPLSA 2024 Artifact Evaluation Committee Member"
-  , where: "Virtual"
-  , date: "January-February, July-August, 2024"
-  , responsibilities: (
-    (
-      name: "Artifact Review"
-    , body: "Reviewed code artifacts associated with papers accepted to OOPLSA 2024. Distinguished reviewer."
-    ),
-  )
-)
-
-#volunteering(
-  name: "NAC - NAPC Volunteer"
-  , where: "Orlando, Florida"
-  , date: "May 2024"
-  , responsibilities: (
-    (
-      name: "Competition Setup"
-    , body: "Moved computers and cables to the competition room for the 2024 North American Championship and Programming Camp (NAC-NAPC), hosted at UCF."
-    ),
-  )
-)
-
-#volunteering(
-  name: "EuroSys 2023 Shadow Program Committee Member"
-  , where: "Virtual"
-  , date: "November-December 2022"
-  , responsibilities: (
-    (
-      name: "Paper Review"
-    , body: "Reviewed real paper submissions to EuroSys 2023."
-    ),
-  )
-)
-
-#volunteering(
-  name: "Camp Connect"
-  , where: "Orlando, Florida"
-  , date: "June 2021, June 2023, June 2025"
-  , responsibilities: (
-    (
-      name: "Computer Programming Lessons"
-    , body: "Taught elementary, middle, and high school students the basics of computer programming in JavaScript."
-    )
-    , (
-      name: " Human Computer Interaction Lessons"
-    , body: "Gave elementary, middle, and high school students hands-on training with a variety of biometric equipment, including respiration belts, EDA and ECG sensors, fNIRS headbands, and eye-tracking sensors."
-    ),
-  )
-)
-
-#volunteering(
-  name: "UCF CECS Senior Design Judge"
-  , where: "Orlando, Florida"
-  , date: "April 2024"
-  , responsibilities: (
-    (
-      name: "Judging"
-    , body: "Followed a given rubric to judge the quality of capstone projects for seniors of the College of Engineering and Computer Science. Criteria included presentation quality, project design quality, and creativity."
-    ),
-  )
-)
-
-#volunteering(
-  name: "UCF CECS Career Kickoff Alumni Mentor"
-  , where: "Virtual"
-  , date: "October 2022"
-  , responsibilities: (
-    (
-      name: "Mentoring"
-    , body: "Advised UCF freshmen on goal-setting, resume-building, and overall professionalism."
-    )
-    , (
-      name: "Job Application Prep"
-    , body: "Conducted mock interview with UCF freshmen and provided tips on how to effectively search for jobs in their field."
-    ),
-  )
-)
+#service
 
 = Advising
 
