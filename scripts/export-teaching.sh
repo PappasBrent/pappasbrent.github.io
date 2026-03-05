@@ -12,19 +12,20 @@ title: Teaching
 <a href="/assets/pdf/teaching-philosophy.pdf">Teaching Philosophy.</a>
 
 EOF
-
+    echo "<ul>"
     while IFS=$'\t' read -r name uni season year sitelink ytlink; do
         cat <<EOF
-    <div class="card">
-        <h5>$name</h5>
-        <h6>
-            $uni $season $year.
-            <a href="$sitelink">Course homepage.</a>
-            <a href="$ytlink">Lecture recordings.</a>
-        </h6>
-    </div>
+        <li>
+            <p>
+                <span style="font-weight: bold">$name.</span>
+                $uni $season $year.
+                <a href="$sitelink">Course homepage.</a>
+                <a href="$ytlink">Lecture recordings.</a>
+            </p>
+        </li>
 EOF
     done < <(tail -n+2 tsv/teaching.tsv)
+    echo "</ul>"
 elif [[ "$1" == "typst" ]]; then
     echo "#let teaching = ["
     while IFS=$'\t' read -r name uni season year sitelink ytlink; do
