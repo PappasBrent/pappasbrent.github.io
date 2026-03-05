@@ -5,3 +5,6 @@ _drafts
 _site
 ignore/
 vendor
+typ/*
+!typ/cv.typ
+!typ/functions.typ
