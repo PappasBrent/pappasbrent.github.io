@@ -13,12 +13,16 @@
 
 #set text(size: 10pt)
 
-#show link: underline
+#show link: set text(blue)
 
 #show heading: it => block[
   #smallcaps(it)
-  #v(-0.8em)
-  #line(length: 100%, stroke: 2pt)
+  #if it.depth == 1 {
+      v(-0.8em)
+      line(length: 100%, stroke: 2pt)
+  } else if it.depth == 2 {
+      v(0.3em)
+  }
 ]
 
 #text(size: 24pt)[*Brent Pappas*]
@@ -32,11 +36,11 @@ GitHub: #link("https://www.github.com/PappasBrent")
 #education
 
 = Skills Summary
+
 #skill(name: "Languages", elements: ("Python3", "C/C++", "Bash", "HTML/CSS/JavaScript")) \
 #skill(name: "Tools", elements: ("Git", "GitHub", "LLVM/Clang")) \
 #skill(name: "Platforms", elements: ("Linux", "Web", "Windows")) \
-#skill(name: "Soft Skills", elements: ("Leadership", "Writing", "Communication",
-                                       "Time management")) \
+#skill(name: "Soft Skills", elements: ("Leadership", "Writing", "Communication", "Time management"))
 
 = Work Experience
 
