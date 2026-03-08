@@ -17,27 +17,19 @@
 #let experience(
   where: none
   , employer: none
-  , employment_ranges: ()
+  , dates: ()
   , title: none
   , responsibilities: ()) = box[
     #title #h(1fr) #employer \
-    #print_list(employment_ranges.map(range => [#range.start - #range.end])) #h(1fr) #where
+    #print_list(dates.map(range => [#range.start - #range.end])) #h(1fr) #where
     #list(..responsibilities.map(r => [*#r.name*: #r.body]))
   ]
 
 #let project(name: none, body: none) = box[*#name*: #body]
 
-#let presentation(
-  name: none
-  , description: none
-  , date: none
-  , url: none
-  , url_text: none
-) = box[*#name*: #description #date. #link(url)[#url_text].]
 
 #let poster(name: none, body: none) = box[*#name*: #body]
 
-#let award(name: none, date: none, body: none) = box[*#name (#date)*: #body] 
 
 #let certification(body: none) = box[#body]
 

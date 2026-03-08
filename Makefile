@@ -1,6 +1,6 @@
-TSVS	=	$(wildcard tsv/*.tsv)
-TYPS	=	$(TSVS:tsv/%.tsv=typ/%.typ)
-HTMLS	=	$(TSVS:tsv/%.tsv=%.html)
+SHELL	=	/usr/bin/bash
+TYPS	=	$(wildcard typ/includes/*.typ)
+HTMLS	=	$(TYPS:typ/includes/%.typ=_includes/%.html)
 CV	=	assets/pdf/cv.pdf
 
 .PHONY: all cv
@@ -9,12 +9,9 @@ all: $(CV) $(HTMLS)
 
 cv: $(CV)
 
-$(HTMLS):	%.html		: tsv/%.tsv	scripts/export-%.sh
-	bash scripts/export-${@:%.html=%.sh} html > "$@"
-
-
-$(TYPS):	typ/%.typ	: tsv/%.tsv	scripts/export-%.sh
-	bash scripts/export-${@:typ/%.typ=%.sh} typst > "$@" 
+$(HTMLS):	_includes/%.html		: typ/includes/%.typ
+	typst compile --features html -f html $< - | tail -n+8 | head -n-2 > $@
+	sed -i "s/<table>/<table class='dated-table'>/" $@
 
 $(CV):	$(TYPS) typ/cv.typ
 	typst compile typ/cv.typ $@

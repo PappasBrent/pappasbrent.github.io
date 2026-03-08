@@ -9,7 +9,7 @@
     --main-text-color: #000000;
     --subtitle-color: #6c6f85;
     --link-color: #1e66f5;
-    --nav-item-margin-left: 24px;
+    --nav-item-margin-right: 24px;
 }
 
 *, *::before, *::after {
@@ -44,8 +44,22 @@ body > div > * {
 }
 
 header {
-    width: 100%;
+    position: fixed;
+    left: 15pt;
+    background: snow;
     margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+header > nav > ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+header * {
+    background: snow;
 }
 
 a {
@@ -69,6 +83,7 @@ p { margin-top: 10px; }
 nav {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
 }
 
@@ -82,20 +97,17 @@ svg, path {
     color: inherit;
 }
 
-ul.navbar-nav {
+a.nav-link {
     list-style: none;
     display: flex;
     padding-left: 0;
-    margin-left: var(--nav-item-margin-left);
-}
-
-li.nav-item > a {
     text-decoration: none;
     font-size: 12pt;
     color: var(--subtitle-color);
 }
 
-li.nav-item>a:hover {
+
+a.nav-link:hover {
     color: var(--primary-text-color);
 }
 
@@ -179,6 +191,22 @@ tr:nth-child(even) {
     background: var(--secondary-bg-color);
 }
 
+table.dated-table { margin: 0; }
+
+table.dated-table td, table.dated-table tr, table.dated-table th {
+    border: none;
+    background: None;
+}
+
+table.dated-table td:first-child {
+    min-width: 60pt;
+    align-content: baseline;
+}
+
+table.dated-table td * {
+    margin: 0;
+}
+
 #top-hr {
     margin-bottom: 18px;
 }
@@ -206,13 +234,10 @@ pre {
     box-shadow: #888 0 0 10px;
 }
 
-@media screen and (min-width: 640pt) {
+@media screen and (min-width: 930pt) {
     body > div {
         width: 640pt;
         margin: 0 auto;
-    }
-    li.nav-item:not(:first-child) {
-        margin-left: var(--nav-item-margin-left);
     }
     footer ul {
         width: 100%;
@@ -229,19 +254,28 @@ pre {
         grid-row-end: span 2;
         grid-column-start: 2;
     }
+    header {
+        width: 120pt !important;
+    }
 }
 
-@media screen and (max-width: 640pt) {
-    nav {
-        flex-direction: column;
+@media screen and (max-width: 930pt) {
+    header {
+        position: unset;
+        background: var(--main-bg-color);
     }
-    ul.navbar-nav {
-        padding-left: 0;
-        flex-direction: column;
+    header * {
+        background: var(--main-bg-color);
     }
-    footer ul {
-        flex-direction: column;
+    header > nav > ul {
+        display: flex;
+        flex-wrap: wrap;
     }
+    header > nav > ul > li:not(:last-child) {
+        margin-right: var(--nav-item-margin-right);
+    }
+    nav         { margin-left: 0; }
+    footer ul   { flex-direction: column; }
     main > div > img {
         margin: 18px auto 0 auto;
         display: block;
