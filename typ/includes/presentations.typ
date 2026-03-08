@@ -5,6 +5,7 @@
     ,box[
         *Curing Pipeline Poisoning.*
         3 minute thesis on my research on securing build systems against pipeline poisoning with build phase isolation. Presented at the CRA 2026 Grad Cohort Workshop.
+        #link("https://youtu.be/mqefX6UBE-s")[Recording link].
     ]
 
     // ,align(top)[*2026-02-09*]
