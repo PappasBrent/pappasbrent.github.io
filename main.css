@@ -228,6 +228,10 @@ pre {
     padding: 4px;
 }
 
+pre code {
+    background-color: inherit;
+}
+
 .rounded-border {
     border-radius: 15px;
     text-align: center;
