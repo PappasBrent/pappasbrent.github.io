@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Optimizing my Diet with Code
-date: 2026-03-29 09:00:00 -0500
+date: 2026-03-17 19:00:00 -0500
 categories: blog
 ---
 
