@@ -199,7 +199,7 @@ table.dated-table td, table.dated-table tr, table.dated-table th {
 }
 
 table.dated-table td:first-child {
-    min-width: 60pt;
+    min-width: 80pt;
     align-content: baseline;
 }
 
