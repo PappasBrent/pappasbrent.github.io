@@ -27,10 +27,6 @@
 
 #let project(name: none, body: none) = box[*#name*: #body]
 
-
-#let poster(name: none, body: none) = box[*#name*: #body]
-
-
 #let certification(body: none) = box[#body]
 
 #let workshop(name: none, where: none, date: none) = box[

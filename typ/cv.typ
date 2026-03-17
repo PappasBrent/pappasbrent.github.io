@@ -47,15 +47,7 @@ GitHub: #link("https://www.github.com/PappasBrent")
 
 = Posters
 
-#poster(
-  name: "Cpp2C: Transforming C Preprocessor Macros to C Language Constructs"
-  , body: "2022 University of Central Florida Student Scholar Symposium." 
-)
-
-#poster(
-  name: "Holy Macroni! Finding Macro Usage Errors in the Linux Kernel"
-  , body: "2024 International Symposium on Secure and Private Execution Environment Design." 
-)
+#include "includes/posters.typ"
 
 = Honors and Awards
 
