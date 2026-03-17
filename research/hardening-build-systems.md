@@ -76,7 +76,7 @@ attack](https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack
 
 | Role                     | Name             |
 | ------------------------ | ---------------- |
-| Faculty advisor          | Paul             |
+| Faculty advisor          | Paul Gazzillo    |
 | Graduate project manager | Brent Pappas     |
 | Graduate researcher      | Donovan Reynolds |
 | Undergraduate researcher | Adam Betinsky    |
