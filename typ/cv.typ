@@ -77,9 +77,7 @@ GitHub: #link("https://www.github.com/PappasBrent")
 
 = Projects
 
-#project(name: "Macroni", body: "A C static analysis tool that combines Trail of Bits’ tools PASTA and VAST to lower C preprocessor macros down to MLIR. Macroni is available at https://github.com/trailofbits/macroni.")
-
-#project(name: "Maki", body: " C++ Clang plugin that analyzes hows C preprocessor macros affect the C AST. Maki provides language porting tools information they can use to port macros to target languages in a way that preserves not just macro behavior, but also macro abstractions. Maki is the tool associated with 2024 ICSE paper, Semantic Analysis of Macro Usage for Portability, for which I am the lead-author.")
+#include "includes/projects.typ"
 
 = Skills Summary
 
