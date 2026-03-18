@@ -26,7 +26,7 @@ And some tools are [paid services](https://www.eatthismuch.com/), which some peo
 
 So I wrote a free, open-source, non-AI program to generate "perfect" diets.
 The key insight is that we can find a perfect diet by just trying all combinations of foods until finding one that satisfies all our daily recommended intake of vitamins and minerals.
-In fact, the only thing stopping people from doing by this by hand is the sheer number of combinations one would need to try>
+In fact, the only thing stopping people from doing by this by hand is the sheer number of combinations one would need to try.
 But computers are perfect for this sort of task, being designed to process large amounts of data.
 And the technique of solving problems by simply exhausting all possible solutions already has a name: backtracking.
 
