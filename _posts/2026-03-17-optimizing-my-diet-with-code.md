@@ -22,7 +22,7 @@ This makes it challenging to find a combination of foods that provides all vitam
 And existing diet planning tools are all lacking in some capacity.
 [Many](https://www.dishgen.com/mealplan) [use](https://galaxy.ai/ai-diet-plan-generator) [AI](https://makemealplan.com/), which makes them inherently unreliable.
 [Other](https://fitchef.com) [tools](https://dietplanner.io) [hide](https://mealplan.rex.fit) their implementation from users, and so provide little faith that they aren't just using AI as well.
-And some tools are [paid services](https://www.eatthismuch.com/), which some people be unable to afford (example).
+And some tools are [paid services](https://www.eatthismuch.com/), which some people be unable to afford.
 
 So I wrote a free, open-source, non-AI program to generate "perfect" diets.
 The key insight is that we can find a perfect diet by just trying all combinations of foods until finding one that satisfies all our daily recommended intake of vitamins and minerals.
