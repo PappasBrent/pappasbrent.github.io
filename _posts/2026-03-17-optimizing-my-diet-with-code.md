@@ -127,5 +127,5 @@ each diet to provide. I encourage you to try it out :)
 
 [^2]: This technique and its implementation supports finding diets that use more foods to satisfy our requirements for more vitamins and minerals; these restrictions are again just for the sake of example.
 
-[^3]: Specifically, this diet provides 100% of your daily recommended intake of vitamin A, D, B1, B3, B6, B12, E, C, B2, B5, Folate, and K; as well as the 100% of your daily recommended intake of the minerals Calcium, Magnesium, Potassium, Zinc, Manganese, Iron, Phosphorous, Sodium, Copper, and Selenium.
+[^3]: Specifically, this diet provides 100% of your daily recommended intake of vitamin A, D, B1, B3, B6, B12, E, C, B2, B5, Folate, and K; as well as 100% of your daily recommended intake of the minerals Calcium, Magnesium, Potassium, Zinc, Manganese, Iron, Phosphorous, Sodium, Copper, and Selenium.
 
