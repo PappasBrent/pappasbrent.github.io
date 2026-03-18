@@ -40,8 +40,8 @@ To make things more clear, let's see how we can use backtracking to solve our pr
 ## Minimal example
 
 To keep the example simple, let's focus on a diet providing 100% of your daily recommended intake of just one vitamin, B12, and one mineral, iron.
-And let's to make this example even simpler, we'll restrict ourselves to only eating eggs and toast for breakfast[^2]
-The diet should also include no more than 2 servings of eggs or bread, because you prefer to eat a light breakfast.
+And to make this example even simpler, we'll restrict ourselves to only eating eggs and toast for breakfast[^2]
+The diet should also include no more than 2 servings of eggs or bread, because we'll assume you prefer to eat a light breakfast.
 Backtracking can solve this problem by trying all possible combinations of servings of eggs and toast with these requirements.
 This is illustrated in the following diagram:
 
@@ -49,9 +49,9 @@ This is illustrated in the following diagram:
 
 Notice that we only explore combinations with at most 2 servings of egg or toast, and avoid wasting time exploring combinations involving more than 2 servings of eggs or toast.
 
-Now that we have all possible combinations of eggs and toast, we need a way to check which combinations actually satisfy 100% of our daily recommended intake of iron and B12.
+Now that we have all combinations of eggs and toast, we need a way to check which combinations actually satisfy 100% of our daily recommended intake of iron and B12.
 To do this, we first need to know how much iron and B12 one serving of eggs and toast each provide.
-For the sake of example, let's pretend eggs and toast provide the following nutrients
+For the sake of example, let's pretend eggs and toast provide the following nutrients:
 
 |       | Iron | B12 |
 | ----- | ---- | --- |
@@ -62,10 +62,10 @@ Armed with this information, let's return to the previous diagram, coloring in g
 
 ![All combinations of servings of eggs and toast. Green combinations satisfy our 100% daily recommended intake of iron and B12.](/assets/img/food-2.svg)
 
-From this diagram, we can see that there are two possible combinations of eggs and toast that satisfy our intake requirements for iron and B12: 2 eggs with 1 piece of toast (for 100% iron and B12), and 2 eggs with 2 pieces of toast (for 150% iron and 100% B12).
+From this diagram, we can see that there are two possible _unique_ combinations of eggs and toast that satisfy our intake requirements for iron and B12: 2 eggs with 1 piece of toast (for 100% iron and B12), and 2 eggs with 2 pieces of toast (for 150% iron and 100% B12).
 This illustrates the big idea of the algorithm: just try all possible combinations of foods, and emit any that satisfy at least 100% of our daily recommended intake of all vitamin and minerals.
 
-But although this algorithm works, in practice it would be horribly slow, because we would want to explore many more combinations of foods with a greater a maximum number of servings per food
+But although this algorithm works, in practice it would be horribly slow, because we would want to explore many more combinations of foods with a greater a maximum number of servings per food.
 So now let's see how we can speed it up.
 
 ## Optimizations
@@ -73,9 +73,9 @@ So now let's see how we can speed it up.
 ### Stopping once we find a solution
 
 One easy way to optimize this algorithm would be to simply stop exploring the search space once we reach our first solution.
-For instance, let's assume we explore each node in the search tree by trying that node's combination first, then its left subtree's combinations, and finally its right subtree's combinations (this would be an [in-order](https://en.wikipedia.org/wiki/Tree_traversal#In-order,_LNR) tree traversal, a kind of [depth-first search](https://en.wikipedia.org/wiki/Tree_traversal#Depth-first_search_implementation).)
+For instance, let's assume we explore each node in the search tree by trying that node's combination first, then its left subtree's combinations, and finally its right subtree's combinations (this would be an [in-order](https://en.wikipedia.org/wiki/Tree_traversal#In-order,_LNR) tree traversal, a kind of [depth-first search](https://en.wikipedia.org/wiki/Tree_traversal#Depth-first_search_implementation)).
 With this approach we would avoid exploring much of the tree.
-The following diagram illustrates this idea, with the green node signifying our solution, and gray nodes signifying combinations that skip checking.
+The following diagram illustrates this idea, with the green node signifying our solution, and gray nodes signifying combinations that we skip checking.
 
 ![All combinations of servings of eggs and toast. The green combination satisfies our 100% daily recommended intake of iron and B12. Gray combinations are ones we would skip exploring because we would have already reached a solution before we would explore them.](/assets/img/food-3.svg)
 
@@ -102,7 +102,7 @@ This technique of remembering prior inputs to avoid redundant computation is cal
 ## Try it!
 
 You can check out my implementation of this approach on
-[GitHub](https://github.com/PappasBrent/diet_finder)!
+[GitHub](https://github.com/PappasBrent/diet_finder).
 Here's some sample output, a diet which satisfies all your daily vitamin and mineral needs![^3]:
 
 ```txt
