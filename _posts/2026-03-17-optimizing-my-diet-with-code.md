@@ -103,7 +103,7 @@ This technique of remembering prior inputs to avoid redundant computation is cal
 
 You can check out my implementation of this approach on
 [GitHub](https://github.com/PappasBrent/diet_finder)!
-Here's some sample output:
+Here's some sample output, a diet which satisfies all your daily vitamin and mineral needs![^3]:
 
 ```txt
 Diet 1
@@ -126,3 +126,6 @@ each diet to provide. I encourage you to try it out :)
 [^1]: If you want to learn more about nutrition in a fun and easy way, I recommend checking out the YouTube channel [Talon Fitness](https://www.youtube.com/@Talon_Fitness). My girlfriend recently discovered this channel and shared it with me, and I came up with the idea for this post and algorithm after watching a few of their videos.
 
 [^2]: This technique and its implementation supports finding diets that use more foods to satisfy our requirements for more vitamins and minerals; these restrictions are again just for the sake of example.
+
+[^3]: Specifically, this diet provides 100% of your daily recommended intake of vitamin A, D, B1, B3, B6, B12, E, C, B2, B5, Folate, and K; as well as the 100% of your daily recommended intake of the minerals Calcium, Magnesium, Potassium, Zinc, Manganese, Iron, Phosphorous, Sodium, Copper, and Selenium.
+
