@@ -1,4 +1,10 @@
 #table(columns: (auto, auto), align: horizon, stroke: none, inset: 0pt, gutter: 10pt
+            , align(top)[*March 2026*]
+            , box[
+                *NAC - NAPC Volunteer*.
+                Orlando, Florida.
+                - *Inflating Balloons *: Inflated competition balloons for the 2026 North American Championship and Programming Camp (NAC-NAPC), hosted at UCF.
+            ]
             , align(top)[*October 2025*]
             , box[
                 *UCF CS Grad Symposium 2025 Student Panelist*.
