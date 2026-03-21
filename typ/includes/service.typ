@@ -31,7 +31,7 @@
             ]
             , align(top)[*May 2025*]
             , box[
-                *UCF Graduate School Info Session PhD Panel*.
+                *UCF Graduate School Info Session PhD Panelist*.
                 Orlando, Florida.
                 - *Advising*: Answered undergraduate students’ questions about UCF’s Computer Science PhD program.
             ]
@@ -67,7 +67,7 @@
             ]
             , align(top)[*Nov - Dec 2022*]
             , box[
-                *EuroSys 2023 Sahdow Program Committee Member*.
+                *EuroSys 2023 Shadow Program Committee Member*.
                 Virtual.
                 - *Paper review*: Reviewed submissions to EuroSys 2023.
             ]
