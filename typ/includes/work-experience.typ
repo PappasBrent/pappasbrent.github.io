@@ -1,6 +1,11 @@
-#table(columns: (60pt, auto), align: horizon, stroke: none, inset: 0pt, gutter: 15pt
+#table(
+    columns: (auto, auto),
+    align: top,
+    stroke: none,
+    inset: 0pt,
+    gutter: 10pt
 
-    , align(top)[*Jan 2026 - May 2026*]
+    , [*Jan 2026 - May 2026*]
     , box[
         *Graduate Teaching Associate (Instructor of Record) for COP-3402 Systems Software* \
         University of Central Florida. Orlando, Florida.
@@ -9,7 +14,7 @@
         - *Office hours*. Hosted four 45-minute long office hour sessions each week to resolve student issues with assignments and provide supplemental instruction on topics such as how to edit software with Vim.
     ]
 
-    , align(top)[*Aug 2023 - Apr 2024*]
+    , [*Aug 2023 - Apr 2024*]
     , box[
         *Graduate Teaching Assistant for COP-3402 Systems Software* \
         University of Central Florida. Orlando, Florida.
@@ -18,7 +23,7 @@
         - *Student perception of Instruction*. #link("https://docs.google.com/spreadsheets/d/1EjWH-YXkb-_Eu4IdX0wat7OVKp5OswKjpEf29zrua80/edit?usp=sharing")[Link].
     ]
 
-    , align(top)[*May 2023 - Aug 2023*]
+    , [*May 2023 - Aug 2023*]
     , box[
         *Software Engineering Intern* \
         Trail of Bits. Remote.
@@ -27,7 +32,7 @@
           - *Research Discussion*. Exhibited research results and Macroni to team members and company CEO, Dan Guido, for advice and criticism.
     ]
 
-    , align(top)[*Jul 2021 - \
+    , [*Jul 2021 - \
         Jul 2023,\
         May 2025*]
     , box[
@@ -38,7 +43,7 @@
         - *Conduct Experiments*. Write Python and Bash scripts to automate running experiments and analyzing data.
     ]
 
-    , align(top)[*Sep 2019 - Jul 2021*]
+    , [*Sep 2019 - Jul 2021*]
     , box[
         *Quality Assurance Coordinator* \
         SP+. Orlando, Florida.
@@ -47,14 +52,14 @@
         - *Mobile Application Development*. Tested company Android apps for compatibility with various versions of Android.
     ]
 
-    , align(top)[*Jan 2021 - May 2021*]
+    , [*Jan 2021 - May 2021*]
     , box[
         *Peer Tutor Mentor* \
         Student Academic Resource Center at the University of Central Florida. Orlando, Florida.
         - *Tutor Mentoring* Observed other tutors’ sessions and provided feedback as to how they may improve their communication and tutoring skills.
     ]
 
-    , align(top)[*Aug 2018 - May 2021*]
+    , [*Aug 2018 - May 2021*]
     , box[
         *Peer Tutor* \
         Student Academic Resource Center at the University of Central Florida. Orlando, Florida.

@@ -1,7 +1,11 @@
+#table(
+    columns: (auto, auto),
+    align: top,
+    stroke: none,
+    inset: 0pt,
+    gutter: 10pt
 
-#table(columns: (auto, auto), align: horizon, stroke: none, inset: 0pt, gutter: 10pt
-
-    , align(top)[*2026*]
+    , [*2026*]
     , box[
         *Foreman*.
         University of Central Florida.
@@ -9,7 +13,7 @@
         Foreman is the tool associated with 2026 ICSE NIER paper, _Build Code is Still Code: Finding the Antidote for Pipeline Poisoning_.
     ]
 
-    , align(top)[*2024*]
+    , [*2024*]
     , box[
         *Macroni*.
         Trail of Bits.
@@ -17,7 +21,7 @@
         #link("https://github.com/trailofbits/macroni")[GitHub].
     ]
 
-    , align(top)[*2024*]
+    , [*2024*]
     , box[
         *Maki*.
         University of Central Florida.
