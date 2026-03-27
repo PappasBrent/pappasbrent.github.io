@@ -9,6 +9,7 @@
     ,box[
         *GTA Excellence Award (University level)*.
         For providing exceptional teaching assistance to the course Systems Software.
+        Awarded to 1 out of 800+ graduate teaching assistants.
         #link("https://drive.google.com/file/d/17G9zGkZdGVgldvZM5u9xAr1xgcUMaAyz/view?usp=drive_link")[Award letter].
     ]
 
