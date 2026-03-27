@@ -10,7 +10,7 @@ title: Resources
   and haven't read this yet, do yourself a favor and give this a read. Most
   Linux machines come with Bash pre-installed, so by reading this text you'll
   be able to automate all sorts of tasks on many machines, without needing to
-  rely on downloading an external programs like a Python interpreter. If you
+  rely on downloading an external program like a Python interpreter. If you
   prefer to watch a video instead of read a book, then I recommend this [7 hour
   free course](https://youtu.be/Sx9zG7wa4FA?si=g_ESGl3Qu4FQAgqG) on YouTube.
 
