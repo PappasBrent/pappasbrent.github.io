@@ -5,6 +5,15 @@
     inset: 0pt,
     gutter: 10pt
 
+    // ,[*2026-04-16*]
+    ,[*2026*]
+    ,box[
+        *Build Code is Still Code: Finding the Antidote for Pipeline Poisoning.*
+        Presentation at the 2026 International Conference on Software Engineering in Rio de Janeiro, Brazil.
+        #link("https://youtu.be/v4P_Z3A8k2k?si=kHCfJ33J8MP2UJdz")[YouTube recording].
+        #link("https://docs.google.com/presentation/d/1S8893dpvrzSFVBp6_gxrGEv-C6VdYlGY8Dm6xT8OX5Y/edit?usp=sharing")[Slides].
+    ]
+
     // ,[*2026-03-06*]
     ,[*2026*]
     ,box[
@@ -41,7 +50,7 @@
     ,[*2023*]
     ,box[
         *Semantic Analysis of Macro Usage for Portability (CAE-R)*
-        Virtual presentation for Center of Academic Excellence in Cyber Research (CAE-R). 
+        Virtual presentation for Center of Academic Excellence in Cyber Research (CAE-R).
         #link("https://drive.google.com/file/d/1xCd34w54hs1iyaoXHz0MUkwlH-fP3HLo/view")[Recording; jump to 25:38].
     ]
 )
