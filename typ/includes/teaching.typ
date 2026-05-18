@@ -6,8 +6,11 @@
                 UCF.
                 #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/spr2026/")[Course homepage.]
                 #link("https://youtube.com/playlist?list=PLEVrbB1AjxeX9qhORoz1lOEAxviEvBXA-&si=ZuYgxNRbGM3u-gk_")[Lecture Recordings.]
-                #link("https://drive.google.com/file/d/1Zec1sKMyNPdSFyZM8hunzOLVH4tEH077/view?usp=sharing")[Student perception of instruction, quantitative results.]
-                #link("https://drive.google.com/file/d/1M0mR09uZn8BhnSjjjtGXQITjz_Dd6-1Y/view?usp=sharing")[Student perception of instruction, qualitative results.]
+                Mean average teaching evaluation score: *4.62/5*.
+                164/250 enrolled students responded.
+                Department mean was 4.24, college mean 4.21.
+                #link("https://drive.google.com/file/d/1Zec1sKMyNPdSFyZM8hunzOLVH4tEH077/view?usp=sharing")[Student ratings.]
+                #link("https://drive.google.com/file/d/1M0mR09uZn8BhnSjjjtGXQITjz_Dd6-1Y/view?usp=sharing")[Student comments.]
             ]
 
             , [*Fall 2025*]
@@ -15,7 +18,9 @@
                 *Graduate Teaching Assistant.*
                 COP-3402 Systems Software.
                 UCF.
-                #link("https://docs.google.com/spreadsheets/d/1EjWH-YXkb-_Eu4IdX0wat7OVKp5OswKjpEf29zrua80/edit?usp=sharing")[Student perception of instruction]
+                Mean average overall teaching evaluation score: *4.93/5*.
+                15 students responded.
+                #link("https://docs.google.com/spreadsheets/d/1EjWH-YXkb-_Eu4IdX0wat7OVKp5OswKjpEf29zrua80/edit?usp=sharing")[Student perception of instruction.]
             ]
 
             , [*Spring 2025*]
