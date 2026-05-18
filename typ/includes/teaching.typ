@@ -6,6 +6,8 @@
                 UCF.
                 #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/spr2026/")[Course homepage.]
                 #link("https://youtube.com/playlist?list=PLEVrbB1AjxeX9qhORoz1lOEAxviEvBXA-&si=ZuYgxNRbGM3u-gk_")[Lecture Recordings.]
+                #link("https://drive.google.com/file/d/1Zec1sKMyNPdSFyZM8hunzOLVH4tEH077/view?usp=sharing")[Student perception of instruction, quantitative results.]
+                #link("https://drive.google.com/file/d/1M0mR09uZn8BhnSjjjtGXQITjz_Dd6-1Y/view?usp=sharing")[Student perception of instruction, qualitative results.]
             ]
 
             , [*Fall 2025*]
