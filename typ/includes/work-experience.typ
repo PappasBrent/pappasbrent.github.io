@@ -38,7 +38,7 @@
     , box[
         *Graduate Research Assistant* \
         University of Central Florida. Orlando, Florida.
-        - *Software Engineering Research*. Stay up-to-date on the latest academic developments in software egineering.
+        - *Software Engineering Research*. Stay up-to-date on the latest academic developments in software engineering.
         - *Software Engineering*. Implement research tools in C++ and Python.
         - *Conduct Experiments*. Write Python and Bash scripts to automate running experiments and analyzing data.
     ]
