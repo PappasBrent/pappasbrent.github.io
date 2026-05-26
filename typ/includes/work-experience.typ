@@ -5,13 +5,20 @@
     inset: 0pt,
     gutter: 10pt
 
-    , [*Jan 2026 - May 2026*]
+    , [*Jan 2026 - Present*]
     , box[
         *Graduate Teaching Associate (Instructor of Record) for COP-3402 Systems Software* \
         University of Central Florida. Orlando, Florida.
         - *Lecturing*. Twice a week, lectured to a class of 250 students on systems software topics, including Linux command line tools, C system calls, git, make, and compiler design with ANTLR.
         - *Exam Creation*. Constructed and graded midterm and final exams.
         - *Office hours*. Hosted four 45-minute long office hour sessions each week to resolve student issues with assignments and provide supplemental instruction on topics such as how to edit software with Vim.
+    ]
+
+    , [*Aug 2024 - May 2025*]
+    , box[
+        *Graduate Research Assistant* \
+        University of Central Florida. Orlando, Florida.
+        - Same responsibilities as #link(<gra>)[below] (Jul 2021 - Jul 2023).
     ]
 
     , [*Aug 2023 - Apr 2024*]
@@ -32,9 +39,7 @@
           - *Research Discussion*. Exhibited research results and Macroni to team members and company CEO, Dan Guido, for advice and criticism.
     ]
 
-    , [*Jul 2021 - \
-        Jul 2023,\
-        May 2025*]
+    , [*Jul 2021 - May 2023* <gra>]
     , box[
         *Graduate Research Assistant* \
         University of Central Florida. Orlando, Florida.
