@@ -8,47 +8,13 @@
 //   - COP-3402.
 //   - Mention that you received high instructor ratings, list number in
 //     parentheses.
+//   - Quote specific student comments. Quote positive ones to show that you
+//     are an effective educator, and also quote negative ones and explain how
+//     you take their feedback into account in order to grow.
 // - Give more examples of how you have applied your teaching techniques.
 // - List specific classes you would like to teach. Suggest new class ideas as
 //   well, justifying your selection with your expertise and their practical
 //   relevance.
-
-// - generally quite good!
-// - an overall comment that is really for the full version (no space in the
-//   one-pager) give lots of examples of your actual experiences that led to or
-//   support the philosophy and tactics you have picked up.  you have tons of
-//   teaching experience, more than most faculty that will be applying (at least
-//   for research-oriented r1 schools, idk about teaching-oriented, but i'm
-//   guessing it's not that much more), so highlighting more of that i think will
-//   be good.  you can even use comments you've received (and will receive),
-//   though be sure to highlight some negative ones too if you do that and show
-//   what you learned
-// - i really like the lifelong learning philosophy and how you expounded it.  at
-//   first, the initial quote seemed out of place.  "lifelong learning" can be a
-//   trope by people who don't actually believe that, but i think your first
-//   paragraph really highlights it very well.  is this your own quote in the
-//   first emphasized sentence?  also, do you hope to inspire that in students as
-//   well or is this mostly about your teaching philosophy and how it informs your
-//   own teaching practice?
-// - one minor organization wrinkle may be the connection between "i have
-//   collected tactics" and the actual list of bolded teaching practices.
-//   - my first thought was to have more examples here of your tactics and
-//     experiences (though for the full teaching statement, not for this one),
-//     but then realized that the bolded-paragraph list is actually those
-//     tactics.  just as a writing organization thing it wasn't 100% clear that
-//     that was the case.  maybe something as simple as moving the "i have had
-//     many chances" to be after the list would fix that?  the downside is
-//     leaving the claims of actually using these strategies (which is
-//     important to  get across) till later in the statement.
-//   - i'm not sure of the best way to do it in this short guide, but in the
-//     longer one, you may either add experiences to those bolded-paragraphs,
-//     or describe separately those experiences (so the reader knows you have
-//     so much exeprience) and make connections to the tactics and practices
-//     (and philosophy) that you have developed through them.
-//   - another simple fix, just for the one pager, may be to say something like
-//     "here are the main practices that i have picked up and employed and will
-//     use" (though not with this bad wording) just to make clear what the list
-//     is of.
 
 #show link: set text(fill: blue)
 
