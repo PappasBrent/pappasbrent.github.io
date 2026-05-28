@@ -22,7 +22,7 @@
 
 Brent Pappas \
 University of Central Florida, Department of Computer Science \
-#link("mailto:brent.pappas@ucf.edu") | #link("https://www.pappasbrent.com")
+#link("mailto:brent.pappas@ucf.edu") | #link("http://www.pappasbrent.com")
 
 #set text(10pt)
 
