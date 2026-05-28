@@ -30,22 +30,6 @@ University of Central Florida, Department of Computer Science \
 
 _People should be lifelong learners, not because they have to be, but because they wish to be._
 
-// Outline
-//
-// Ideas
-// - Favor learning variety over learning styles
-//   - Recent research has debunked the myth that students learn in unique and
-//     exclusive styles, such as visual, auditory, and kinesthetic styles.
-//   - Although one student may, for instance, be better at listening than
-//     reading, this does not mean that student should only attend lecture and
-//     avoid reading textbooks.
-//   - Instead, I believe the most effective way to for a student to learn a
-//     subject is for them to approach it at multiple angles.
-//   - In practice, this means providing students with a variety of learning
-//     activities beyond lectures and readings.
-//   - Videos, class discussions, and hands-on programming activities are all
-//     ways to engage students with the various dimensions of a subject.
-
 // Themes
 // - The pursuit of knowledge is endless.
 // - But this should feel like a good thing.
