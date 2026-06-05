@@ -2,11 +2,11 @@ SHELL			=	/usr/bin/bash
 TYPS			=	$(wildcard typ/includes/*.typ)
 HTMLS			=	$(TYPS:typ/includes/%.typ=_includes/%.html)
 CV			=	assets/pdf/cv.pdf
-TEACHING_PHILOSOPHY	=	assets/pdf/teaching-philosophy.pdf
+TEACHING_STATEMENT	=	assets/pdf/teaching-statement.pdf
 
 .PHONY: all cv
 
-all: $(CV) $(HTMLS) $(TEACHING_PHILOSOPHY)
+all: $(CV) $(HTMLS) $(TEACHING_STATEMENT)
 
 cv: $(CV)
 
@@ -17,5 +17,5 @@ $(HTMLS):	_includes/%.html		: typ/includes/%.typ
 $(CV):	$(TYPS) typ/cv.typ
 	typst compile $< $@
 
-$(TEACHING_PHILOSOPHY):	typ/teaching-philosophy.typ typ/references.bib
+$(TEACHING_STATEMENT):	typ/teaching-statement.typ typ/references.bib
 	typst compile $< $@

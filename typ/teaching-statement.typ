@@ -18,13 +18,18 @@
 
 #show link: set text(fill: blue)
 
-= Teaching Philosophy
+#set text(10pt)
+
+#let todo = text(fill: red)[TODO]
+
+= Teaching Statement
 
 Brent Pappas \
 University of Central Florida, Department of Computer Science \
-#link("mailto:brent.pappas@ucf.edu") | #link("http://www.pappasbrent.com")
+#link("mailto:brent.pappas@ucf.edu") | #link("www.pappasbrent.com")
 
-#set text(10pt)
+== Teaching Philosophy
+
 
 #v(1em)
 
@@ -73,7 +78,7 @@ These following techniques are what constitute my teaching philosophy, and as a 
 
 *I start with concrete learning objectives.*
 Effective teaching begins with effective planning.
-Preparing specific learning outcomes first leads to a solid course structure, on top of enabling students to easily check their progress towards course goals.
+Preparing specific learning outcomes leads to a solid course structure, and also enables students to easily check their progress towards course goals.
 When I am choosing learning objectives, I prefer to use the revised version of Bloom's Taxonomy @bloom-taxonomy-revised as a guide.
 This not only helps me select tasks that test various levels of student comprehension, but also create varied assignments to keep students engaged.
 
@@ -130,5 +135,71 @@ I actively support students with a safe, respectful, welcoming, and supportive a
 Students who feel included are more excited to learn, and more comfortable to engage with the material in unique and creative ways.
 I cultivate student creativity with class discussions, and by giving students the chance to receive extra credit by proposing and implementing their own project ideas.
 Seeing these ideas helps me discover what truly excites my students, which in turn helps me to continue connecting with them through teaching.
+
+// See https://docs.google.com/spreadsheets/d/1eQHbHmTmhn2a3l2AVR5bCvvsOpbLBzhNyEF1SqdjTdQ/edit?gid=0#gid=0
+
+// - Read and respond to student feedback to improve the course with student suggestions.
+//   - At the end of each semester I do more than read my student evaluation, but also catalog them by tagging each evaluation with the more general course improvements it suggests.
+//   - Doing this not only earns me a more comprehensive understanding of student feedback, but also (and perhaps more importantly) allows me plot the frequency with which different suggestions appear, enabling me to prioritize addressing the most frequent suggestions first.
+//   - For example, I used this technique to classify the student evaluations I received after teaching COP-3402 at UCF in the Fall of 2026, and discovered that the most frequent single suggestion from students (8.82% of all suggestions) was to improve the design of the course projects.
+//   - TOOD: Say how you responded to the above information.
+
+// *I incorporate student feedback.*
+
+
+== Teaching Experience
+
+While pursuing my PhD at the University of Central Florida, I taught *COP-3402:
+Systems Software* for both the
+#link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/spr2026/")[Spring 2026]
+and #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/sum2026/")[Summer
+2026] semesters.
+//
+I began teaching the course using my advisor's (Dr. Paul Gazzillo) curriculum,
+which I have been gradually updating in response to student suggestions.
+//
+I have also used student feedback to expand my teaching arsenal with better
+teaching techniques, such as engaging in-lecture questions, richer in-class
+examples, and
+#link("https://youtube.com/playlist?list=PLEVrbB1AjxeWD2hWF4yDzXbwiy53hCiz9&si=zyVVOQSX0hTSWvmz")[live
+lecture recordings].
+//
+For these efforts I have earned high course (4.73 / 5 average) and instructor
+(4.62 / 5 average) evaluation ratings.
+
+Before teaching COP 3402, I served as a GTA for the course during both the
+Spring and Fall of 2025.
+//
+During these semesters I led small (30 students or fewer) labs, in which I
+would answer student questions, review project assignments, and provide
+enriching examples of real-world applications of course content.
+//
+During my time as a GTA, my advisor received the highest SPI ratings he had
+ever earned for the course's structure (4.92 / 5) and instruction (4.89 / 5),
+and I also received strong reviews #link("https://docs.google.com/spreadsheets/d/1EjWH-YXkb-_Eu4IdX0wat7OVKp5OswKjpEf29zrua80/edit?usp=sharing")[(4.93 / 5)] on
+performance evaluations from students attending my labs.
+//
+On top of positive student reviews, I also received GTA excellence awards from
+UCF at both the college and university level.
+//
+This latter award was only given to one out of 800+ GTAs across all of UCF, and
+I was the sole recipient.
+
+#let school = "UCF"
+#let courses = (
+        "COP 3402: Systems Software",
+)
+
+// State what kinds of courses you would like to teach.
+// State the specific courses you would like to teach.
+// New ideas for courses?
+// - Something about optimizing student workflow with plugins or other skills?
+// - Shell programming to help students become fluent on the command line.
+
+/* I am most interested in teaching courses that foster core competencies in computer programming. */
+/* Specifically, at #school I would most like to teach #courses.join(", ", last: ", and "). */
+/* Additionally, I would also be willing to teach courses on compiler design and programming languages, since my graduate research work often overlapped with these areas. */
+/* I am also qualified and capable of teaching introductory courses on programming languages, data structures, and algorithms. */
+/* Finally, I would also be happy to contribute a new a course on #todo. */
 
 #bibliography("references.bib", title: "References")
