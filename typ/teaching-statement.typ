@@ -180,7 +180,11 @@ and I also received strong reviews #link("https://docs.google.com/spreadsheets/d
 performance evaluations from students attending my labs.
 //
 On top of positive student reviews, I also received GTA excellence awards from
-UCF at both the college and university level.
+UCF at both the
+#link("https://drive.google.com/file/d/1Gas3ek39nMf2H7F3IKvntICKfKLw-Lrd/view")[college]
+and
+#link("https://drive.google.com/file/d/17G9zGkZdGVgldvZM5u9xAr1xgcUMaAyz/view")[university]
+level.
 //
 This latter award was only given to one out of 800+ GTAs across all of UCF, and
 I was the sole recipient.
