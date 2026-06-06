@@ -176,8 +176,9 @@ enriching examples of real-world applications of course content.
 //
 During my time as a GTA, my advisor received the highest SPI ratings he had
 ever earned for the course's structure (4.92 / 5) and instruction (4.89 / 5),
-and I also received strong reviews #link("https://docs.google.com/spreadsheets/d/1EjWH-YXkb-_Eu4IdX0wat7OVKp5OswKjpEf29zrua80/edit?usp=sharing")[(4.93 / 5)] on
-performance evaluations from students attending my labs.
+and I also received strong reviews
+#link("https://docs.google.com/spreadsheets/d/1EjWH-YXkb-_Eu4IdX0wat7OVKp5OswKjpEf29zrua80/edit?usp=sharing")[(4.93
+/ 5)] on performance evaluations from students attending my labs.
 //
 On top of positive student reviews, I also received GTA excellence awards from
 UCF at both the
