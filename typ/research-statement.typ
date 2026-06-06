@@ -33,11 +33,19 @@ University of Central Florida, Department of Computer Science \
 /* // */
 /* These programs must be considered in order to effectively secure C code. */
 
-// Intro v2
-Computer code forms the backbone of modern society, with banking applications, communication platforms, and defense systems all being instances critical software.
-// Software is the target of attacks
+*My research objective is to improve software security by the hardening auxiliary tools of software development.*
+This includes *software build systems*, which developers use to automate software configuration, compilation, and testing, in order to rapidly deploy software to users.
+When performing these tasks, a build system is given complete access to the project's codebase, using complex rules to identify how and when to produce build targets.
+This coupling of power and complexity makes build systems the perfect target for attackers, with several recent high-profile attacks modifying a build system to inject malicious code into end-user software @xzutils @solarwinds.
 
-== Analyzing and Translating C Preprocessor Usage
+/* Computer code forms the backbone of modern society, with banking applications, communication platforms, and defense systems all being instances critical software. */
 
-== Analyzing and Securing Software Build Systems
+== Research Contributions
 
+=== Analyzing and Translating C Preprocessor Usage
+
+=== Analyzing and Securing Software Build Systems
+
+== Future Research Agenda
+
+#bibliography("references.bib", title: "References")
