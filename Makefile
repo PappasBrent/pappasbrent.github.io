@@ -16,7 +16,7 @@ $(HTMLS):	_includes/%.html		: typ/includes/%.typ
 	typst compile --features html -f html $< - | tail -n+8 | head -n-2 > $@
 	sed -i "s/<table>/<table class='dated-table'>/" $@
 
-$(CV):	$(TYPS) typ/cv.typ
+$(CV):	typ/cv.typ $(TYPS)
 	typst compile $< $@
 
 $(STATEMENT_PDFS):	assets/pdf/%-statement.pdf: typ/%-statement.typ typ/references.bib
