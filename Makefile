@@ -6,7 +6,7 @@ STATEMENTS		=	teaching research
 STATEMENT_TYPS		=	$(STATEMENTS:%=typ/%-statement.typ)
 STATEMENT_PDFS		=	$(STATEMENTS:%=assets/pdf/%-statement.pdf)
 
-.PHONY: all cv
+.PHONY: all cv bibformat
 
 all: $(CV) $(HTMLS) $(STATEMENT_PDFS)
 
@@ -21,3 +21,7 @@ $(CV):	$(TYPS) typ/cv.typ
 
 $(STATEMENT_PDFS):	assets/pdf/%-statement.pdf: typ/%-statement.typ typ/references.bib
 	typst compile $< $@
+
+bibformat:	typ/references.bib
+	bibtool -s $< | bibclean -align-equals > temp.bib 2>&1
+	mv temp.bib $<
