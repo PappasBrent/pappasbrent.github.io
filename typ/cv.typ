@@ -19,7 +19,11 @@
   }
 ]
 
-#text(size: 24pt)[*Brent Pappas*]
+#text(size: 16pt)[*Brent Pappas*]
+
+Last modified: #datetime.today().display(
+    "[month repr:long] [day padding:none], [year repr:full]"
+)
 
 Email: pappasbrent at gmail dot com \
 Portfolio: #link("https://www.pappasbrent.com") \
