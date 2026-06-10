@@ -18,6 +18,8 @@
 
 #show link: set text(fill: blue)
 
+#set page(margin: 1in)
+
 #set text(10pt)
 
 #let todo = text(fill: red)[TODO]
