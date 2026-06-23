@@ -7,6 +7,12 @@
     inset: 0pt,
     gutter: 10pt
 
+    , [*June 2026*]
+    , box[
+        *Camp Connect Lab Leader.*
+        Orlando, Florida.
+        // - *Inflating Balloons*: Inflated competition balloons for the 2026 North American Championship and Programming Camp (NAC-NAPC), hosted at UCF.
+    ]
     , [*March 2026*]
     , box[
         *NAC - NAPC Volunteer*.
