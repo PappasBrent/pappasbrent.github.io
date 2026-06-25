@@ -285,3 +285,8 @@ pre code {
         display: block;
     }
 }
+
+/* Use letters to enumerate nested ordered lists. */
+ol ol {
+    list-style-type: lower-alpha;
+}
