@@ -7,8 +7,8 @@ Specifying, analyzing, and securing build systems in real-world code.
 
 ## Project description
 
-The goal of this project is investigate and design techniques for specifying,
-analyzing, and securing build systems against [pipeline
+The goal of this project is to investigate and design techniques for
+specifying, analyzing, and securing build systems against [pipeline
 poisoning](https://www.paloaltonetworks.com/cyberpedia/poisoned-pipeline-execution-cicd-sec4).
 Examples of such attacks would be the [XZ Utils
 backdoor](https://en.wikipedia.org/wiki/XZ_Utils_backdoor) ([here's a great
@@ -19,8 +19,8 @@ attack](https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack
 ## Goals
 
 1. Collect a dataset of real-world programs with build systems (e.g., Make-,
-   CMake-, and Autotools-based build systems) we can study. This includes
-   collecting programs from the following sources:
+   CMake-, and Autotools-based build systems) we can study from the following
+   sources:
    1. [GNU packages](http://mirror.rit.edu/gnu/).
    2. [Apache Software Foundation programs](https://downloads.apache.org/).
    3. GitHub's most starred repos.
@@ -29,8 +29,8 @@ attack](https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack
    build phase phases' file and command permissions.
    1. We will begin by manually specifying project build phases. While
       completing this step, we will look for patterns in build phase
-      specifications that we can use to perform to perform this goal's next
-      sub-goal: automatically specifying build phases.
+      specifications that we can use to perform this goal's next sub-goal:
+      automatically specifying build phases.
    2. Next, we will investigate techniques for automatically specifying project
       build phases. This is a crucial step because real-world build systems
       manage hundreds of files and comprise thousands of lines of code, making
@@ -42,7 +42,7 @@ attack](https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack
       what files and commands build phases use while they are actually
       executing.
    2. However, since some real-world build phases may require hours to execute,
-      our next task will be statically analyze build phases (likely by
+      our next task will be to statically analyze build phases (likely by
       simulating their execution instead of actually executing them).
 4. Once we have analyzed the real behaviors of build systems, we then compare
    their actual behaviors to their specified permissions to detect and prevent
@@ -51,7 +51,9 @@ attack](https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack
       permissions and report permission violations to developers. Developers
       can use these tools to check for pipeline poisoning vulnerabilities
       (ideally, they could integrate such checkers into CI/CD pipelines to
-      check for these vulnerabilities automatically).
+      check for these vulnerabilities automatically). One such tool that we
+      have already developed for this purpose is
+      [Foreman](https://github.com/appleseedlab/foreman).
    2. We will also create software for executing build phases in virtual
       sandbox environments that completely prevent build phases from violating
       permission violations.
@@ -80,7 +82,6 @@ attack](https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack
 | Graduate project manager | Brent Pappas      |
 | Graduate researcher      | Donovan Reynolds  |
 | Undergraduate researcher | Adam Betinsky     |
-| Undergraduate researcher | Thai Nguyen       |
 | Undergraduate researcher | David Gusmao      |
 | Undergraduate researcher | Michael Johnson   |
 | Undergraduate researcher | Brayden Coggin    |
