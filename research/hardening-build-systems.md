@@ -18,15 +18,16 @@ attack](https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack
 
 ## Goals
 
-1. Collect a dataset of real-world programs with build systems (e.g., Make-,
-   CMake-, and Autotools-based build systems) we can study from the following
-   sources:
+1. *Dataset collection*: Collect a dataset of real-world programs with build
+   systems (e.g., Make-, CMake-, and Autotools-based build systems) we can
+   study from the following sources:
    1. [GNU packages](http://mirror.rit.edu/gnu/).
    2. [Apache Software Foundation programs](https://downloads.apache.org/).
    3. GitHub's most starred repos.
-2. Investigate techniques for specifying build phases (e.g., configuration,
-   compilation, and testing phases) for collected projects, and for specifying
-   build phase phases' file and command permissions.
+2. *Build phase specification*: Investigate techniques for specifying build
+   phases (e.g., configuration, compilation, and testing phases) for collected
+   projects, and for specifying build phase phases' file and command
+   permissions.
    1. We will begin by manually specifying project build phases. While
       completing this step, we will look for patterns in build phase
       specifications that we can use to perform this goal's next sub-goal:
@@ -35,18 +36,18 @@ attack](https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack
       build phases. This is a crucial step because real-world build systems
       manage hundreds of files and comprise thousands of lines of code, making
       manual specification unfeasible (or at least arduous).
-3. After designing techniques for specifying project build phases, we will use
-   these specifications to analyze build systems and determine their actual
-   behaviors.
+3. *Build system analysis*: After designing techniques for specifying project
+   build phases, we will use these specifications to analyze build systems and
+   determine their actual behaviors.
    1. We will begin by dynamically analyzing project build systems to observe
       what files and commands build phases use while they are actually
       executing.
    2. However, since some real-world build phases may require hours to execute,
       our next task will be to statically analyze build phases (likely by
       simulating their execution instead of actually executing them).
-4. Once we have analyzed the real behaviors of build systems, we then compare
-   their actual behaviors to their specified permissions to detect and prevent
-   build phase permission violations.
+4. *Vulnerability detection*: Once we have analyzed the real behaviors of build
+   systems, we then compare their actual behaviors to their specified
+   permissions to detect and prevent build phase permission violations.
    1. We will craft tools to compare build phase behaviors to their specified
       permissions and report permission violations to developers. Developers
       can use these tools to check for pipeline poisoning vulnerabilities
@@ -57,9 +58,10 @@ attack](https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack
    2. We will also create software for executing build phases in virtual
       sandbox environments that completely prevent build phases from violating
       permission violations.
-5. Finally, we will run all the tools we have developed on a dataset of
-   programs to answer research questions about both the quantitative and
-   qualitative characteristics of real-world build systems.
+5. *Evaluation and comparison to prior work* Finally, we will run all the tools
+   we have developed on a dataset of programs to answer research questions
+   about both the quantitative and qualitative characteristics of real-world
+   build systems.
    1. We may find vulnerabilities (or even hidden backdoors!) in real-world
       code. Whoever finds one can have the honor of reporting it to project
       maintainers, potentially netting themselves a CVE (common vulnerability
