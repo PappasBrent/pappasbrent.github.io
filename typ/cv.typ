@@ -5,6 +5,10 @@
   margin: 0.5in
 )
 
+#set document(
+  title: [Brent Pappas],
+)
+
 #set text(size: 10pt)
 
 #show link: set text(blue)
@@ -19,14 +23,16 @@
   }
 ]
 
-#text(size: 16pt)[*Brent Pappas*]
+#show title: set text(size: 16pt)
+
+#title()
 
 Last modified: #datetime.today().display(
     "[month repr:long] [day padding:none], [year repr:full]"
 )
 
 Email: pappasbrent at gmail dot com \
-Portfolio: #link("https://www.pappasbrent.com") \
+Portfolio: #link("http://www.pappasbrent.com") \
 GitHub: #link("https://www.github.com/PappasBrent")
 
 = Education
