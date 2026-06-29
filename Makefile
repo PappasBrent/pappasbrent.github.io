@@ -5,10 +5,16 @@ CV			=	assets/pdf/cv.pdf
 STATEMENTS		=	teaching research
 STATEMENT_TYPS		=	$(STATEMENTS:%=typ/%-statement.typ)
 STATEMENT_PDFS		=	$(STATEMENTS:%=assets/pdf/%-statement.pdf)
+WATCH_RULES		=	$(STATEMENTS:%=watch-%)
 
-.PHONY: all cv bibformat
+.PHONY: all cv bibformat $(WATCH_RULES)
 
 all: $(CV) $(HTMLS) $(STATEMENT_PDFS)
+
+$(WATCH_RULES):
+	open $(@:watch-%=assets/pdf/%-statement.pdf)
+	typst watch	$(@:watch-%=typ/%-statement.typ)	\
+			$(@:watch-%=assets/pdf/%-statement.pdf)
 
 cv: $(CV)
 
