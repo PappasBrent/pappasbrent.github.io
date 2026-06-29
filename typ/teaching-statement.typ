@@ -370,8 +370,8 @@ I achieve this through three key techniques: *working backwards*, *leveraging
 the familiar*, and *rewarding success*.
 //
 Using these techniques, I have achieved high course (4.73~/~5 average) and
-instructor (4.62~/~5 average) evaluation ratings, as well as a university-level
-award for GTA excellence.
+instructor (4.62~/~5 average) evaluation ratings, as well multiple awards for
+GTA excellence.
 //
 I have also applied these three techniques to undergraduate mentoring to
 produce several top-tier publications with undergraduate researchers, many of
