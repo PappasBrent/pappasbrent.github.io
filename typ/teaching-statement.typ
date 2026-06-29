@@ -378,8 +378,9 @@ produce several top-tier publications with undergraduate researchers, many of
 whom have leveraged the research experience they gained working with me to
 obtain positions in industry and academia.
 //
-At #school, I will continue to improve on these techniques to deliver quality
-instruction to my students, and enriching research opportunities to my mentees.
+/* At #school, */ I will continue to improve on these techniques to deliver
+quality instruction to my students, and enriching research opportunities to my
+mentees.
 
 // I am most interested in teaching courses that foster advanced competencies in
 // software development.
