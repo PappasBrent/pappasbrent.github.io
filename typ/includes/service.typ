@@ -7,6 +7,11 @@
     inset: 0pt,
     gutter: 10pt
 
+    , [*July 2026*]
+    , box[
+      #link("https://conf.researchr.org/profile/issta-2026/brentpappas")[*SPLASH/ISTTA 2026 Tool Demo Track Committee Member.*]
+        Virtual.
+    ]
     , [*June 2026*]
     , box[
         *Camp Connect Lab Leader.*
