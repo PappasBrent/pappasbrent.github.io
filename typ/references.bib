@@ -31,7 +31,7 @@
   howpublished = "\url{https://github.com/tukaani-project/xz/}",
 }
 
-@article{10.1109/TDSC.2023.3253572,
+@article{ambush-from-all-sides,
     author = {Pan, Ziyue and Shen, Wenbo and Wang, Xingkai and Yang, Yutian and Chang, Rui and Liu, Yao and Liu, Chengwei and Liu, Yang and Ren, Kui},
     title = {Ambush From All Sides: Understanding Security Threats in Open-Source Software CI/CD Pipelines},
     year = {2024},
@@ -48,4 +48,63 @@
     month = jan,
     pages = {403–418},
     numpages = {16}
+}
+
+@misc{closing-the-chain,
+    title={Closing the Chain: How to reduce your risk of being SolarWinds, Log4j, or XZ Utils},
+    author={Sivana Hamer and Jacob Bowen and Md Nazmul Haque and Robert Hines and Chris Madden and Laurie Williams},
+    year={2025},
+    eprint={2503.12192},
+    archivePrefix={arXiv},
+    primaryClass={cs.SE},
+    url={https://arxiv.org/abs/2503.12192},
+}
+
+@INPROCEEDINGS{maki,
+    author={Pappas, Brent and Gazzillo, Paul},
+    booktitle={2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)},
+    title={Semantic Analysis of Macro Usage for Portability},
+    year={2024},
+    volume={},
+    number={},
+    pages={229-240},
+    keywords={Codes;Linux;Semantics;Transforms;Syntactics;Kernel;Software engineering;macros;C;program analysis},
+    doi={10.1145/3597503.3623323}
+}
+
+
+@inproceedings{build-code-is-still-code,
+    author = {Pappas, Brent and Gazzillo, Paul},
+    title = {Build Code is Still Code: Finding the Antidote for Pipeline Poisoning},
+    year = {2026},
+    isbn = {9798400724251},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3786582.3786799},
+    doi = {10.1145/3786582.3786799},
+    abstract = {Open source C code underpins society’s computing infrastructure. Decades of work has helped harden C code against attackers, but C projects do not consist of only C code. C projects also contain build system code for automating development tasks like compilation, testing, and packaging. These build systems are critcal to software supply chain security and vulnerable to being poisoned, with the XZ Utils and SolarWinds attacks being recent examples. Existing techniques try to harden software supply chains by verifying software dependencies, but such methods ignore the build system itself. Similarly, classic software security checkers only analyze and monitor program code, not build system code. Moreover, poisoned build systems can easily circumvent tools for detecting program code vulnerabilities by disabling such checks. We present development phase isolation, a novel strategy for hardening build systems against poisoning by modeling the information and behavior permissions of build automation as if it were program code. We have prototyped this approach as a tool called Foreman, which successfully detects and warns about the poisoned test files involved in the XZ Utils attack. We outline our future plans to protect against pipeline poisoning by automatically checking development phase isolation. We envision a future where build system security checkers are as prevalent as program code checkers.},
+    booktitle = {Proceedings of the IEEE/ACM 48th International Conference on Software Engineering},
+    pages = {1–5},
+    numpages = {5},
+    keywords = {Build systems, pipeline poisoning, software supply chains},
+    location = {
+                },
+    series = {ICSE-NIER '26}
+}
+
+@Misc{sbom,
+  author       = "{National Coordinator for Critical Infrastructure
+                 Security and Resilience}",
+  howpublished = "\url{https://www.cisa.gov/sbom}",
+  title        = "Software Bill of Materials ({SBOM})",
+  year         = "2026",
+}
+
+@Misc{vex,
+  author       = "{National Coordinator for Critical Infrastructure
+                 Security and Resilience}",
+  howpublished = "\url{https://www.cisa.gov/sites/default/files/publications/VEX_Use_Cases_Document_508c.pdf}",
+  title        = "Vulnerability Exploitability eXchange ({VEX}) – Use
+                 Cases",
+  year         = "2022",
 }
