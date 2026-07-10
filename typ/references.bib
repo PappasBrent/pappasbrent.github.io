@@ -30,3 +30,22 @@
   journal      = "GitHub repository",
   howpublished = "\url{https://github.com/tukaani-project/xz/}",
 }
+
+@article{10.1109/TDSC.2023.3253572,
+    author = {Pan, Ziyue and Shen, Wenbo and Wang, Xingkai and Yang, Yutian and Chang, Rui and Liu, Yao and Liu, Chengwei and Liu, Yang and Ren, Kui},
+    title = {Ambush From All Sides: Understanding Security Threats in Open-Source Software CI/CD Pipelines},
+    year = {2024},
+    issue_date = {Jan.-Feb. 2024},
+    publisher = {IEEE Computer Society Press},
+    address = {Washington, DC, USA},
+    volume = {21},
+    number = {1},
+    issn = {1545-5971},
+    url = {https://doi.org/10.1109/TDSC.2023.3253572},
+    doi = {10.1109/TDSC.2023.3253572},
+    abstract = {The continuous integration and continuous deployment (CI/CD) pipelines are widely adopted on Internet hosting platforms, such as GitHub. However, current CI/CD pipelines suffer from malicious code and severe vulnerabilities. Even worse, people have not been fully aware of its attack surfaces and the corresponding impacts. Therefore, in this paper, we conduct a large-scale measurement and a systematic analysis to reveal the attack surfaces of the CI/CD pipeline and quantify their security impacts. Specifically, for the measurement, we collect a data set of 320,000+ CI/CD pipeline-configured GitHub repositories and build an analysis tool to parse the CI/CD pipelines and extract security-critical usages. Our measurement reveals that the script runtimes are prone to code hiding while the script usage update is not in time, giving attackers chances to hide malicious code and exploit existing vulnerabilities. Moreover, even the scripts from verified creators may contain severe vulnerabilities. Besides current CI/CD ecosystem heavily relies on several core scripts, which may lead to a single point of failure. While the CI/CD pipelines contain sensitive information/operations, making them the attacker's favorite targets. Inspired by the measurement findings, we abstract the threat model and the attack approach toward CI/CD pipelines, followed by a systematic analysis of attack surfaces, attack strategies, and the corresponding impacts. We further launch case studies on five attacks in real-world CI/CD environments to validate the revealed attack surfaces. Finally, we give suggestions on mitigating attacks on CI/CD scripts, including securing CI/CD configurations, securing CI/CD scripts, and improving CI/CD infrastructure.},
+    journal = {IEEE Trans. Dependable Secur. Comput.},
+    month = jan,
+    pages = {403–418},
+    numpages = {16}
+}
