@@ -109,8 +109,8 @@ them from occurring in the first place @sbom @vex @ambush-from-all-sides
 @closing-the-chain.
 //
 In contrast to these documentation-based approaches, my research addresses the
-emerging plight around the security of supply chains by developing tools and
-techniques for hardening their manifold components.
+emerging plight around the security of software supply chains by developing
+tools and techniques for hardening their manifold components.
 // My research centers on develop and evaluate techniques for securing the
 // ancillary parts of software development, in order to harden applications
 // against attacks on software build systems.
