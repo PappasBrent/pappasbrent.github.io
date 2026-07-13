@@ -92,7 +92,7 @@
 // The rise in software security attacks is a crisis consuming the software
 // engineering industry,
 //
-A nascent crisis threatening to consume the software engineering industry is
+A growing crisis threatening to consume the software engineering industry is
 the rise in software supply chain attacks.
 //
 High-profile attacks have already wormed their way into both proprietary
