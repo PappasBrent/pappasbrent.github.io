@@ -48,7 +48,7 @@
 #let todo = text(fill: red)[TODO]
 #show link: set text(fill: blue)
 #set page(margin: 1in)
-#set text(11pt)
+#set text(10pt)
 #set cite(style: "ieee")
 
 #align(center)[
@@ -57,9 +57,9 @@
 ]
 
 #align(center)[
-    #set text(12pt)
+    #set text(14pt)
     Brent Pappas \
-    #set text(11pt)
+    #set text(10pt)
     University of Central Florida, Department of Computer Science \
     #link("mailto:brent.pappas@ucf.edu") | #link("www.pappasbrent.com")
 ]
