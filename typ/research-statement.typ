@@ -174,6 +174,6 @@ analyses supporting their applicability.
 
 == Future Research Agenda
 
-== Conclusion and Summary of Research Impact
+== Conclusion
 
 #bibliography("references.bib", title: "References")
