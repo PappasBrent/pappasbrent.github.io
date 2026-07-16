@@ -186,12 +186,12 @@ lingered in my mind.
 
 ## I try again
 
-Two weeks passed, and was still thinking about the Voyager. I couldn't believe
-that the board could have been the cause of my injuries, and instead suspected
-that I was to blame. There are plenty of ways that I could have hurt myself
-that wouldn't have been the board's fault. Maybe I practiced too much and too
-hard. Or perhaps my being forced to touch type properly on QWERTY was causing
-me discomfort. Or I could have simply had poor posture.
+Two weeks passed, and I was still thinking about the Voyager. I couldn't
+believe that the board could have been the cause of my injuries, and instead
+suspected that I was to blame. There are plenty of ways that I could have hurt
+myself that wouldn't have been the board's fault. Maybe I practiced too much
+and too hard. Or perhaps my being forced to touch type properly on QWERTY was
+causing me discomfort. Or I could have simply had poor posture.
 
 So I decided to give the board another try. I resolved to do three things
 differently this time around:
