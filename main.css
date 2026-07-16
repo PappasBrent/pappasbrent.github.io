@@ -159,6 +159,7 @@ div.card a:hover {
 
 img {
     max-width: 100%;
+    margin-bottom: 3mm;
 }
 
 article > div:nth-child(n+1) {
