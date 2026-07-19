@@ -356,8 +356,11 @@ Engineering.
 As with my previous undergraduate collaborations, these students have used the
 research experience they gained while working with me to obtain
 competitively-sought after roles, with Adam securing an internship at Keystone
-Strategy, and Rasmin obtaining an in-person interview for an internship at
-Amazon, and Daniel earning an internship at Bogen Communications.
+Strategy,
+//
+// Rasmin obtaining an in-person interview for an internship at Amazon,
+//
+and Daniel earning an internship at Bogen Communications.
 
 = Conclusion
 
