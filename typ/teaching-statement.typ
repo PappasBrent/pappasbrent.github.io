@@ -382,8 +382,8 @@ quality instruction to my students, and enriching research opportunities to my
 mentees.
 
 #let courses = (
-  text(fill: red)[Systems Software],
-  text(fill: red)[Software Engineering],
+  [Systems Software],
+  [Software Engineering],
 )
 
 I am most interested in teaching courses that foster advanced competencies in
@@ -400,4 +400,4 @@ these areas.
 I am also qualified and capable of teaching introductory courses on computer
 programming, data structures and algorithms, and operating systems.
 
-Finally, I would also be happy to contribute a new a course on #todo.
+// Finally, I would also be happy to contribute a new a course on #todo.
