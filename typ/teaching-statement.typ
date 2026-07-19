@@ -1,3 +1,7 @@
+// TODO(Brent): Replace Rasmin anecdote with Daniel? He's still doing research
+// with me, and if Rasmin doesn't get the Amazon position, has an
+// accomplishment I can better end a paragraph with.
+
 //    Wide general good
 // -> teaching strategies that manifest this good
 // -> examples from specific classes
@@ -357,12 +361,6 @@ Amazon, and Daniel earning an internship at Bogen Communications.
 
 = Conclusion
 
-#let school = text(fill: red)[UNIVERSITY NAME]
-#let courses = (
-        text(fill: red)[Systems Software],
-        text(fill: red)[Software Engineering],
-)
-
 My teaching and mentoring center on equipping students with the skills to
 become proficient software engineers.
 //
@@ -378,23 +376,28 @@ produce several top-tier publications with undergraduate researchers, many of
 whom have leveraged the research experience they gained working with me to
 obtain positions in industry and academia.
 //
-/* At #school, */ I will continue to improve on these techniques to deliver
+#if "school" in sys.inputs [At #sys.inputs.at("school"),]
+I will continue to improve on these techniques to deliver
 quality instruction to my students, and enriching research opportunities to my
 mentees.
 
-// I am most interested in teaching courses that foster advanced competencies in
-// software development.
-// //
-// Specifically, at #school I would most like to teach #courses.join(", ", last:
-// ", and ").
-// //
-// Additionally, I would also be willing to teach courses on compiler design and
-// programming languages, since my graduate research work often overlapped with
-// these areas.
-// //
-// I am also qualified and capable of teaching introductory courses on computer
-// programming, data structures and algorithms, and operating systems.
-//
-// Finally, I would also be happy to contribute a new a course on #todo.
+#let courses = (
+  text(fill: red)[Systems Software],
+  text(fill: red)[Software Engineering],
+)
 
-// #bibliography("references.bib", title: "References")
+I am most interested in teaching courses that foster advanced competencies in
+software development.
+//
+Specifically,
+#if "school" in sys.inputs [at #sys.inputs.at("school")]
+I would most like to teach #courses.join(", ", last: ", and ").
+//
+Additionally, I would also be willing to teach courses on compiler design and
+programming languages, since my graduate research work often overlapped with
+these areas.
+//
+I am also qualified and capable of teaching introductory courses on computer
+programming, data structures and algorithms, and operating systems.
+
+Finally, I would also be happy to contribute a new a course on #todo.
