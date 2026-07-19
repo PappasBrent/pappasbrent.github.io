@@ -31,7 +31,6 @@
 //   - still hot area
 //   - still involves undergraduates
 
-
 // - Talk about your research, not about yourself!
 // - Make core *argument* of research explicit.
 // - Go in chronological order.
@@ -46,15 +45,18 @@
 // TODO: Mention collaboration with undergraduate research.
 
 #let todo = text(fill: red)[TODO]
-#show link: set text(fill: blue)
+#set document(title: [Research Statement])
 #set page(margin: 1in)
-#set text(10pt)
+#set text(11pt)
 #set cite(style: "ieee")
-
-#align(center)[
-    #set text(16pt)
-    = Research Statement
+#show title: set align(center)
+#show link: set text(fill: blue)
+#show heading: it => block[
+  #it.body
+  #v(0.25cm)
 ]
+
+#title()
 
 #align(center)[
     #set text(14pt)
@@ -63,6 +65,12 @@
     University of Central Florida, Department of Computer Science \
     #link("mailto:brent.pappas@ucf.edu") | #link("www.pappasbrent.com")
 ]
+
+
+// Intro: 0.5 page
+// Research contributions: 1.75 pages
+// Research agenda: 1.5 page
+// Conclusion: 0.25 page
 
 // Intro v1 
 /* Society's modern digital infrastructure rests on C code. */
@@ -81,83 +89,252 @@
 // *My research objective is to improve software security by the hardening auxiliary tools of software development.*
 // This includes *software build systems*, which developers use to automate software configuration, compilation, and testing, in order to rapidly deploy software to users.
 // When performing these tasks, a build system is given complete access to the project's codebase, using complex rules to identify how and when to produce build targets.
-// This coupling of power and complexity makes build systems the perfect target for attackers, with several recent high-profile attacks modifying a build system to inject malicious code into end-user software @xzutils @solarwinds.
+// This coupling of power and complexity makes build systems the perfect target for attackers, with several recent high-profile attacks modifying a build system to inject malicious code into end-user software @xz-utils @solarwinds.
 
 // Intro v3 (REVISE)
 //
 // The rise in software supply chain attacks attacks represents a growing threat
 // to the software engineering industry.
+//
+// TODO(Brent): Mention SugarC?
 
 //
 // The rise in software security attacks is a crisis consuming the software
 // engineering industry,
 //
-A growing crisis threatening to consume the software engineering industry is
-the rise in software supply chain attacks.
+// My research objective is to protect software supply chains by hardening
+// their manifold components.
 //
-High-profile attacks have already wormed their way into both proprietary
-@solarwinds and open-source @xzutils software, poisoning their build systems to
-inject malicious code into compiled executables. 
+// A growing crisis threatening to consume the software engineering industry is
 //
-// Several recent high-profile attacks have already attacks having already
-// poisoned both proprietary @solarwinds and open-source projects @solarwinds
-// with malicious code injection.
+// A growing crisis threatening to compromise software world-wide is the rise
+// of _software supply chain attacks_, i.e., cyberattacks that target the
+// components, libraries, and tools for developing, building, and publishing
+// software.
 //
-To help developers preempt such attacks, both governmental and academic
-institutions have hastened to produce documents and guidelines for preventing
-them from occurring in the first place @sbom @vex @ambush-from-all-sides
-@closing-the-chain.
+My research objective is to strengthen the security of *software supply
+chains*, that is, the components, libraries, and tools for developing,
+building, and distributing software.
 //
-In contrast to these documentation-based approaches, my research addresses the
-emerging plight around the security of software supply chains by developing
-tools and techniques for hardening their manifold components.
-// My research centers on develop and evaluate techniques for securing the
-// ancillary parts of software development, in order to harden applications
-// against attacks on software build systems.
+Although invisible to software users, software supply chains underpin virtually
+all modern software, and have become the target of a growing number of
+cyberattacks.
 //
-Specifically, my research work thus far has targeted security concerns
-surrounding two particularly ubiquitous software development tools: the C
-preprocessor and build automation systems.
+The recent SolarWinds compromise impacted 18,000 public and private sector
+organizations @mitre-solar-winds, and was accomplished via malicious code
+injected into the Orion software build process.
+//
+// An even more recent example of a software supply chain attack is the XZ
+// Utils backdoor; this notorious attack nearly infected millions of devices
+// across the
+//
+The XZ Utils backdoor infected millions of devices across the globe, and was
+achieved by modifying the project's build system to inject malicious code,
+masquerading as test case files, into the XZ Utils' liblzma library @xz-utils.
+//
+//
+// With the rise of AI technology, software supply chain attacks will only
+// continue to proliferate, with the AI agent hackerbot-claw having already
+// exploited supply chain vulnerabilities to achieve remote code execution in
+// open-source repositories from Microsoft and DataDog @hackerbot-claw.
+//
+//
+The AI agent hackerbot-claw exploited supply chain vulnerabilities to achieve
+remote code execution in open-source repositories from Microsoft and DataDog
+@hackerbot-claw, illustrating that with the rise of AI technology, software
+supply chain attacks will only continue to proliferate.
 
-== Research Contributions
+// The Cybersecurity and Infrastructure Security Agency (CISA) has presented
+// SBOM and VEX documents for informing software users and developers about the
+// components used to build a piece of software and their vulnerabilities
+//
+//
+Prior work has mostly tried to help developers preempt software supply chain
+attacks with documentation and guidelines, but little attention has been given
+to software verification.
+//
+The CISA's SBOM @cisa-sbom and VEX @cisa-vex documents provide developers with
+an inventory of a software's dependencies and vulnerabilities, but do not help
+developers check whether a software project has been compromised by a direct
+modification to its build system, as in the case of SolarWinds.
+//
+Meanwhile, academic researchers have contributed taxonomies for classifying
+software supply chain attacks and mitigation techniques for preventing them
+@ambush-from-all-sides @closing-the-chain, but these documents cannot be used
+to continuously audit code for supply-chain-related compromises.
+//
+A more complete approach to hardening software supply chains requires that
+developers constantly verify software projects as they continue to evolve.
+//
+To do so, developers need automated tools for specifying, analyzing, and
+verifying the behavior of projects' build systems.
+//
+Such tools can even be retrofitted to legacy software which may have been
+designed without supply chain security in mind.
 
-// TODO: Expand each sentence to their own paragraph.
+*My research secures software supply chains by developing tools and techniques
+for hardening their individual components*.
+//
+I have developed the first static code analyzer for identifying C preprocessor
+macros behaviorally equivalent to C variables, enums, and functions @maki; and
+have led a team of undergraduate students to design an automated tool for
+translating C-equivalent macros to C code.
+//
+This enables C translators, such as c2rust for translating C to Rust @c2rust,
+to translate C programs to safer languages while preserving their macro
+abstractions.
+//
+I have implemented a technique for specifying file access permissions for
+individual software build phases, and mechanisms for detecting violations of
+such permissions @build-code-is-still-code.
+//
+This approach, called _build phase isolation_ directly protects against
+pipeline poisoning attacks, which modify a software build system to perform
+some nefarious action such as malicious code injection.
+//
+// TODO(Brent): Not sure how to mention the build phase isolation study
+//
+I recently directed a large team of undergraduate students to study the degree
+of natural isolation present in several hundred open-source code repositories,
+and found that a significant portion of projects are already highly isolated,
+having most files accessed exclusively by a single build phase.
+//
+These results indicate that, for many projects, hardening security with build
+phase isolation is highly feasible.
 
-My premier research publication was a paper in the 46th International
-Conference on Software Engineering (ICSE '24) @maki; in this work I analyzed
-the semantics of preprocessor (CPP) macros to assist C translation tools in
-converting macro-laden C code to safer languages, such as Rust, while
-preserving macro abstractions.
+I plan to continue researching new methods and tools for securing the manifold
+components of the software supply chain.
+//
+Securing each component of the software supply chain, and the passage of
+information between them, will result in safer software world-wide.
+
+= Research Contributions
+
+My PhD research has focused on strengthening software security by securing the
+individual components of the software supply chain.
+//
+My first research publication was a paper in the 46th International Conference
+on Software Engineering (ICSE '24) @maki; in this work I analyzed the semantics
+of C preprocessor macros to assist C translation tools in converting
+macro-laden C code to safer languages, such as Rust, while preserving macro
+abstractions.
 //
 Another paper of mine (co-authored by two undergraduate research assistants in
 a successful research-mentoring collaboration) on actually translating macros
 to C code is currently under review at the 41st IEEE/ACM International
 Conference on Automated Software Engineering.
 //
-This work advances the state of program translation research by contributing
-the first set of semantic-aware rules for translating compile-time macros to
-run-time functions.
+This work advances the state of translation research by contributing the first
+set of semantic-aware rules for translating compile-time macros to run-time
+functions.
 
-Meanwhile, my research on hardening software build systems began with an ICSE
-'26 NIER paper on identifying malicious build system behavior by comparing
-build phases' file access patterns to specifications detailing their permitted
-access patterns.
+In addition to my work on analyzing and translating C Preprocessor code, during
+my PhD I have also conducted research on strengthening software build systems.
+//
+This began with an ICSE '26 New Ideas and Emerging Results (NIER) paper on
+identifying malicious build system behavior by comparing build phases' file
+access patterns to specifications detailing their permitted access patterns
+@build-code-is-still-code.
 //
 After publishing this work I led a team of seven undergraduate students to
 study the feasibility of using file access patterns to secure build systems by
 studying the natural isolation between real-world software build phases,
-resulting in a paper currently under review at ICSE '27
-@build-code-is-still-code.
+resulting in a paper currently under review at ICSE '27.
 //
-This research advances the field of software security with novel and performant
-methods for identifying vulnerabilities in build automation systems, along with
+This work advances software security research with novel and performant methods
+for identifying vulnerabilities in build automation systems, along with
 analyses supporting their applicability.
 
-=== Translating C Preprocessor Macros to C Code
+== Semantic-aware Analysis and Translation of C Preprocessor Macros
 
 // Summarize research.
 // - Hypotheses, methods, outcomes.
 // - How it advances your field.
+
+// TODO(Brent): Reduce background and text given to context?
+
+Society's digital critical infrastructure is written in millions of lines of
+unsafe C code.
+//
+To make such programs safer, governmental @tractor and academic researchers
+have proposed translating C code to safer languages, such as Rust.
+//
+But real-world C programs are not written purely in C code, and also make use of
+*macros*, which are named code fragments and not part of the C language proper.
+//
+Macros are heavily used in real code, with C programs containing one macro
+invocation per every three lines on average @ernst-et-al.
+//
+Yet despite their prevalence, state of the art C translation lack support for
+macros, and instead resort to preprocessing C code first before translating it,
+replacing all macros with their corresponding code fragments first and then
+translating the resultant C code to the target language.
+//
+The problem with this approach is that translators end up translating a
+completely different version of the C programs than the original, producing
+translations devoid of the original C program's macro abstractions.
+//
+To solve this problem, my research has presented novel techniques for analyzing
+macro semantics @maki and for translating macros to C code constructs.
+//
+My research contributions assist C translation tools in converting C code to
+target languages while preserving C programs' original macro abstractions.
+
+=== Semantic Analysis of Macro Usage
+
+In my work on Maki @maki, I designed a macro analysis tool for identifying the
+ease of porting macros to C code by decomposing macro behavior into 26
+fine-grained syntactic and semantic properties.
+//
+Downstream C translation tools can use these properties to determine how to
+translate macros in a way that retains their original abstractions.
+//
+Using Maki to analyze real-world code, I discovered that more than a third of
+macros (37%) are easy to port, requiring developers to only make slight changes
+to a macro's definition and invocation sites in order to turn it into C code.
+//
+// TODO: Mention 94% accuracy and how you have improved Maki since then?
+//
+// Compared to prior work, Maki discovers 2x more easy-to-port macros on
+// average.
+//
+With Maki's output as a guide, I submitted patches to Linux kernel maintainers
+converting 11 macros to C code; 9 of these were accepted, and one of them fixed
+a bug hidden in the macro.
+
+=== Semantic-aware Macro Translation
+//
+After developing Maki, I recruited a team of two undergraduate students to help
+me produce MerC, the first semantic-aware macro translation tool capable of
+converting C preprocessor macros into C variables, enums, and functions.
+//
+// an automated translation tool that uses Maki's analysis output to translate
+// C preprocessor macros to functionally-equivalent, abstraction-preserving C
+// code.
+//
+To evaluate MerC's effectiveness, I also designed MacroBench, the first
+benchmark specifically tailored to assessing a tool's macro translation
+ability.
+//
+Using MacroBench, we compared MerC's ability to perform macro-to-C translations
+to that of various LLMs, and found a trade-off: MerC, though fast and correct,
+only translates a limited number of macros; whereas LLMs translate more macros,
+but, being non-deterministic, sometimes get translations wrong.
+//
+We discovered that one can reap the benefits of both MerC and LLMs, while
+minimizing their downsides, by combining the two tools into a translation tag
+team which first uses MerC to translate many macros quickly and correctly, and
+then calls on LLMs to translate the more complex remaining macros.
+//
+A publication associated with MerC has been conditionally-accepted to the 41st
+IEEE/ACM International Conference on Automated Software Engineering.
+//
+The undergraduate students who assisted me on this project have since leveraged
+their research experience to advance their own careers, with one student being
+admitted to the Sound and Music Computing Program at Pompeu Fabra University,
+and the other acquiring a role as a software engineer at Moog, Inc.
+
+== Analyzing and Securing Software Build Systems
 
 // 2. A summary of the dissertation or current, post-dissertation research.
 //    Include hypotheses, methods, and outcomes.
@@ -170,10 +347,144 @@ analyses supporting their applicability.
 //    theoretical orientation, and a brief statement of the contribution to
 //    your field.
 
-=== Analyzing and Securing Software Build Systems
+Modern software developers use build system technology to automatically
+configure, compile, and test their software, in order to rapidly deploy it to
+users.
+//
+Build system technologies, which include tools such as Make, CMake, and Maven,
+are intricate programs for orchestrating and executing the phases of the
+software build process.
+//
+This coupling of power and complexity make build systems an enticing target for
+_pipeline poisoning_, which is an attack technique that secretly modifies a
+project's build system to perform malicious actions like injecting backdoor
+code into compiled binaries.
+//
+To protect against pipeline poisoning, in my research I have investigated new
+techniques for specifying software build phase permissions, performant
+mechanisms for ensuring that permissions are followed, and analyses of the
+practicality of using such approaches to secure real-world code.
 
-== Future Research Agenda
+=== Detecting Pipeline Poisoning Attacks
 
-== Conclusion
+In 2025 I developed Foreman, an automated tool for checking that software build
+phases follow developer-specified file access permissions @foreman.
+//
+Software build phases are the steps that constitute a software build pipeline;
+common build phases include configuration, compilation, and testing.
+//
+Pipeline poisoning alters build phases to access files that are normally only
+used by other phases; for instance, the XZ Utils backdoor modified the
+project's compilation phase to extract code from poisoned test files, files
+which normally would only be used by the project's testing phase @xz-utils.
+//
+Such malicious file actions can be considered as violations of _build phase
+isolation_.
+//
+Build phase isolation is a property that build phases exhibit when they each
+operate under a unique set of well-defined inputs and outputs.
+//
+Build phase isolation is violated when one phase accesses the inputs of
+another, as in the case of the XZ Utils backdoor modifying the compilation
+phase to read files belonging to the testing phase.
+//
+Foreman detects violations of build phase isolation by executing a sequence of
+software build phases, recording which files each phase accesses, and finally
+comparing the recorded file access patterns to a user specification of phases'
+file access permissions.
+//
+In a 2026 ICSE NIER paper @foreman, I demonstrated that Foreman was capable of
+detecting the two poisoned test files in the XZ Utils backdoor.
 
-#bibliography("references.bib", title: "References")
+=== Analyzing Real-world Build Phase Isolation
+
+// Build phase isolation can prevent pipeline poisoning, but it hinges on the
+// presupposition that software build phases are naturally isolated
+//
+// If they are not, then either the build phase isolation enforcement mechanism
+// must be more lenient, creating a wider attack surface, or the build system
+// itself will need to be changed increase phase isolation, which may be
+// impractical for medium and large codebases.
+//
+// But if real-world build phases are naturally isolated, then it would be
+// feasible to retrofit existing projects with build phase isolation
+// enforcement mechanisms, as no changes to existing build systems would be
+// necessary for achieving strict isolation enforcement.
+//
+// To determine whether build phases in real-world code are naturally
+// isolated...
+//
+// Led a team of seven undergraduate students, including students I had
+// recruited from my teaching
+//
+// Cataloged build phases from several hundred programs from OSS forges,
+// Apache, GNU, GitHub
+//
+// Filetrace, blazing fast C implementation of Foreman's file access tracking
+//
+// Under review at ICSE '27.
+//
+// Adam and Daniel used research experience to obtain internships (and Rasmin
+// interviewed with Amazon)
+
+Most recently, I have studied the feasibility of enforcing build phase
+isolation to secure real-world code, and have found that many existent programs
+already exhibit high levels of natural isolation, making them amenable to
+isolation enforcement.
+//
+Build phase isolation hardens build systems against pipeline poisoning by
+executing build phases in isolated environments for preventing illegitimate
+file accesses.
+//
+As my work on Foreman demonstrates, build phase isolation enforcement is
+capable of detecting real-world attacks @foreman.
+//
+But build phase isolation enforcement is only most effective when project files
+are exclusively accessed by a single build phase, since more shared files
+between build phases creates a wider attack surface for injecting malicious
+file accesses into a build system.
+//
+If files in real-world codebases are shared by many phases, then isolation
+enforcement mechanisms will need to be more lenient, potentially enabling
+malicious accesses to sneak past.
+//
+On other hand, if files are exclusively accessed by a single build phase, then
+isolation can be enforced more strictly, reducing the attack surface.
+
+To determine the feasibility of applying build phase isolation to existing
+codebases, I conducted an empirical evaluation of the _natural isolation_
+present in real-world build systems.
+//
+Natural isolation is the degree of isolation between a project's build phases,
+without any changes being made to the project's build system.
+//
+To study natural isolation, I recruited a team of seven undergraduate students
+to help me create PhaseBench, the first benchmark of executable software build
+phases, which consists of 1035 cataloged build phases from 368 software
+projects.
+//
+To track the files each phase accesses, I created a Filetrace, a new and
+blazingly-fast tool for tracking file access patterns across build phases.
+// TODO(Brent): Mention specific run-times?
+//
+With Filetrace, I collected the file access patterns for all PhaseBench's build
+phases, and discovered that natural isolation is high, with 75% of studied
+programs having more than half of their files accessed by only a single build
+phase.
+//
+This work advances research on build phase isolation enforcement with new and
+promising findings about its applicability.
+//
+A publication for this research currently under review at ICSE '27.
+//
+Moreover, the undergraduate researchers who assisted me with this project have
+used this experience to obtain internships at software companies such as
+Keystone Strategy and Bogen Communications.
+
+= Future Research Agenda
+// - vision for future work
+//   - still top-tier
+//   - still hot area
+//   - still involves undergraduates
+
+#bibliography("references.bib", title: "References", style: "ieee")
