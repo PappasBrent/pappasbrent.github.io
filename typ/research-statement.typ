@@ -472,8 +472,8 @@ phases, and discovered that natural isolation is high, with 75% of studied
 programs having more than half of their files accessed by only a single build
 phase.
 //
-This work advances research on build phase isolation enforcement with new and
-promising findings about its applicability.
+This work advances research on build system security with new and promising
+findings about the applicability of build phase isolation enforcement.
 //
 A publication for this research currently under review at ICSE '27.
 //
