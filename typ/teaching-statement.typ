@@ -2,6 +2,36 @@
 // with me, and if Rasmin doesn't get the Amazon position, has an
 // accomplishment I can better end a paragraph with.
 
+// Dr. Gazzillo's comments 2026-07-20
+// - when you say learning their tools, do you mean literal dev tools or also
+//   conceptual tools like algorithms?
+//   - readers may think you mean just teaching practices, rather than
+//     fundamentals and concepts as well
+//   - you might focus on the problem solving part or use a word that captures
+//     tools in a broader sense
+//     - Both technology and fundamental programming skills. Make this explicit
+// - good to see the mentoring examples for research (and others).
+// - the structure is good, highlighting key points and showing very concrete
+//   examples both in teaching and mentoring
+// - for teaching experience, compare these SPI scores to the department
+//   average (perhaps say they are XX% higher than the average of the CS
+//   department, including professors and lecturers) to show that you beat out
+//   the people who already do this for a living
+//   - Added
+// - good to see the small course labs as well
+// - separate out the teaching excellence awards somehow, perhaps into its own
+//   paragraph (though maybe too short).  you might start the paragraph with
+//   the GTA awards first (or even the subsection, but that would require a
+//   reordering of the instruction vs. gta paragraphs)
+//   - Highlighted awards by putting them in their own paragraph
+// - you might expand the courses you are interested and capable to teach (or
+//   at least pick some more specifics from the target school, which i think
+//   you already intend to do, but be broad.  see if you can find hints about
+//   what courses the university needs instructors for.  this actually comes in
+//   interviews even here, where the committee will consider what teaching we
+//   need and what the instructor would likely teach)
+//   - Added compiler construction for now.
+
 //    Wide general good
 // -> teaching strategies that manifest this good
 // -> examples from specific classes
