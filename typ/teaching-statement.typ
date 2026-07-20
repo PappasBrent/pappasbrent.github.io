@@ -351,7 +351,9 @@ students, not only for myself
 but also for my advisor, who, with my assistance as a GTA, earned the highest
 ratings he had ever received for the course's structure (4.92~/~5) and
 instruction (4.89~/~5).
-//
+
+= Received Awards
+
 On top of positive student reviews, I have also received GTA excellence awards
 from UCF at both the
 #link("https://drive.google.com/file/d/1Gas3ek39nMf2H7F3IKvntICKfKLw-Lrd/view")[college]
