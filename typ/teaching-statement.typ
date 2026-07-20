@@ -65,6 +65,10 @@
 My teaching and mentoring prepares students to develop and research software by
 _learning their tools_.
 //
+This not only includes concrete tools such as command line utilities and
+programming languages, but also conceptual tools such as algorithms, software
+design strategies, and defensive programming tactics.
+//
 This approach to instruction teaches students to use all facets of every
 utility available to them when solving problems, empowering them to not only
 create robust software, but to do so with alacrity.
