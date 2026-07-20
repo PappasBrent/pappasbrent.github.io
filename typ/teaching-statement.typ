@@ -433,9 +433,12 @@ I will continue to improve on these techniques to deliver
 quality instruction to my students, and enriching research opportunities to my
 mentees.
 
+// NOTE(Brent): Remember to fill this with courses from the target school.
+// Include course code prefixes.
 #let courses = (
   [Systems Software],
   [Software Engineering],
+  [Compiler Construction],
 )
 
 I am most interested in teaching courses that foster advanced competencies in
