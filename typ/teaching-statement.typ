@@ -322,8 +322,21 @@ teaching techniques, such as in-lecture questions, in-class examples, and
 #link("https://youtube.com/playlist?list=PLEVrbB1AjxeWD2hWF4yDzXbwiy53hCiz9&si=zyVVOQSX0hTSWvmz")[live
 lecture recordings].
 //
-For these efforts I have earned high course (4.73~/~5 average) and instructor
-(4.62~/~5 average) evaluation ratings.
+// For these efforts I have earned high course (4.73~/~5 average) and
+// instructor (4.62~/~5 average) evaluation ratings.
+//
+For these efforts I have earned strong student evaluations, with an average
+course rating of 4.73~/~5, and an average instructor rating of 4.62~/~5.
+//
+These ratings are above the department averages by 0.40 and 0.38 points,
+respectively.
+//
+// For these efforts I have earned strong student evaluations, with ratings
+// exceeding the department averages.
+//
+// My average course rating is 4.73~/~5 (vs. the department average of
+// 4.33), and my average instructor rating of 4.62~/~5 (vs. the department
+//   average of 4.24).
 
 Before teaching COP~3402, I served as GTA for the course, with my advisor being
 the instructor, during both the Spring and Fall of 2025.
