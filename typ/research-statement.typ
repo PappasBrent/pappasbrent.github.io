@@ -49,10 +49,11 @@
 #set page(margin: 1in)
 #set text(11pt)
 #set cite(style: "ieee")
+#set heading(numbering: "1.1")
 #show title: set align(center)
 #show link: set text(fill: blue)
 #show heading: it => block[
-  #it.body
+  #counter(heading).display() #it.body
   #v(0.25cm)
 ]
 
@@ -486,5 +487,150 @@ Keystone Strategy and Bogen Communications.
 //   - still top-tier
 //   - still hot area
 //   - still involves undergraduates
+
+// TODO(Brent): Ask Dr. Gazzillo for advice on what to put here.
+
+// Build system security is a nascent research area teeming with opportunities.
+//
+My future research will continue to harden codebases against software supply
+chain attacks.
+//
+To achieve this goal, I will expand my current tooling to trace a greater
+variety of build system access patterns, use these tools to develop systems for
+automatically inferring secure build specifications, and apply these systems to
+triage attack vectors in real-world code.
+
+// NOTE(Brent): Inspired by pipeline narrowing/widening figure from Dr.
+// Gazzillo's pipeline poisoning proposal.
+
+== Exhaustively Tracing Build System Access Patterns
+
+<tracing>
+
+// - Developing tools for verifying more than just file access patterns.
+//   - strace for system calls.
+//   - ss for network socket traffic.
+//   - Extending Bash to report whenever an environment variable is accessed.
+
+My automated tools Foreman and Filetrace are capable of tracing build systems'
+file access patterns, but there are many more types of access patterns build
+systems exhibit which could belie malicious behavior.
+//
+A URL to access a dependency could be hijacked to instead fetch malware.
+//
+A test binary could be modified to execute malicious code invoking
+previously-unused system calls.
+//
+A configuration script could be tweaked to exfiltrate or poison an environment
+variable.
+//
+Tracking such network, file, and environment variable access patterns will
+require both the novel application of existing tools, and the development of
+new access tracing instrumentation.
+//
+For instance, the Linux command line utility `ss` could be used to trace
+accesses to network sockets; the `strace` utility is capable of tracing system
+call invocations; and the Bash shell itself could be patched to record all
+reads and writes to environment variables.
+//
+All these tools fall under the broad category of systems software, aligning
+perfectly with my teaching expertise.
+//
+I plan to capitalize on this synergy, and will recruit from my classes
+undergraduate students interested in research to assist me with developing
+and evaluating these tools.
+//
+// To work on these tools, I plan to recruit from my classes undergraduate
+// students who display an interest in systems software research.
+//
+// All these tools fall under my educational area of systems software, and so
+// working on them is the perfect introductory task for undergraduate students
+// interested in research.
+
+== Automatically Inferring Secure Build Specifications
+
+<infer-specifications>
+
+#figure(
+  image("inferring-build-specifications.drawio.pdf", width: 100%),
+  caption: [Automated system for inferring secure build specifications.]
+) <fig:infer-specifications>
+
+// 1. Run build systems with instrumentation for tracing normal access
+//    patterns.
+// 2. Used traced normal flows to create initial permission set.
+// 3. Inject into the build system malicious flows including derivations of
+//    past real attacks, mutations of legitimate flows, and attacks synthesized
+//    by AI.
+// 4. Use malicious flows to narrow permission set to remove attack vectors.
+
+My tool Foreman currently detects malicious file access patterns by comparing a
+build system's actual access patterns against a manually-specified file
+containing the system's permitted access patterns.
+//
+Manually specifying access patterns is not only error-prone, but flat-out
+untenable for medium-to-large build systems, such as that of the Linux kernel
+which spans over 200,000 lines of code @broken-linux @linux.
+//
+To solve this problem, I plan to develop an automated system for inferring
+secure build specifications, which is shown in Figure @fig:infer-specifications
+and follows six steps.
+//
+In Step~1, the build system is ran with instrumentation for tracing its normal
+access patterns.
+//
+This instrumentation would include both the previously developed tools
+Filetrace, as well as newly-developed tools described in @tracing.
+//
+Step~2 will use these traced behaviors obtained from Step~1 to automatically
+generate an initial specification reflecting the program's normal execution.
+//
+This initial specification is intended to be sufficient for executing the
+analyzed build system, but does not secure the system against attacks; this
+responsibility is delegated to Steps~3~and~4.
+
+To harden the produced permission set against attacks, Step~3 first injects
+into the build system malicious access patterns.
+//
+These malicious access patterns will include patterns obtained found in real
+historical attacks, mutations of the legitimate access patterns obtained in
+Step~1, and attacks synthesized by AI LLM technology.
+//
+Step~4 will then compare these injected malicious access patterns to the
+program's set of legitimate access patterns, and narrow the final permission
+set to prohibit the illegitimate access patterns, thus removing the attack
+vectors they pose.
+//
+In practice, this step may be performed manually by a human, automatically with
+an AI tool, or semi-automatically with a hybrid approach.
+//
+Steps~3~and~4 can then be run repeatedly to progressively harden the build
+system against more and more kinds of attacks.
+//
+The loop can be terminated after reaching a fixed point, or until the resulting
+permission set is deemed by the user to be satisfactory.
+
+To assist with the development of this system, and with the comparison of
+permitted flows against malicious flows in Step~4, I plan to recruit from my
+classes undergraduate students interested in systems software and AI
+technology.
+
+== Triaging Attack Vectors in Real-world Code
+
+After developing the system described in @infer-specifications, I plan to apply
+it to real-world codebases in order to identify what attack vectors they are
+most vulnerable to, while simultaneously constructing specifications capable of
+protecting against those vectors.
+//
+To do this, I will lead a team of undergraduate students to first collect a
+dataset of open-source software.
+//
+My team will then apply our permission specification system to detect the
+attack vectors the collected codebases are vulnerable to, and create permission
+specifications for defending against them.
+//
+If we discover any real exploits present in the studied software, we will take
+the responsible course of action, and notify the software owners about them
+first before disclosing them to the public.
 
 #bibliography("references.bib", title: "References", style: "ieee")
