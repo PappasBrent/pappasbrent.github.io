@@ -163,7 +163,7 @@ software supply chain attacks and mitigation techniques for preventing them
 @ambush-from-all-sides @closing-the-chain, but these documents cannot be used
 to continuously audit code for supply-chain-related compromises.
 //
-A more complete approach to hardening software supply chains requires that
+A more complete approach to hardening software supply chains necessitates that
 developers constantly verify software projects as they continue to evolve.
 //
 To do so, developers need automated tools for specifying, analyzing, and
