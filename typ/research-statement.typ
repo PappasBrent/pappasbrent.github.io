@@ -634,4 +634,7 @@ If we discover any real exploits present in the studied software, we will take
 the responsible course of action, and notify the software owners about them
 first before disclosing them to the public.
 
+// TODO(Brent): Add a conclusion and save space to make sure the total document
+// length is under 5 pages.
+
 #bibliography("references.bib", title: "References", style: "ieee")
