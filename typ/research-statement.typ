@@ -577,7 +577,7 @@ To solve this problem, I plan to develop an automated system for inferring
 secure build specifications, which is shown in Figure @fig:infer-specifications
 and follows six steps.
 //
-In Step~1, the build system is ran with instrumentation for tracing its normal
+In Step~1, the build system is run with instrumentation for tracing its normal
 access patterns.
 //
 This instrumentation would include both the previously developed tools
