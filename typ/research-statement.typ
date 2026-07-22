@@ -491,8 +491,6 @@ Keystone Strategy and Bogen Communications.
 // NOTE(Brent): Probably a good idea to also add to the agenda plans to run build
 // systems in virtual environments to enforce isolation.
 
-// TODO(Brent): Ask Dr. Gazzillo for advice on what to put here.
-
 // Build system security is a nascent research area teeming with opportunities.
 //
 My future research will continue to harden codebases against software supply
