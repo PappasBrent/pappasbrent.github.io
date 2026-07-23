@@ -2,7 +2,7 @@ SHELL			=	/usr/bin/bash
 TYPS			=	$(wildcard typ/includes/*.typ)
 HTMLS			=	$(TYPS:typ/includes/%.typ=_includes/%.html)
 CV			=	assets/pdf/cv.pdf
-STATEMENTS		=	teaching research
+STATEMENTS		=	teaching research diversity
 STATEMENT_TYPS		=	$(STATEMENTS:%=typ/%-statement.typ)
 STATEMENT_PDFS		=	$(STATEMENTS:%=assets/pdf/%-statement.pdf)
 WATCH_RULES		=	$(STATEMENTS:%=watch-%)
