@@ -32,6 +32,8 @@
 
 #box[*Adam Betinsky*. 2025 - Present. Human factors in software engineering and analysis and security of software development pipelines.]
 
+#box[*Ehigie Ekata*. 2024. Semantics-aware translation of C preprocessor.]
+
 #box[#link("https://zachburkett.website/")[*Zachary Burkett*]. 2024. Semantics-aware translation of C preprocessor.]
 
 #box[#link("https://silvermight.com/")[*Joseph Zalusky*]. 2024. Semantics-aware translation of C preprocessor macros.]
