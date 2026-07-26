@@ -21,62 +21,99 @@
     #link("mailto:brent.pappas@ucf.edu") | #link("www.pappasbrent.com")
 ]
 
-// 1 page
-// - Intro
-// - Teaching: 1 paragraph.
-//   - UCF is an Hispanic serving institution.
-//   - Many of the most significant contributions to CS were made by older
-//     white men, so I provide representation of programmers from other
-//     background by presenting the works of, e.g., Venezuelan hacker Elias
-//     Levy, who provided early explanations of cyber-security concepts to
-//     non-academics.
-// - Mentoring: 1 paragraph.
-//   - Students of diverse ethnic, racial, and religious backgrounds.
-// - Service: 1 paragraph.
-//   - Camp connect?
-// - Conclusion: 1 or 2 sentences.
+#let school = [#text(fill: red)[SCHOOL_NAME]]
 
-// TODO(Brent): Improve the lead sentence; this one is banal.
-I actively promote cultural competency in both teaching and research mentoring
-settings by *introducing students to diverse perspectives in computing*.
+I promote cultural competency in both teaching and research mentoring settings
+by *presenting students with different perspectives of what it means to be a
+computer scientist*.
 //
-Computer science is a discipline unfortunately dominated by a single
-demographic, white males.
+Computer science is a relatively young and burgeoning discipline, with
+advancements being made by researchers around the world.
 //
-The same is true for Computer Science research, with many of the field's
-fundamental contributions having been made by white men.
+However, many of the formative contributions to the field were made by white
+males, a group which still
 //
-// Briefly mention yourself and how you fit in to it?
+// holds the majority of all U.S. Computer Science Bachelor degrees
+// @bachelors-2022.
 //
-Students outside this demographic can easily feel isolated from their peers,
-and some may believe they don't belong in the Computer Science major all
+dominates the computer science major in the U.S. @bachelors-2022.
+//
+// The dominance of this demographic can lead students from outside of it to
+// feel
+//
+Students from outside this demographic can feel isolated from their peers, or
+even conclude that they don't belong in the computer science major all
 together.
-
-
-== Teaching
-
-To counter this narrative, while teaching at the University of Central Florida
-I supplement my lectures with articles, software, research papers, and other
-sources of computing knowledge created by authors from diverse background.
-
 //
-// , which is still the dominant enrollment demographic for the Computer
-// Science major at many universities @TODO.
+At the University of Central Florida (UCF), I work to counter this narrative by
+providing perspectives on computing from a variety of backgrounds, and by
+conducting research with multi-cultural teams of undergraduate students.
+
+= Teaching
+
+UCF is massive school, with more than 68,000 students from diverse ethnic
+backgrounds.
 //
+Approximately 40% of UCF students are white, about 30% are Hispanic or Latino,
+9% are African American, 8% are Asian, and the remaining 13% identify as
+multi-racial, or simply as U.S. non-residents @ucf-enrollment @nces-ucf.
 //
+One way that I connect with this diverse group of students, is by supplementing
+my instruction with articles, software, research papers, and other computing
+resources from an equally diverse set of authors.
+//
+For instance, when teaching students in my Systems Software course about a
+cyber attack technique known as stack smashing, I begin by discussing an
+article written by Venezuelan computer scientist Elias Levy
+@smashing-the-stack.
+//
+// This historically-significant article was the first publicly-accessible
+// explanation on how stack smashing attacks work, and uses much of the same
+// terminology that we learn in class, making it a perfect learning resource
+// for students.
+//
+Sharing this resource with my students not only helps expand their knowledge of
+computer memory and security, but also helps broaden their awareness of the
+diverse cultural identities that have progressed the discipline to where it is
+today.
 
-// Stack smashing, Elias Levy
-// Eternal War in Memory?
-// ILOVEYOU computer worm?
+= Research Mentoring
 
-// UCF is an Hispanic-Serving Institution.
+I enjoy seeing my students express interest in research, and am always happy to
+provide them with opportunities for undergraduate research collaborations, both
+with myself and other UCF computer science faculty.
+//
+When conducting research on
+#link("https://pappasbrent.com/research/hardening-build-systems")[hardening
+software build systems], I recruited a team of seven students to assist me with
+cataloging the software build phases of hundreds of different open-source
+projects.
+//
+This team included both male and female students of Anglo, Latin, Vietnamese,
+and Arabic origin.
+//
+Over the course of an entire semester we cataloged over 1,000 build phases, and
+finally produced a dataset serving as the basis for a research paper currently
+under review at the 49th International Conference on Software Engineering.
+//
+Throughout this project, I shared with my mentees my experiences as a
+first-generation graduate student in to order to show that pursuing a career in
+research is possible without a background in higher education.
 
-== Research Mentoring
+= Conclusion
 
-My research assistants have included both males and females of Anglo, Latin,
-African, African American, and Vietnamese origin.
+I work continuously to improve my intercultural understanding.
+//
+As a teacher, I provide my students with diverse perspectives on computing in
+order to help them engage with course material.
+//
+As a research mentor, I promote cross-cultural connections by forming diverse
+teams of undergraduate research students, and by sharing my experiences as a
+first-generation graduate student.
+//
+And at all times, I listen closely to my students, casting off my own
+preconceptions about computing in order to better appreciate my students'
+unique insights, and better answer their questions.
 
-== Service
-
-== Conclusion
+#bibliography("references.bib", title: "References", style: "ieee")
 
