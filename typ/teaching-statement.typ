@@ -1,7 +1,3 @@
-// TODO(Brent): Replace Rasmin anecdote with Daniel? He's still doing research
-// with me, and if Rasmin doesn't get the Amazon position, has an
-// accomplishment I can better end a paragraph with.
-
 // Dr. Gazzillo's comments 2026-07-20
 // - when you say learning their tools, do you mean literal dev tools or also
 //   conceptual tools like algorithms?
@@ -167,21 +163,17 @@ examples of careful programming practices.
 
 *Mentoring example.*
 //
-// When recruiting students from my COP~3402 to assist me with my research on
-// securing software build systems, I first assign them tasks that build off of
-// what the student will have learned in my class.
+When I recruited Daniel Henriquez to assist me with my research on securing
+software build systems, I first assigned him a task that built off what he had
+learned while taking computer science courses at UCF.
 //
-When I recruited Rasmin Ahmned, a student in my COP~3402 course section, to
-assist me with my research on securing software build systems, I first assigned
-her a task that built off what she had learned in my class.
+Specifically, I tasked him with cataloging the commands to configure, compile,
+and test projects using GNU Make, a tool which he had already been using to
+complete course projects.
 //
-Specifically, I tasked her with cataloging the commands to configure, compile,
-and test projects using GNU Make, a tool which she had already been using to
-complete projects for COP~3402.
-//
-Since she was already familiar with Make, she was able to complete the swiftly,
-and has since used her research experience to obtain an in-person interview for an
-internship at Amazon.
+Since he was already familiar with Make, he was able to complete the task
+swiftly, and has since used his research experience to obtain an internship
+Bogen Communications.
 
 == I Reward Success
 
