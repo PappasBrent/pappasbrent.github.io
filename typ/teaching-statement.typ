@@ -94,7 +94,7 @@ it again in the Spring 2027 semester as well.
 Systems Software is a required course for UCF computer science majors with
 consistently high enrollment numbers: my Spring 2026 section had
 243 enrolled students, my Summer 2026 section had 107, and the section I am set
-to teach in the Fall has already has 209 enrollments.
+to teach in the Fall already has 209 enrollments.
 //
 Most students choose to take Systems Software during their sophomore year,
 after completing prerequisite courses on C programming, and data structures and
