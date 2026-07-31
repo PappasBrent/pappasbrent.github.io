@@ -1,0 +1,82 @@
+Hi Brent,
+
+Here's my feedback. As always, my advice is most suited to undergrad programs.
+
+Your teaching statement is generally in great shape, but I do have a few
+suggestions. 
+- DONE: Move the summary of your teaching experience + your teaching award to
+  the beginning. It's the thing committees most want to know about your
+  teaching. Plus then your COP 3402 example in "I Reward Success" will have
+  more context.
+- DONE: In the first sentence of your teaching experience, you say "I taught"
+  -- I would change that to "I was the instructor of record for." Grad students
+  are often trying to make whatever experience they have sound as impressive as
+  possible, so "taught" can mean a lot of things. Even though it becomes clear
+  later, better to start off clear.
+- DONE: I might provide some context for the Systems Software course, since
+  it's such a big part of your teaching experience. Who takes it? At what point
+  in the curriculum? How many students? What are the usual pain points? etc.
+- DONE: Similarly, I'd make the second sentence a harder hit on the point that
+  you have taken ownership of the curriculum. Instead of "I have been gradually
+  updating", maybe "I have made it my own by..." or something a little
+  stronger.
+- DONE: Do you have any pedagogical training? (Workshops from your teaching
+  center, etc.) This paragraph where you describe the teaching innovations
+  you've added might be a good place to reference that.
+- DONE: Your list of classes you want to teach in the conclusion is good -- it
+  has a point of view without being solely a bunch of bespoke classes on your
+  exact research topics. I can't tell you how many times I've written "no
+  evidence they want to teach undergrads" or "no evidence they want to teach
+  lower division" in my notes on a candidate.
+- DONE: Everything else is good -- it's really just providing granular evidence
+  that you have thought about your teaching and actually got actionable
+  insights from your experience.
+
+I've never been on a search committee where we requested diversity statements,
+so that's not a literary form I'm as familiar with. Here are some things to
+consider:
+- Consider moving the "first-gen grad student" thing to earlier in the
+  statement. This shows that you have some understanding of what it's like to
+  step into an unfamiliar culture.
+- The word "Anglo" isn't used everywhere in the US -- it is in Texas but not in
+  California, for example. (Cards on the table, I personally hate it because I
+  am white but 0% English and 50% people who actively fought the English.)
+  Maybe just "European"?
+- A couple things you could think about including: first, there's not a lot of
+  discussion of how some groups have been systematically excluded from computer
+  science (sometimes as an artifact of higher education generally, sometimes
+  more specifically). Saying that most of the achievements in CS are by white
+  dudes without this caveat may hit the wrong way. It also may impact the way
+  you think about supporting students. Second, do you want to talk at all about
+  disability? Disability accommodations and really thinking about the
+  accessibility of what you teach are a big part of teaching. If you don't have
+  anything to say about these topics, feel free to ignore this, but these are
+  things I might push you on if this were an interview question instead of a
+  statement.
+- UCF demographics are smart to include, I think. Too many people handle the
+  diversity question by being like "the students in my graduate program are
+  from many nations!" And...of course they are; that's how graduate programs
+  work. That doesn't necessarily relate to the demographic/economic backgrounds
+  of the undergraduate students you teach and how (un)comfortable they are in
+  higher ed generally and computer science specifically. By looking at the UCF
+  population as a whole, I think you avoid that trap.
+
+- Research statement is outstanding and not worth optimizing further imho. What
+  I look for when reading a research statement is pretty simple, and you clear
+  that bar:
+- Can you contextualize the research that you did during your Ph.D.? Can you
+  talk about why it's important and weave it into a coherent narrative?
+- Was your research good enough? By which I mean: if you come work for us, your
+  most high-powered research days are likely behind you. So assuming you've
+  peaked, is the peak high enough that you can be a reasonable resource to
+  undergraduate students who might be interested in graduate school or research
+  careers?
+- Do you have substantive plans for what to do next? Are you going to be able
+  to get out of your advisor's shadow?
+- Is it clear that you've thought about how to do those things in an
+  undergraduate context?
+
+Hope this helps!
+
+Best,
+Suzanne
