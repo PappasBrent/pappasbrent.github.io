@@ -84,6 +84,9 @@ instructor of record for *COP~3402: Systems Software* for both the
 and #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/sum2026/")[Summer
 2026] semesters.
 //
+I am currently teaching the Fall 2026 semester of the course, and plan to teach
+it again in the Spring 2027 semester as well.
+//
 // 243 spring 2026
 // 107 summer 2026
 // 209 (and growing) fall 2026
