@@ -58,7 +58,7 @@ Approximately 40% of UCF students are white, about 30% are Hispanic or Latino,
 9% are African American, 8% are Asian, and the remaining 13% identify as
 multi-racial, or simply as U.S. non-residents @ucf-enrollment @nces-ucf.
 //
-One way that I connect with this diverse group of students, is by supplementing
+One way that I connect with this diverse group of students is by supplementing
 my instruction with articles, software, research papers, and other computing
 resources from an equally diverse set of authors.
 //
