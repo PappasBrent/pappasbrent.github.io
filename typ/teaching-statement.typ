@@ -139,7 +139,7 @@ To incentivize students to still attend class and not only watch the
 recordings, I make attendance mandatory (but only worth 4% of the overall
 grade).
 
-Before teaching COP~3402, I served as GTA for the course, with my advisor being
+Before teaching COP~3402, I served as a GTA for the course, with my advisor being
 the instructor, during both the Spring and Fall of 2025.
 //
 During these semesters I led small (30 students or fewer) labs, in which I
