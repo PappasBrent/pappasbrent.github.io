@@ -78,7 +78,7 @@ their skills while contributing to the broader field of Computer Science.
 
 = Summary of Teaching Experience
 
-While pursuing my PhD at the University of Central Florida, I was the
+While pursuing my PhD at the University of Central Florida (UCF), I was the
 instructor of record for *COP~3402: Systems Software* for both the
 #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/spr2026/")[Spring 2026]
 and #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/sum2026/")[Summer
