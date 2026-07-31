@@ -76,6 +76,65 @@ To provide students with such opportunities, I recruit them to conduct research
 with me on software engineering and security, giving them the chance to hone
 their skills while contributing to the broader field of Computer Science.
 
+= Summary of Teaching Experience
+
+While pursuing my PhD at the University of Central Florida, I taught *COP-3402:
+Systems Software* for both the
+#link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/spr2026/")[Spring 2026]
+and #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/sum2026/")[Summer
+2026] semesters.
+//
+I began teaching the course with a curriculum prepared by my advisor, and I
+have been gradually updating this curriculum in response to student
+suggestions.
+//
+I have also used student feedback to expand my teaching arsenal with new
+teaching techniques, such as in-lecture questions, in-class examples, and
+#link("https://youtube.com/playlist?list=PLEVrbB1AjxeWD2hWF4yDzXbwiy53hCiz9&si=zyVVOQSX0hTSWvmz")[live
+lecture recordings].
+//
+// For these efforts I have earned high course (4.73~/~5 average) and
+// instructor (4.62~/~5 average) evaluation ratings.
+//
+For these efforts I have earned strong student evaluations, with an average
+course rating of 4.73~/~5, and an average instructor rating of 4.62~/~5.
+//
+These ratings are above the department averages by 0.40 and 0.38 points,
+respectively.
+//
+// For these efforts I have earned strong student evaluations, with ratings
+// exceeding the department averages.
+//
+// My average course rating is 4.73~/~5 (vs. the department average of
+// 4.33), and my average instructor rating of 4.62~/~5 (vs. the department
+//   average of 4.24).
+
+Before teaching COP~3402, I served as GTA for the course, with my advisor being
+the instructor, during both the Spring and Fall of 2025.
+//
+During these semesters I led small (30 students or fewer) labs, in which I
+would answer student questions, review project assignments, and provide
+enriching examples of real-world applications of course content.
+//
+The effectiveness of these techniques is evinced by the glowing reviews left by
+students, not only for myself
+#link("https://docs.google.com/spreadsheets/d/1EjWH-YXkb-_Eu4IdX0wat7OVKp5OswKjpEf29zrua80/edit?usp=sharing")[(4.93~/~5)],
+but also for my advisor, who, with my assistance as a GTA, earned the highest
+ratings he had ever received for the course's structure (4.92~/~5) and
+instruction (4.89~/~5).
+
+= Teaching Awards
+
+On top of positive student reviews, I have also received GTA excellence awards
+from UCF at both the
+#link("https://drive.google.com/file/d/1Gas3ek39nMf2H7F3IKvntICKfKLw-Lrd/view")[college]
+and
+#link("https://drive.google.com/file/d/17G9zGkZdGVgldvZM5u9xAr1xgcUMaAyz/view")[university]
+level.
+//
+This latter award was only given to one out of 800+ GTAs across all of UCF, and
+I was the sole recipient.
+
 = Teaching Techniques and Research Mentoring Methods
 
 == I Work Backwards from Concrete Objectives
@@ -296,65 +355,6 @@ Moog, Inc.
 //
 // TODO(Brent): Create a poll requesting feedback from undergraduate research
 // assistants.
-
-= Summary of Teaching Experience
-
-While pursuing my PhD at the University of Central Florida, I taught *COP-3402:
-Systems Software* for both the
-#link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/spr2026/")[Spring 2026]
-and #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/sum2026/")[Summer
-2026] semesters.
-//
-I began teaching the course with a curriculum prepared by my advisor, and I
-have been gradually updating this curriculum in response to student
-suggestions.
-//
-I have also used student feedback to expand my teaching arsenal with new
-teaching techniques, such as in-lecture questions, in-class examples, and
-#link("https://youtube.com/playlist?list=PLEVrbB1AjxeWD2hWF4yDzXbwiy53hCiz9&si=zyVVOQSX0hTSWvmz")[live
-lecture recordings].
-//
-// For these efforts I have earned high course (4.73~/~5 average) and
-// instructor (4.62~/~5 average) evaluation ratings.
-//
-For these efforts I have earned strong student evaluations, with an average
-course rating of 4.73~/~5, and an average instructor rating of 4.62~/~5.
-//
-These ratings are above the department averages by 0.40 and 0.38 points,
-respectively.
-//
-// For these efforts I have earned strong student evaluations, with ratings
-// exceeding the department averages.
-//
-// My average course rating is 4.73~/~5 (vs. the department average of
-// 4.33), and my average instructor rating of 4.62~/~5 (vs. the department
-//   average of 4.24).
-
-Before teaching COP~3402, I served as GTA for the course, with my advisor being
-the instructor, during both the Spring and Fall of 2025.
-//
-During these semesters I led small (30 students or fewer) labs, in which I
-would answer student questions, review project assignments, and provide
-enriching examples of real-world applications of course content.
-//
-The effectiveness of these techniques is evinced by the glowing reviews left by
-students, not only for myself
-#link("https://docs.google.com/spreadsheets/d/1EjWH-YXkb-_Eu4IdX0wat7OVKp5OswKjpEf29zrua80/edit?usp=sharing")[(4.93~/~5)],
-but also for my advisor, who, with my assistance as a GTA, earned the highest
-ratings he had ever received for the course's structure (4.92~/~5) and
-instruction (4.89~/~5).
-
-= Teaching Awards
-
-On top of positive student reviews, I have also received GTA excellence awards
-from UCF at both the
-#link("https://drive.google.com/file/d/1Gas3ek39nMf2H7F3IKvntICKfKLw-Lrd/view")[college]
-and
-#link("https://drive.google.com/file/d/17G9zGkZdGVgldvZM5u9xAr1xgcUMaAyz/view")[university]
-level.
-//
-This latter award was only given to one out of 800+ GTAs across all of UCF, and
-I was the sole recipient.
 
 = Summary of Mentoring Experience
 
