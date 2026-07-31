@@ -108,29 +108,31 @@ concepts in the latter half of the course to help teach the basics of compiler
 design.
 
 I began teaching the course with a curriculum prepared by my advisor, and I
-have been gradually updating this curriculum in response to student
-suggestions.
+have since made the course my own by incorporating student feedback.
 //
-I have also used student feedback to expand my teaching arsenal with new
-teaching techniques, such as in-lecture questions, in-class examples, and
-#link("https://youtube.com/playlist?list=PLEVrbB1AjxeWD2hWF4yDzXbwiy53hCiz9&si=zyVVOQSX0hTSWvmz")[live
-lecture recordings].
+For instance, some students in my Spring 2026 section stated that they felt
+that the course lecture notes were too austere, and so in response I have
+expanded the course web pages to contain more than just speaker notes, but
+rather complete passages explaining the concepts reviewed in lecture. 
 //
-// For these efforts I have earned high course (4.73~/~5 average) and
-// instructor (4.62~/~5 average) evaluation ratings.
+Additionally, some students in my Spring 2026 section wished for lectures to
+explain fundamental concepts more thoroughly, and to fulfill this request I
+have created new illustrated examples which I work through in lecture to
+explain concepts such as
+#link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/sum2026/board/pipes.png")[Linux
+pipes],
+#link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/sum2026/board/redirection.png")[redirection],
+and
+#link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/sum2026/board/project-review.png")[x86
+64 assembly calling conventions].
 //
-For these efforts I have earned strong student evaluations, with an average
-course rating of 4.73~/~5, and an average instructor rating of 4.62~/~5.
+Furthermore, I
+#link("https://youtube.com/playlist?list=PLEVrbB1AjxeWD2hWF4yDzXbwiy53hCiz9&si=zyVVOQSX0hTSWvmz")[record
+all lectures] and post the recordings after class for students to review.
 //
-These ratings are above the department averages by 0.40 and 0.38 points,
-respectively.
-//
-// For these efforts I have earned strong student evaluations, with ratings
-// exceeding the department averages.
-//
-// My average course rating is 4.73~/~5 (vs. the department average of
-// 4.33), and my average instructor rating of 4.62~/~5 (vs. the department
-//   average of 4.24).
+To incentivize students to still attend class and not only watch the
+recordings, I make attendance mandatory (but only worth 4% of the overall
+grade).
 
 Before teaching COP~3402, I served as GTA for the course, with my advisor being
 the instructor, during both the Spring and Fall of 2025.
