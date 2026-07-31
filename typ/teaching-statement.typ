@@ -160,6 +160,14 @@ I was the sole recipient.
 
 = Teaching Techniques and Research Mentoring Methods
 
+I use the following tactics to teach and mentor students.
+//
+These methods come from my personal experience teaching Systems Software, and
+also from professional training I obtained from the UCF graduate student course
+#link("https://pappasbrent.com/assets/pdf/preparing_tomorrows_faculty_certificate_brent_pappas.pdf")[*IDS
+6513: Preparing Tomorrow's Faculty*], in which I learned basic pedagogical
+concepts such as Bloom's taxonomy.
+
 == I Work Backwards from Concrete Objectives
 
 Before preparing any course material, I choose specific student learning
