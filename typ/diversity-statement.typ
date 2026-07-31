@@ -48,6 +48,10 @@ together.
 At the University of Central Florida (UCF), I work to counter this narrative by
 providing perspectives on computing from a variety of backgrounds, and by
 conducting research with multi-cultural teams of undergraduate students.
+//
+While teaching and mentoring, I share my experiences as a first-generation
+graduate student to show that pursuing a career in research is possible without
+a background in higher education.
 
 = Teaching
 
@@ -95,10 +99,6 @@ Vietnamese, and Arabic origin.
 Over the course of an entire semester we cataloged over 1,000 build phases, and
 finally produced a dataset serving as the basis for a research paper currently
 under review at the 49th International Conference on Software Engineering.
-//
-Throughout this project, I shared with my mentees my experiences as a
-first-generation graduate student in to order to show that pursuing a career in
-research is possible without a background in higher education.
 
 = Conclusion
 
