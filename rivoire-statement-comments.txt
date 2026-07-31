@@ -35,13 +35,13 @@ suggestions.
 I've never been on a search committee where we requested diversity statements,
 so that's not a literary form I'm as familiar with. Here are some things to
 consider:
-- Consider moving the "first-gen grad student" thing to earlier in the
+- DONE: Consider moving the "first-gen grad student" thing to earlier in the
   statement. This shows that you have some understanding of what it's like to
   step into an unfamiliar culture.
-- The word "Anglo" isn't used everywhere in the US -- it is in Texas but not in
-  California, for example. (Cards on the table, I personally hate it because I
-  am white but 0% English and 50% people who actively fought the English.)
-  Maybe just "European"?
+- DONE: The word "Anglo" isn't used everywhere in the US -- it is in Texas but
+  not in California, for example. (Cards on the table, I personally hate it
+  because I am white but 0% English and 50% people who actively fought the
+  English.) Maybe just "European"?
 - A couple things you could think about including: first, there's not a lot of
   discussion of how some groups have been systematically excluded from computer
   science (sometimes as an artifact of higher education generally, sometimes
@@ -53,8 +53,8 @@ consider:
   anything to say about these topics, feel free to ignore this, but these are
   things I might push you on if this were an interview question instead of a
   statement.
-- UCF demographics are smart to include, I think. Too many people handle the
-  diversity question by being like "the students in my graduate program are
+- DONE: UCF demographics are smart to include, I think. Too many people handle
+  the diversity question by being like "the students in my graduate program are
   from many nations!" And...of course they are; that's how graduate programs
   work. That doesn't necessarily relate to the demographic/economic backgrounds
   of the undergraduate students you teach and how (un)comfortable they are in
