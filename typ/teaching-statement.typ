@@ -78,8 +78,8 @@ their skills while contributing to the broader field of Computer Science.
 
 = Summary of Teaching Experience
 
-While pursuing my PhD at the University of Central Florida, I taught *COP-3402:
-Systems Software* for both the
+While pursuing my PhD at the University of Central Florida, I was the
+instructor of record for *COP-3402: Systems Software* for both the
 #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/spr2026/")[Spring 2026]
 and #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/sum2026/")[Summer
 2026] semesters.
@@ -388,7 +388,8 @@ Johnson, Brayden Coggin, Daniel Henriquez, Thiago Airoldi, and Rasmin Ahmed.
 Four of these students discovered an interest in research while taking a course
 for which I served in a teaching capacity, with Adam, Michael, and David being
 enrolled in lab sessions I led as a GTA for COP~3402 in 2025, and Rasmin being
-a student in the section of COP~3402 I taught in 2026.
+a student in the section of COP~3402 I was the instructor of record for in
+2026.
 //
 The work this team of students has produced has led to a publication currently
 under review at the 49th IEEE/ACM International Conference on Software
