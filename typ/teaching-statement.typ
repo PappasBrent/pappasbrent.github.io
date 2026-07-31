@@ -116,7 +116,9 @@ have since made the course my own by incorporating student feedback.
 For instance, some students in my Spring 2026 section stated that they felt
 that the course lecture notes were too austere, and so in response I have
 expanded the course web pages to contain more than just speaker notes, but
-rather complete passages explaining the concepts reviewed in lecture. 
+rather
+#link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/sum2026/redirection.html")[complete
+passages] explaining the concepts and examples reviewed in lecture. 
 //
 Additionally, some students in my Spring 2026 section wished for lectures to
 explain fundamental concepts more thoroughly, and to fulfill this request I
