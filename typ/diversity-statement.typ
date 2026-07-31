@@ -89,8 +89,8 @@ software build systems], I recruited a team of seven students to assist me with
 cataloging the software build phases of hundreds of different open-source
 projects.
 //
-This team included both male and female students of Anglo, Latin, Vietnamese,
-and Arabic origin.
+This team included both male and female students of European, Latin,
+Vietnamese, and Arabic origin.
 //
 Over the course of an entire semester we cataloged over 1,000 build phases, and
 finally produced a dataset serving as the basis for a research paper currently
