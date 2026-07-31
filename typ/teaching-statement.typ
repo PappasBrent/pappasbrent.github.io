@@ -84,6 +84,29 @@ instructor of record for *COP~3402: Systems Software* for both the
 and #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/sum2026/")[Summer
 2026] semesters.
 //
+// 243 spring 2026
+// 107 summer 2026
+// 209 (and growing) fall 2026
+//
+Systems Software is a required course for UCF computer science majors with
+consistently high enrollment numbers: my Spring 2026 section had
+243 enrolled students, my Summer 2026 section had 107, and the section I am set
+to teach in the Fall has already has 209 enrollments.
+//
+Most students choose to take Systems Software during their sophomore year,
+after completing prerequisite courses on C programming, and data structures and
+algorithms.
+//
+As such, Systems Software is usually the first course students take that
+requires them to use industry-standard software development tools such as Git
+and Linux command line.
+//
+For many students learning how to use these tools can be difficult, and so to
+help my class succeed, I spend the first half of each semester teaching
+students the basics of developing software on Linux, and then use these
+concepts in the latter half of the course to help teach the basics of compiler
+design.
+
 I began teaching the course with a curriculum prepared by my advisor, and I
 have been gradually updating this curriculum in response to student
 suggestions.
