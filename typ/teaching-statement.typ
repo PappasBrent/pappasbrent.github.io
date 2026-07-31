@@ -102,7 +102,7 @@ algorithms.
 //
 As such, Systems Software is usually the first course students take that
 requires them to use industry-standard software development tools such as Git
-and Linux command line.
+and the Linux command line.
 //
 For many students learning how to use these tools can be difficult, and so to
 help my class succeed, I spend the first half of each semester teaching
