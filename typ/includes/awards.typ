@@ -70,7 +70,7 @@
     ,box[
         *Provost Scholarship*.
         For outstanding academic performance in high school.
-        Completely covered my undergradyate tuition fees at the University of Central Florida.
+        Completely covered my undergraduate tuition fees at the University of Central Florida.
     ]
 
 )
