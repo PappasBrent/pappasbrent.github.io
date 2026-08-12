@@ -475,9 +475,8 @@ mentees.
 I am most interested in teaching courses that foster advanced competencies in
 software development.
 //
-Specifically,
-#if "school" in sys.inputs [at #sys.inputs.at("school")]
-I would most like to teach #courses.join(", ", last: ", and ").
+Specifically, #if "school" in sys.inputs [at #sys.inputs.at("school")] I would
+most like to teach #courses.join(", ", last: ", and ").
 //
 Additionally, I would also be willing to teach courses on compiler design and
 programming languages, since my graduate research work often overlapped with
