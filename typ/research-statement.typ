@@ -189,7 +189,7 @@ I have implemented a technique for specifying file access permissions for
 individual software build phases, and mechanisms for detecting violations of
 such permissions @build-code-is-still-code.
 //
-This approach, called _build phase isolation_ directly protects against
+This approach, called _build phase isolation_, directly protects against
 pipeline poisoning attacks, which modify a software build system to perform
 some nefarious action such as malicious code injection.
 //
