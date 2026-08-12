@@ -222,8 +222,8 @@ abstractions.
 //
 Another paper of mine (co-authored by two undergraduate research assistants in
 a successful research-mentoring collaboration) on actually translating macros
-to C code is currently under review at the 41st IEEE/ACM International
-Conference on Automated Software Engineering.
+to C code has been accepted to the 41st IEEE/ACM International Conference on
+Automated Software Engineering.
 //
 This work advances the state of translation research by contributing the first
 set of semantic-aware rules for translating compile-time macros to run-time

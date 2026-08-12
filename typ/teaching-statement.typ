@@ -327,8 +327,8 @@ guidance on how to conduct research.
 //
 With our combined efforts we produced the first semantically-aware macro-to-C
 conversion tool, #link("https://github.com/appleseedlab/merc")[MerC], which has
-led to a conditionally-accepted paper at the 41st IEEE/ACM International
-Conference on Automated Software Engineering.
+led to an accepted paper at the 41st IEEE/ACM International Conference on
+Automated Software Engineering.
 //
 For his hard work Joey was made a co-author on the paper, and he used his
 research experience to obtain a full-time software engineering position at
