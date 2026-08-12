@@ -43,6 +43,10 @@ GitHub: #link("https://www.github.com/PappasBrent")
 
 #include "includes/teaching.typ"
 
+= Honors and Awards
+
+#include "includes/awards.typ"
+
 = Publications
 
 #include "includes/publications.typ"
@@ -58,10 +62,6 @@ GitHub: #link("https://www.github.com/PappasBrent")
 = Posters
 
 #include "includes/posters.typ"
-
-= Honors and Awards
-
-#include "includes/awards.typ"
 
 = Certifications
 
