@@ -484,6 +484,6 @@ programming languages, since my graduate research work often overlapped with
 these areas.
 //
 I am also qualified and capable of teaching introductory courses on computer
-programming, data structures and algorithms, and operating systems.
+programming, data structures, and algorithms.
 
 // Finally, I would also be happy to contribute a new a course on #todo.
