@@ -1,4 +1,18 @@
 #table(columns: (auto, auto), align: horizon, stroke: none, inset: 0pt, gutter: 10pt
+            , [*Summer 2026*]
+            , box[
+                *Instructor of Record.*
+                COP-3402 Systems Software.
+                UCF.
+                #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/sum2026/")[Course homepage.]
+                #link("https://youtube.com/playlist?list=PLEVrbB1AjxeWD2hWF4yDzXbwiy53hCiz9&si=H7a0F2RVFdwZYMzE")[Lecture Recordings.]
+                Mean average teaching evaluation score: *4.72/5*.
+                81/107 enrolled students responded.
+                Department mean was 4.29, college mean 4.23.
+                #link("https://drive.google.com/file/d/1eK4UCxWwwJqVfVcgwgfmo4jBog4SsbkZ/view?usp=drive_link")[Student ratings.]
+                #link("https://drive.google.com/file/d/1LyDys2cgLYzQw97GSF3Q4E8H9aeKCusm/view?usp=drive_link")[Student comments.]
+            ]
+
             , [*Spring 2026*]
             , box[
                 *Instructor of Record.*
