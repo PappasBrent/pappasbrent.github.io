@@ -42,6 +42,24 @@
 #set page(margin: 1in)
 #set text(10pt)
 
+#let mean(xs) = {
+  let avg = 0
+  for x in xs {
+    avg += x
+  }
+  return calc.round(avg / xs.len(), digits: 2)
+}
+
+#let ucf_my_course_ratings = (4.73, 4.86)
+#let ucf_my_instructor_ratings = (4.62, 4.72)
+#let ucf_my_average_course_rating = mean(ucf_my_course_ratings)
+#let ucf_my_average_instructor_rating = mean(ucf_my_instructor_ratings)
+
+#let ucf_department_course_ratings = (4.33, 4.35)
+#let ucf_department_instructor_ratings = (4.24, 4.29)
+#let ucf_department_average_course_rating = mean(ucf_department_course_ratings)
+#let ucf_department_average_instructor_rating = mean(ucf_department_instructor_ratings)
+
 #set document(
   title: [Teaching Statement]
 )
@@ -138,6 +156,13 @@ all lectures] and post the recordings after class for students to review.
 To incentivize students to still attend class and not only watch the
 recordings, I make attendance mandatory (but only worth 4% of the overall
 grade).
+//
+Across all my semesters teaching, I have achieved high course
+(#ucf_my_average_course_rating~/~5 average vs.
+#ucf_department_average_course_rating department average) and instructor
+(#ucf_my_average_instructor_rating~/~5 average vs.
+#ucf_department_average_instructor_rating department average) evaluation
+ratings.
 
 Before teaching COP~3402, I served as a GTA for the course, with my advisor being
 the instructor, during both the Spring and Fall of 2025.
@@ -155,8 +180,7 @@ instruction (4.89~/~5).
 
 = Teaching Awards
 
-On top of positive student reviews, I have also received GTA excellence awards
-from UCF at both the
+I have received GTA excellence awards from UCF at both the
 #link("https://drive.google.com/file/d/1Gas3ek39nMf2H7F3IKvntICKfKLw-Lrd/view")[college]
 and
 #link("https://drive.google.com/file/d/17G9zGkZdGVgldvZM5u9xAr1xgcUMaAyz/view")[university]
@@ -450,9 +474,12 @@ become proficient software engineers.
 I achieve this through three key techniques: *working backwards*, *leveraging
 the familiar*, and *rewarding success*.
 //
-Using these techniques, I have achieved high course (4.73~/~5 average) and
-instructor (4.62~/~5 average) evaluation ratings, as well multiple awards for
-GTA excellence.
+Using these techniques, I have achieved high course
+(#ucf_my_average_course_rating~/~5 average vs.
+#ucf_department_average_course_rating department average) and instructor
+(#ucf_my_average_instructor_rating~/~5 average vs.
+#ucf_department_average_instructor_rating department average) evaluation
+ratings, as well multiple awards for GTA excellence.
 //
 I have also applied these three techniques to undergraduate mentoring to
 produce several top-tier publications with undergraduate researchers, many of
