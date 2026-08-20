@@ -487,9 +487,9 @@ whom have leveraged the research experience they gained working with me to
 obtain positions in industry and academia.
 //
 #if "school" in sys.inputs [At #sys.inputs.at("school"),]
-I will continue to improve on these techniques to deliver
-quality instruction to my students, and enriching research opportunities to my
-mentees.
+//
+I will continue to improve on these techniques to deliver quality instruction
+to my students, and enriching research opportunities to my mentees.
 
 // NOTE(Brent): Remember to fill this with courses from the target school.
 // Include course code prefixes.
