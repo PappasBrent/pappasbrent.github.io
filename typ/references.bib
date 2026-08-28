@@ -1,4 +1,67 @@
 
+@Article{ambush-from-all-sides,
+  author       = "Ziyue Pan and Wenbo Shen and Xingkai Wang and Yutian
+                 Yang and Rui Chang and Yao Liu and Chengwei Liu and
+                 Yang Liu and Kui Ren",
+  title        = "Ambush From All Sides: Understanding Security Threats
+                 in Open-Source Software {CI}/{CD} Pipelines",
+  year         = "2024",
+  issue_date   = "Jan.-Feb. 2024",
+  publisher    = "IEEE Computer Society Press",
+  address      = "Washington, DC, USA",
+  volume       = "21",
+  number       = "1",
+  ISSN         = "1545-5971",
+  URL          = "https://doi.org/10.1109/TDSC.2023.3253572",
+  doi          = "10.1109/TDSC.2023.3253572",
+  abstract     = "The continuous integration and continuous deployment
+                 (CI/CD) pipelines are widely adopted on Internet
+                 hosting platforms, such as GitHub. However, current
+                 CI/CD pipelines suffer from malicious code and severe
+                 vulnerabilities. Even worse, people have not been fully
+                 aware of its attack surfaces and the corresponding
+                 impacts. Therefore, in this paper, we conduct a
+                 large-scale measurement and a systematic analysis to
+                 reveal the attack surfaces of the CI/CD pipeline and
+                 quantify their security impacts. Specifically, for the
+                 measurement, we collect a data set of 320,000+ CI/CD
+                 pipeline-configured GitHub repositories and build an
+                 analysis tool to parse the CI/CD pipelines and extract
+                 security-critical usages. Our measurement reveals that
+                 the script runtimes are prone to code hiding while the
+                 script usage update is not in time, giving attackers
+                 chances to hide malicious code and exploit existing
+                 vulnerabilities. Moreover, even the scripts from
+                 verified creators may contain severe vulnerabilities.
+                 Besides current CI/CD ecosystem heavily relies on
+                 several core scripts, which may lead to a single point
+                 of failure. While the CI/CD pipelines contain sensitive
+                 information/operations, making them the attacker's
+                 favorite targets. Inspired by the measurement findings,
+                 we abstract the threat model and the attack approach
+                 toward CI/CD pipelines, followed by a systematic
+                 analysis of attack surfaces, attack strategies, and the
+                 corresponding impacts. We further launch case studies
+                 on five attacks in real-world CI/CD environments to
+                 validate the revealed attack surfaces. Finally, we give
+                 suggestions on mitigating attacks on CI/CD scripts,
+                 including securing CI/CD configurations, securing CI/CD
+                 scripts, and improving CI/CD infrastructure.",
+  journal      = "IEEE Trans. Dependable Secur. Comput.",
+  month        = jan,
+  pages        = "403--418",
+  numpages     = "16",
+}
+
+@Misc{bachelors-2022,
+  author       = "Kevin McElrath",
+  title        = "Field of Bachelor's Degree in the United States:
+                 2022",
+  URL          = "https://www2.census.gov/library/publications/2025/demo/acs-59.pdf",
+  year         = "2025",
+  month        = jul,
+}
+
 @Book{bloom-taxonomy-revised,
   author       = "Anderson LW and Krathwohl DR and Airasian PW and
                  Cruikshank KA and Richard Mayer and Pintrich PR and J.
@@ -10,169 +73,6 @@
                  Revision of Bloom's Taxonomy of Educational
                  Objectives",
   ISBN         = "ISBN: 0-8013-1903-X",
-}
-
-@Misc{solarwinds,
-  author       = "{U. S. Government Accountability Office}",
-  date-added   = "2022-10-02 19:07:40 -0700",
-  date-modified = "2022-10-02 19:07:40 -0700",
-  url           = "https://www.gao.gov/blog/solarwinds-cyberattack-demands-significant-federal-and-private-sector-response-infographic",
-  title        = "SolarWinds Cyberattack Demands Significant Federal and
-                 Private-Sector Response (infographic)",
-  year         = "2021",
-}
-
-@Misc{xz-utils,
-  author       = "Lasse Collin",
-  title        = "xz",
-  year         = "2025",
-  publisher    = "GitHub",
-  journal      = "GitHub repository",
-  url          = "https://github.com/tukaani-project/xz/",
-}
-
-@article{ambush-from-all-sides,
-    author = {Pan, Ziyue and Shen, Wenbo and Wang, Xingkai and Yang, Yutian and Chang, Rui and Liu, Yao and Liu, Chengwei and Liu, Yang and Ren, Kui},
-    title = {Ambush From All Sides: Understanding Security Threats in Open-Source Software CI/CD Pipelines},
-    year = {2024},
-    issue_date = {Jan.-Feb. 2024},
-    publisher = {IEEE Computer Society Press},
-    address = {Washington, DC, USA},
-    volume = {21},
-    number = {1},
-    issn = {1545-5971},
-    url = {https://doi.org/10.1109/TDSC.2023.3253572},
-    doi = {10.1109/TDSC.2023.3253572},
-    abstract = {The continuous integration and continuous deployment (CI/CD) pipelines are widely adopted on Internet hosting platforms, such as GitHub. However, current CI/CD pipelines suffer from malicious code and severe vulnerabilities. Even worse, people have not been fully aware of its attack surfaces and the corresponding impacts. Therefore, in this paper, we conduct a large-scale measurement and a systematic analysis to reveal the attack surfaces of the CI/CD pipeline and quantify their security impacts. Specifically, for the measurement, we collect a data set of 320,000+ CI/CD pipeline-configured GitHub repositories and build an analysis tool to parse the CI/CD pipelines and extract security-critical usages. Our measurement reveals that the script runtimes are prone to code hiding while the script usage update is not in time, giving attackers chances to hide malicious code and exploit existing vulnerabilities. Moreover, even the scripts from verified creators may contain severe vulnerabilities. Besides current CI/CD ecosystem heavily relies on several core scripts, which may lead to a single point of failure. While the CI/CD pipelines contain sensitive information/operations, making them the attacker's favorite targets. Inspired by the measurement findings, we abstract the threat model and the attack approach toward CI/CD pipelines, followed by a systematic analysis of attack surfaces, attack strategies, and the corresponding impacts. We further launch case studies on five attacks in real-world CI/CD environments to validate the revealed attack surfaces. Finally, we give suggestions on mitigating attacks on CI/CD scripts, including securing CI/CD configurations, securing CI/CD scripts, and improving CI/CD infrastructure.},
-    journal = {IEEE Trans. Dependable Secur. Comput.},
-    month = jan,
-    pages = {403–418},
-    numpages = {16}
-}
-
-@misc{closing-the-chain,
-    title={Closing the Chain: How to reduce your risk of being SolarWinds, Log4j, or XZ Utils},
-    author={Sivana Hamer and Jacob Bowen and Md Nazmul Haque and Robert Hines and Chris Madden and Laurie Williams},
-    year={2025},
-    eprint={2503.12192},
-    archivePrefix={arXiv},
-    primaryClass={cs.SE},
-    url={https://arxiv.org/abs/2503.12192},
-}
-
-@INPROCEEDINGS{maki,
-    author={Pappas, Brent and Gazzillo, Paul},
-    booktitle={2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)},
-    title={Semantic Analysis of Macro Usage for Portability},
-    year={2024},
-    volume={},
-    number={},
-    pages={229-240},
-    keywords={Codes;Linux;Semantics;Transforms;Syntactics;Kernel;Software engineering;macros;C;program analysis},
-    doi={10.1145/3597503.3623323}
-}
-
-
-@inproceedings{build-code-is-still-code,
-    author = {Pappas, Brent and Gazzillo, Paul},
-    title = {Build Code is Still Code: Finding the Antidote for Pipeline Poisoning},
-    year = {2026},
-    isbn = {9798400724251},
-    publisher = {Association for Computing Machinery},
-    address = {New York, NY, USA},
-    url = {https://doi.org/10.1145/3786582.3786799},
-    doi = {10.1145/3786582.3786799},
-    abstract = {Open source C code underpins society’s computing infrastructure. Decades of work has helped harden C code against attackers, but C projects do not consist of only C code. C projects also contain build system code for automating development tasks like compilation, testing, and packaging. These build systems are critcal to software supply chain security and vulnerable to being poisoned, with the XZ Utils and SolarWinds attacks being recent examples. Existing techniques try to harden software supply chains by verifying software dependencies, but such methods ignore the build system itself. Similarly, classic software security checkers only analyze and monitor program code, not build system code. Moreover, poisoned build systems can easily circumvent tools for detecting program code vulnerabilities by disabling such checks. We present development phase isolation, a novel strategy for hardening build systems against poisoning by modeling the information and behavior permissions of build automation as if it were program code. We have prototyped this approach as a tool called Foreman, which successfully detects and warns about the poisoned test files involved in the XZ Utils attack. We outline our future plans to protect against pipeline poisoning by automatically checking development phase isolation. We envision a future where build system security checkers are as prevalent as program code checkers.},
-    booktitle = {Proceedings of the IEEE/ACM 48th International Conference on Software Engineering},
-    pages = {1–5},
-    numpages = {5},
-    keywords = {Build systems, pipeline poisoning, software supply chains},
-    location = {
-                },
-    series = {ICSE-NIER '26}
-}
-
-@Misc{sbom,
-  author       = "{National Coordinator for Critical Infrastructure
-                 Security and Resilience}",
-  url = "https://www.cisa.gov/sbom",
-  title        = "Software Bill of Materials ({SBOM})",
-  year         = "2026",
-}
-
-@Misc{vex,
-  author       = "{National Coordinator for Critical Infrastructure
-                 Security and Resilience}",
-  url = "https://www.cisa.gov/sites/default/files/publications/VEX_Use_Cases_Document_508c.pdf",
-  title        = "Vulnerability Exploitability eXchange ({VEX}) – Use
-                 Cases",
-  year         = "2022",
-}
-
-@Misc{tractor,
-    author       = "{DARPA}",
-    title        = "Translating All {C} {TO} Rust ({TRACTOR})",
-    year         = "2024",
-    month        = jul,
-    url = "https://sam.gov/opp/1e45d648886b4e9ca91890285af77eb7/view",
-}
-
-@Misc{mitre-solar-winds,
-    author       = "{MITRE | ATT\&CK}",
-    title        = "SolarWinds Compromise",
-    year         = "2025",
-    month        = sep,
-    url = "https://attack.mitre.org/campaigns/C0024/",
-}
-
-@Article{ernst-et-al,
-    author={Ernst, M.D. and Badros, G.J. and Notkin, D.},
-    journal={IEEE Transactions on Software Engineering}, 
-    title={An empirical analysis of c preprocessor use}, 
-    year={2002},
-    volume={28},
-    number={12},
-    pages={1146-1170},
-    keywords={Programming profession;Packaging;Pattern analysis;Computer languages;Program processors;Data preprocessing;Computer bugs;Data analysis;Software tools;Design engineering},
-    doi={10.1109/TSE.2002.1158288}
-}
-
-@Misc{hackerbot-claw,
-    author       = "Varun Sharma",
-    title        = "hackerbot-claw: An AI-Powered Bot Actively Exploiting GitHub Actions -- Microsoft, DataDog, and CNCF Projects Hit So Far",
-    year         = "2026",
-    month        = mar,
-    url = "https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation",
-}
-
-@Misc{cisa-sbom,
-    author       = "{The Cybersecurity and Infrastructure Security Agency}",
-    title        = "2025 Minimum Elements for a Software Bill of Materials (SBOM)",
-    year         = "2025",
-    month        = aug,
-    url = "https://www.cisa.gov/resources-tools/resources/2025-minimum-elements-software-bill-materials-sbom",
-}
-
-@Misc{cisa-vex,
-    author       = "{The Cybersecurity and Infrastructure Security Agency}",
-    title        = "Minimum Requirements for Vulnerability Exploitability eXchange (VEX)",
-    year         = "2023",
-    month        = apr,
-    url = "https://www.cisa.gov/sites/default/files/2023-04/minimum-requirements-for-vex-508c.pdf",
-}
-
-@Misc{c2rust,
-    author       = "{Immunant inc.}",
-    url = "https://github.com/immunant/c2rust",
-    title        = "C2rust",
-    year         = "2026",
-}
-
-@Misc{foreman,
-    author       = "Brent Pappas",
-    url          = "https://github.com/appleseedlab/foreman",
-    title        = "Foreman",
-    year         = "2026",
 }
 
 @InProceedings{broken-linux,
@@ -225,93 +125,307 @@
   series       = "ESEC/FSE 2021",
 }
 
-@Misc{linux,
-    author       = "{The Linux Kernel Organization}",
-    url = "https://www.kernel.org",
-    title        = "The Linux Kernel",
-    year         = "2024",
+@InProceedings{build-code-is-still-code,
+  author       = "Brent Pappas and Paul Gazzillo",
+  title        = "Build Code is Still Code: Finding the Antidote for
+                 Pipeline Poisoning",
+  year         = "2026",
+  ISBN         = "9798400724251",
+  publisher    = "Association for Computing Machinery",
+  address      = "New York, NY, USA",
+  URL          = "https://doi.org/10.1145/3786582.3786799",
+  doi          = "10.1145/3786582.3786799",
+  abstract     = "Open source C code underpins society’s computing
+                 infrastructure. Decades of work has helped harden C
+                 code against attackers, but C projects do not consist
+                 of only C code. C projects also contain build system
+                 code for automating development tasks like compilation,
+                 testing, and packaging. These build systems are critcal
+                 to software supply chain security and vulnerable to
+                 being poisoned, with the XZ Utils and SolarWinds
+                 attacks being recent examples. Existing techniques try
+                 to harden software supply chains by verifying software
+                 dependencies, but such methods ignore the build system
+                 itself. Similarly, classic software security checkers
+                 only analyze and monitor program code, not build system
+                 code. Moreover, poisoned build systems can easily
+                 circumvent tools for detecting program code
+                 vulnerabilities by disabling such checks. We present
+                 development phase isolation, a novel strategy for
+                 hardening build systems against poisoning by modeling
+                 the information and behavior permissions of build
+                 automation as if it were program code. We have
+                 prototyped this approach as a tool called Foreman,
+                 which successfully detects and warns about the poisoned
+                 test files involved in the XZ Utils attack. We outline
+                 our future plans to protect against pipeline poisoning
+                 by automatically checking development phase isolation.
+                 We envision a future where build system security
+                 checkers are as prevalent as program code checkers.",
+  booktitle    = "Proceedings of the IEEE/ACM 48th International
+                 Conference on Software Engineering",
+  pages        = "1--5",
+  numpages     = "5",
+  keywords     = "Build systems, pipeline poisoning, software supply
+                 chains",
+  location     = "",
+  series       = "ICSE-NIER '26",
 }
 
-@misc{bachelors-2022,
-    author={Kevin McElrath},
-    title={Field of Bachelor's Degree in the United States: 2022},
-    url="https://www2.census.gov/library/publications/2025/demo/acs-59.pdf",
-    year = "2025",
-    month = jul,
+@Misc{c2rust,
+  author       = "{Immunant inc.}",
+  URL          = "https://github.com/immunant/c2rust",
+  title        = "{C2}rust",
+  year         = "2026",
 }
 
-@Misc{smashing-the-stack,
-    author       = "Elias Levy",
-    url = "https://insecure.org/stf/smashstack.html",
-    title        = "Smashing The Stack For Fun And Profit",
-    year         = "1996",
-    month        = nov,
+@Misc{cisa-sbom,
+  author       = "{The Cybersecurity and Infrastructure Security
+                 Agency}",
+  title        = "2025 Minimum Elements for a Software Bill of Materials
+                 ({SBOM})",
+  year         = "2025",
+  month        = aug,
+  URL          = "https://www.cisa.gov/resources-tools/resources/2025-minimum-elements-software-bill-materials-sbom",
 }
 
-@Misc{ucf-enrollment,
-    author       = "{The University of Central Florida}",
-    url = "https://analytics.ucf.edu/enrollment/",
-    title        = "Enrollment",
-    year         = "2026",
+@Misc{cisa-vex,
+  author       = "{The Cybersecurity and Infrastructure Security
+                 Agency}",
+  title        = "Minimum Requirements for Vulnerability Exploitability
+                 eXchange ({VEX})",
+  year         = "2023",
+  month        = apr,
+  URL          = "https://www.cisa.gov/sites/default/files/2023-04/minimum-requirements-for-vex-508c.pdf",
 }
 
-@Misc{nces-ucf,
-    author       = "{Nation Center for Education Statistics}",
-    url = "https://nces.ed.gov/collegenavigator/?q=central+florida&s=all&id=132903#enrolmt",
-    title        = "University of Central Florida -- Enrollment",
-    year         = "2024",
+@Misc{closing-the-chain,
+  title        = "Closing the Chain: How to reduce your risk of being
+                 SolarWinds, Log4j, or {XZ} Utils",
+  author       = "Sivana Hamer and Jacob Bowen and Md Nazmul Haque and
+                 Robert Hines and Chris Madden and Laurie Williams",
+  year         = "2025",
+  eprint       = "2503.12192",
+  archiveprefix = "arXiv",
+  primaryclass = "cs.SE",
+  URL          = "https://arxiv.org/abs/2503.12192",
 }
 
-@article{women-computing,
-author = {Lara Perez-Felkner and Kristen Erichsen and Yang Li and Jinjushang Chen and Shouping Hu and Ladanya Ramirez Surmeier and Chelsea Shore},
-title ={Computing Education Interventions to Increase Gender Equity from 2000 to 2020: A Systematic Literature Review},
-
-journal = {Review of Educational Research},
-volume = {95},
-number = {3},
-pages = {536-580},
-year = {2025},
-doi = {10.3102/00346543241241536},
-
-URL = { 
-    
-        https://doi.org/10.3102/00346543241241536
-    
-    
-
-},
-eprint = { 
-    
-        https://doi.org/10.3102/00346543241241536
-    
-    
-
-        }
-    ,
-    abstract = { Although gender parity has been achieved in some STEM fields, gender disparities persist in computing, one of the fastest-growing and highest-earning career fields. In this systematic literature review, we expand upon academic momentum theory to categorize computing interventions intended to make computing environments more inclusive to girls and women and consider how those characteristics vary by the success of the intervention. Particular attention is given to the efficacy of broadening participation and success for women in computer science, information technology, and related fields. After scrutinizing 168 relevant studies, 48 met the inclusion criteria and were included. We introduce a framework for gender equity in computing, expanding on existing research on academic and STEM momentum to encompass new domains representing social and structural momentum. Our analysis reveals the complex roles of intervention domains, strategies, goals, levels, and duration in shaping their efficacy. Implications for theory, research, and practice are discussed. }
+@InProceedings{disabled-students,
+  author       = "Isabela Figueira and Josahandi M. Cisneros and Jason
+                 Lee Weber and Wendy Sanka and Karen Phan and Jennifer
+                 Wong-Ma and Stacy M. Branham",
+  title        = "Where are the Disabled Students?: {A} Literature
+                 Review of Disability Inclusion in Computing Education
+                 Research",
+  year         = "2026",
+  ISBN         = "9798400722561",
+  publisher    = "Association for Computing Machinery",
+  address      = "New York, NY, USA",
+  URL          = "https://doi.org/10.1145/3770762.3772561",
+  doi          = "10.1145/3770762.3772561",
+  abstract     = "Computing Education Research (CER) is increasingly
+                 considering digital accessibility, yet the current
+                 state of disability inclusion remains unexplored. To
+                 understand how and to what extent disabled people and
+                 their voices are involved in CER, we conducted a
+                 systematic literature review of 68 full papers about
+                 accessibility published between 2008 and 2025 in the
+                 SIGCSE Technical Symposium, the premiere CER venue. Our
+                 analysis reveals that less than half of papers about
+                 accessibility involve disabled participants,
+                 accessibility research papers are more likely to
+                 address visual disabilities or accessibility topics
+                 more generally, and use of disability-focused theories
+                 or frameworks is uncommon. Based on these findings, we
+                 advocate for increased involvement of disabled people
+                 in all aspects of computing education research,
+                 including in designing and evaluating accessible
+                 curricula and prototypes, examining disabled
+                 experiences in the classroom, and conducting research
+                 itself. We conclude with specific recommendations for
+                 methods and frameworks that computing education
+                 researchers and teachers can use to meaningfully
+                 incorporate disabled perspectives into their
+                 practices.",
+  booktitle    = "Proceedings of the 57th ACM Technical Symposium on
+                 Computer Science Education V.1",
+  pages        = "330--336",
+  numpages     = "7",
+  keywords     = "disability, accessibility",
+  location     = "USA",
+  series       = "SIGCSE TS 2026",
 }
 
-@inproceedings{disabled-students,
-    author = {Figueira, Isabela and Cisneros, Josahandi M. and Weber, Jason Lee and Sanka, Wendy and Phan, Karen and Wong-Ma, Jennifer and Branham, Stacy M.},
-    title = {Where are the Disabled Students?: A Literature Review of Disability Inclusion in Computing Education Research},
-    year = {2026},
-    isbn = {9798400722561},
-    publisher = {Association for Computing Machinery},
-    address = {New York, NY, USA},
-    url = {https://doi.org/10.1145/3770762.3772561},
-    doi = {10.1145/3770762.3772561},
-    abstract = {Computing Education Research (CER) is increasingly considering digital accessibility, yet the current state of disability inclusion remains unexplored. To understand how and to what extent disabled people and their voices are involved in CER, we conducted a systematic literature review of 68 full papers about accessibility published between 2008 and 2025 in the SIGCSE Technical Symposium, the premiere CER venue. Our analysis reveals that less than half of papers about accessibility involve disabled participants, accessibility research papers are more likely to address visual disabilities or accessibility topics more generally, and use of disability-focused theories or frameworks is uncommon. Based on these findings, we advocate for increased involvement of disabled people in all aspects of computing education research, including in designing and evaluating accessible curricula and prototypes, examining disabled experiences in the classroom, and conducting research itself. We conclude with specific recommendations for methods and frameworks that computing education researchers and teachers can use to meaningfully incorporate disabled perspectives into their practices.},
-    booktitle = {Proceedings of the 57th ACM Technical Symposium on Computer Science Education V.1},
-    pages = {330–336},
-    numpages = {7},
-    keywords = {disability, accessibility},
-    location = {USA},
-    series = {SIGCSE TS 2026}
+@Article{ernst-et-al,
+  author       = "M. D. Ernst and G. J. Badros and D. Notkin",
+  journal      = "IEEE Transactions on Software Engineering",
+  title        = "An empirical analysis of c preprocessor use",
+  year         = "2002",
+  volume       = "28",
+  number       = "12",
+  pages        = "1146--1170",
+  keywords     = "Programming profession;Packaging;Pattern
+                 analysis;Computer languages;Program processors;Data
+                 preprocessing;Computer bugs;Data analysis;Software
+                 tools;Design engineering",
+  doi          = "10.1109/TSE.2002.1158288",
+}
+
+@Misc{foreman,
+  author       = "Brent Pappas",
+  URL          = "https://github.com/appleseedlab/foreman",
+  title        = "Foreman",
+  year         = "2026",
+}
+
+@Misc{hackerbot-claw,
+  author       = "Varun Sharma",
+  title        = "hackerbot-claw: An {AI}-Powered Bot Actively
+                 Exploiting GitHub Actions -- Microsoft, DataDog, and
+                 {CNCF} Projects Hit So Far",
+  year         = "2026",
+  month        = mar,
+  URL          = "https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation",
 }
 
 @Misc{impact-of-surge,
-    author       = "{CRA Enrollment Committee Institution Subgroup}",
-    url = "https://cra.org/wp-content/uploads/2017/02/Generation-CS.pdf",
-    title        = "Generation CS: Computer Science Undergraduate Enrollments Surge Since 2006",
-    year         = "2017",
+  author       = "{CRA Enrollment Committee Institution Subgroup}",
+  URL          = "https://cra.org/wp-content/uploads/2017/02/Generation-CS.pdf",
+  title        = "Generation {CS}: Computer Science Undergraduate
+                 Enrollments Surge Since 2006",
+  year         = "2017",
+}
+
+@Misc{linux,
+  author       = "{The Linux Kernel Organization}",
+  URL          = "https://www.kernel.org",
+  title        = "The Linux Kernel",
+  year         = "2024",
+}
+
+@InProceedings{maki,
+  author       = "Brent Pappas and Paul Gazzillo",
+  booktitle    = "2024 IEEE/ACM 46th International Conference on
+                 Software Engineering (ICSE)",
+  title        = "Semantic Analysis of Macro Usage for Portability",
+  year         = "2024",
+  volume       = "",
+  number       = "",
+  pages        = "229--240",
+  keywords     = "Codes;Linux;Semantics;Transforms;Syntactics;Kernel;Software
+                 engineering;macros;C;program analysis",
+  doi          = "10.1145/3597503.3623323",
+}
+
+@Misc{mitre-solar-winds,
+  author       = "{MITRE | ATT\&CK}",
+  title        = "SolarWinds Compromise",
+  year         = "2025",
+  month        = sep,
+  URL          = "https://attack.mitre.org/campaigns/C0024/",
+}
+
+@Misc{nces-ucf,
+  author       = "{Nation Center for Education Statistics}",
+  URL          = "https://nces.ed.gov/collegenavigator/?q=central+florida&s=all&id=132903#enrolmt",
+  title        = "University of Central Florida -- Enrollment",
+  year         = "2024",
+}
+
+@Misc{sbom,
+  author       = "{National Coordinator for Critical Infrastructure
+                 Security and Resilience}",
+  URL          = "https://www.cisa.gov/sbom",
+  title        = "Software Bill of Materials ({SBOM})",
+  year         = "2026",
+}
+
+@Misc{smashing-the-stack,
+  author       = "Elias Levy",
+  URL          = "https://insecure.org/stf/smashstack.html",
+  title        = "Smashing The Stack For Fun And Profit",
+  year         = "1996",
+  month        = nov,
+}
+
+@Misc{solarwinds,
+  author       = "{U. S. Government Accountability Office}",
+  date-added   = "2022-10-02 19:07:40 -0700",
+  date-modified = "2022-10-02 19:07:40 -0700",
+  URL          = "https://www.gao.gov/blog/solarwinds-cyberattack-demands-significant-federal-and-private-sector-response-infographic",
+  title        = "SolarWinds Cyberattack Demands Significant Federal and
+                 Private-Sector Response (infographic)",
+  year         = "2021",
+}
+
+@Misc{tractor,
+  author       = "{DARPA}",
+  title        = "Translating All {C} {TO} Rust ({TRACTOR})",
+  year         = "2024",
+  month        = jul,
+  URL          = "https://sam.gov/opp/1e45d648886b4e9ca91890285af77eb7/view",
+}
+
+@Misc{ucf-enrollment,
+  author       = "{The University of Central Florida}",
+  URL          = "https://analytics.ucf.edu/enrollment/",
+  title        = "Enrollment",
+  year         = "2026",
+}
+
+@Misc{vex,
+  author       = "{National Coordinator for Critical Infrastructure
+                 Security and Resilience}",
+  URL          = "https://www.cisa.gov/sites/default/files/publications/VEX_Use_Cases_Document_508c.pdf",
+  title        = "Vulnerability Exploitability eXchange ({VEX}) – Use
+                 Cases",
+  year         = "2022",
+}
+
+@Article{women-computing,
+  author       = "Lara Perez-Felkner and Kristen Erichsen and Yang Li
+                 and Jinjushang Chen and Shouping Hu and Ladanya Ramirez
+                 Surmeier and Chelsea Shore",
+  title        = "Computing Education Interventions to Increase Gender
+                 Equity from 2000 to 2020: {A} Systematic Literature
+                 Review",
+  journal      = "Review of Educational Research",
+  volume       = "95",
+  number       = "3",
+  pages        = "536--580",
+  year         = "2025",
+  doi          = "10.3102/00346543241241536",
+  URL          = "https://doi.org/10.3102/00346543241241536",
+  eprint       = "https://doi.org/10.3102/00346543241241536",
+  abstract     = "Although gender parity has been achieved in some STEM
+                 fields, gender disparities persist in computing, one of
+                 the fastest-growing and highest-earning career fields.
+                 In this systematic literature review, we expand upon
+                 academic momentum theory to categorize computing
+                 interventions intended to make computing environments
+                 more inclusive to girls and women and consider how
+                 those characteristics vary by the success of the
+                 intervention. Particular attention is given to the
+                 efficacy of broadening participation and success for
+                 women in computer science, information technology, and
+                 related fields. After scrutinizing 168 relevant
+                 studies, 48 met the inclusion criteria and were
+                 included. We introduce a framework for gender equity in
+                 computing, expanding on existing research on academic
+                 and STEM momentum to encompass new domains representing
+                 social and structural momentum. Our analysis reveals
+                 the complex roles of intervention domains, strategies,
+                 goals, levels, and duration in shaping their efficacy.
+                 Implications for theory, research, and practice are
+                 discussed.",
+}
+
+@Misc{xz-utils,
+  author       = "Lasse Collin",
+  title        = "xz",
+  year         = "2025",
+  publisher    = "GitHub",
+  journal      = "GitHub repository",
+  URL          = "https://github.com/tukaani-project/xz/",
 }
