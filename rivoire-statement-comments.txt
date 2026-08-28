@@ -42,13 +42,13 @@ consider:
   not in California, for example. (Cards on the table, I personally hate it
   because I am white but 0% English and 50% people who actively fought the
   English.) Maybe just "European"?
-- A couple things you could think about including: first, there's not a lot of
-  discussion of how some groups have been systematically excluded from computer
-  science (sometimes as an artifact of higher education generally, sometimes
-  more specifically). Saying that most of the achievements in CS are by white
-  dudes without this caveat may hit the wrong way. It also may impact the way
-  you think about supporting students. Second, do you want to talk at all about
-  disability? Disability accommodations and really thinking about the
+- DONE: A couple things you could think about including: first, there's not a
+  lot of discussion of how some groups have been systematically excluded from
+  computer science (sometimes as an artifact of higher education generally,
+  sometimes more specifically). Saying that most of the achievements in CS are
+  by white dudes without this caveat may hit the wrong way. It also may impact
+  the way you think about supporting students. Second, do you want to talk at
+  all about disability? Disability accommodations and really thinking about the
   accessibility of what you teach are a big part of teaching. If you don't have
   anything to say about these topics, feel free to ignore this, but these are
   things I might push you on if this were an interview question instead of a
