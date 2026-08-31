@@ -1,4 +1,13 @@
 #table(columns: (auto, auto), align: horizon, stroke: none, inset: 0pt, gutter: 10pt
+            , [*Fall 2026*]
+            , box[
+                *Instructor of Record.*
+                COP-3402 Systems Software.
+                UCF.
+                #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/fal2026/")[Course homepage.]
+                #link("https://youtube.com/playlist?list=PLf5L2BR9YASw&si=wUw7B0_81DRSTuKp")[Lecture Recordings.]
+            ]
+
             , [*Summer 2026*]
             , box[
                 *Instructor of Record.*
