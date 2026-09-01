@@ -14,17 +14,10 @@
         /* - *Office hours*. Hosted four 45-minute long office hour sessions each week to resolve student issues with assignments and provide supplemental instruction on topics such as how to edit software with Vim. */
     ]
 
-    , [*Jun 2025 - Dec 2025*]
+    , [*May 2024 - Dec 2025*]
     , box[
         *Graduate Research Assistant* \
         University of Central Florida. Orlando, Florida.
-    ]
-
-    , [*Aug 2024 - May 2025*]
-    , box[
-        *Graduate Research Assistant* \
-        University of Central Florida. Orlando, Florida.
-        /* - Same responsibilities as #link(<gra>)[below] (Jul 2021 - Jul 2023). */
     ]
 
     , [*Aug 2023 - Apr 2024*]
