@@ -7,6 +7,18 @@
 
     , [*2026*]
     , box[
+        *Translation Tag Team: Formal Rules and LLMs Translate More Macros Together than Apart*: by Brent Pappas, Joseph Zalusky, Zachary Burkett, and Paul Gazzillo.
+        ASE.
+        // Acceptance rate of XX.XX% (XX / XXX).
+        #link("https://arxiv.org/abs/2608.06705")[Pre-print.]
+        #link("https://zenodo.org/records/22062492")[Artifact.]
+        Badges: Available, functional, and reusable.
+        // #link("")[Presentation.]
+        // #link("")[Slides.]
+    ]
+
+    , [*2026*]
+    , box[
         *Build Code is Still Code: Finding the Antidote for Pipeline Poisoning*: by Brent Pappas and Paul Gazzillo.
         ICSE NIER.
         Acceptance rate of 33.11% (50 / 151).
