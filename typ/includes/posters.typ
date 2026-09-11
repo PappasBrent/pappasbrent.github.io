@@ -5,6 +5,15 @@
     inset: 0pt,
     gutter: 10pt
 
+    // Nov 6-7, 2026
+    , [*2026*]
+    , box[
+        Curing Pipeline Poisoning with Build Phase Isolation.
+        2026 Academy of Science, Engineering & Medicine of Florida Annual Meeting.
+        Acceptance rate of 55.56% (150 / 270).
+        // #link("")[Link].
+    ]
+
     , [*2024*]
     , box[
         Holy Macroni! Finding Macro Usage Errors in the Linux Kernel.
