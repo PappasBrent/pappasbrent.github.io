@@ -14,19 +14,34 @@
         /* - *Office hours*. Hosted four 45-minute long office hour sessions each week to resolve student issues with assignments and provide supplemental instruction on topics such as how to edit software with Vim. */
     ]
 
-    , [*May 2024 - Dec 2025*]
+    , [*Aug 2024 - Dec 2025*]
     , box[
         *Graduate Research Assistant* \
         University of Central Florida. Orlando, Florida.
     ]
 
-    , [*Aug 2023 - Apr 2024*]
+    , [*June 2024 - Aug 2024*]
+    , box[
+        *Software Engineering Intern* \
+        Trail of Bits. Remote.
+    ]
+
+    , [*Jan 2024 - May 2024*]
     , box[
         *Graduate Teaching Assistant for COP-3402 Systems Software* \
         University of Central Florida. Orlando, Florida.
-        /* - *Teaching*. Led weekly labs on the Linux command line, C system calls, git, make, and compiler design. */
-        /* - *Exam Proctoring*. Answered student questions during exams and monitored students to prevent cheating. */
-        /* - *Student perception of Instruction*. #link("https://docs.google.com/spreadsheets/d/1EjWH-YXkb-_Eu4IdX0wat7OVKp5OswKjpEf29zrua80/edit?usp=sharing")[Link]. */
+    ]
+
+    , [*Dec 2023 - Jan 2023*]
+    , box[
+        *Graduate Teaching Assistant for COP-3402 Systems Software* \
+        University of Central Florida. Orlando, Florida.
+    ]
+
+    , [*Aug 2023 - Dec 2023*]
+    , box[
+        *Graduate Teaching Assistant for COP-3402 Systems Software* \
+        University of Central Florida. Orlando, Florida.
     ]
 
     , [*May 2023 - Aug 2023*]
