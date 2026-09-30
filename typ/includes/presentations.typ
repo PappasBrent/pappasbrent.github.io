@@ -10,7 +10,7 @@
     ,box[
         *ASE 2026: Translation Tag Team: Formal Rules and LLMs Translate More Macros Together than Apart.*
         Presentation at the 2026 IEEE/ACM International Conference on Automated Software Engineering
-        #link("https://youtu.be/Oxla2vtVXRw")[YouTube recording].
+        #link("https://youtu.be/mYOGyw83Upg")[YouTube recording].
         #link("https://docs.google.com/presentation/d/1HsDao5RztdtDpqlOboFx2-6rKCsds-djOqGAsnyXTMs/edit?usp=sharing")[Slides].
     ]
 
