@@ -13,8 +13,8 @@
         #link("https://arxiv.org/abs/2608.06705")[Pre-print.]
         #link("https://zenodo.org/records/22062492")[Artifact.]
         Badges: Available, functional, and reusable.
-        // #link("")[Presentation.]
-        // #link("")[Slides.]
+        #link("https://youtu.be/Oxla2vtVXRw")[Presentation.]
+        #link("https://docs.google.com/presentation/d/1HsDao5RztdtDpqlOboFx2-6rKCsds-djOqGAsnyXTMs/edit?usp=sharing")[Slides.]
     ]
 
     , [*2026*]

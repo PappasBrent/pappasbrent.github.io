@@ -5,6 +5,15 @@
     inset: 0pt,
     gutter: 10pt
 
+    // ,[*2026-10-13*]
+    ,[*2026*]
+    ,box[
+        *ASE 2026: Translation Tag Team: Formal Rules and LLMs Translate More Macros Together than Apart.*
+        Presentation at the 2026 IEEE/ACM International Conference on Automated Software Engineering
+        #link("https://youtu.be/Oxla2vtVXRw")[YouTube recording].
+        #link("https://docs.google.com/presentation/d/1HsDao5RztdtDpqlOboFx2-6rKCsds-djOqGAsnyXTMs/edit?usp=sharing")[Slides].
+    ]
+
     // ,[*2026-04-16*]
     ,[*2026*]
     ,box[
