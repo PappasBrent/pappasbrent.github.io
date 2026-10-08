@@ -9,7 +9,7 @@
     , box[
         *Translation Tag Team: Formal Rules and LLMs Translate More Macros Together than Apart*: by Brent Pappas, Joseph Zalusky, Zachary Burkett, and Paul Gazzillo.
         ASE.
-        // Acceptance rate of XX.XX% (XX / XXX).
+        Acceptance rate of 20.20% (263 / 1304).
         #link("https://arxiv.org/abs/2608.06705")[Pre-print.]
         #link("https://zenodo.org/records/22062492")[Artifact.]
         Badges: Available, functional, and reusable.
