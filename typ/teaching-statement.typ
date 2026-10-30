@@ -164,7 +164,7 @@ Across all my semesters teaching, I have achieved high course
 ratings.
 
 Before teaching COP~3402, I served as a GTA for the course, with my advisor being
-the instructor, during both the Spring and Fall of 2025.
+the instructor, during both the Fall of 2024 and Spring of 2025.
 //
 During these semesters I led small (30 students or fewer) labs, in which I
 would answer student questions, review project assignments, and provide
@@ -460,7 +460,7 @@ Johnson, Brayden Coggin, Daniel Henriquez, Thiago Airoldi, and Rasmin Ahmed.
 //
 Four of these students discovered an interest in research while taking a course
 for which I served in a teaching capacity, with Adam, Michael, and David being
-enrolled in lab sessions I led as a GTA for COP~3402 in 2025, and Rasmin being
+enrolled in lab sessions I led as a GTA for COP~3402, and Rasmin being
 a student in the section of COP~3402 I was the instructor of record for in
 Spring 2026.
 //
