@@ -36,7 +36,7 @@
                 #link("https://drive.google.com/file/d/1M0mR09uZn8BhnSjjjtGXQITjz_Dd6-1Y/view?usp=sharing")[Student comments.]
             ]
 
-            , [*Fall 2025*]
+            , [*Spring 2025*]
             , box[
                 *Graduate Teaching Assistant.*
                 COP-3402 Systems Software.
@@ -46,7 +46,7 @@
                 #link("https://docs.google.com/spreadsheets/d/1EjWH-YXkb-_Eu4IdX0wat7OVKp5OswKjpEf29zrua80/edit?usp=sharing")[Student perception of instruction.]
             ]
 
-            , [*Spring 2025*]
+            , [*Fall 2024*]
             , box[
                 *Graduate Teaching Assistant.*
                 COP-3402 Systems Software.
