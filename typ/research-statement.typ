@@ -222,8 +222,8 @@ abstractions.
 //
 Another paper of mine (co-authored by two undergraduate research assistants in
 a successful research-mentoring collaboration) on actually translating macros
-to C code has been accepted to the 41st IEEE/ACM International Conference on
-Automated Software Engineering.
+to C code was published at the 41st IEEE/ACM International Conference on
+Automated Software Engineering (ASE '26) @merc.
 //
 This work advances the state of translation research by contributing the first
 set of semantic-aware rules for translating compile-time macros to run-time
@@ -327,8 +327,7 @@ minimizing their downsides, by combining the two tools into a translation tag
 team which first uses MerC to translate many macros quickly and correctly, and
 then calls on LLMs to translate the more complex remaining macros.
 //
-A publication associated with MerC has been conditionally-accepted to the 41st
-IEEE/ACM International Conference on Automated Software Engineering.
+A paper associated with MerC has been published at ASE '26 @merc.
 //
 The undergraduate students who assisted me on this project have since leveraged
 their research experience to advance their own careers, with one student being
