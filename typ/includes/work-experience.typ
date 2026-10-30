@@ -14,21 +14,39 @@
         /* - *Office hours*. Hosted four 45-minute long office hour sessions each week to resolve student issues with assignments and provide supplemental instruction on topics such as how to edit software with Vim. */
     ]
 
-    , [*Aug 2024 - Dec 2025*]
+    , [*May 2025 - Dec 2025*]
     , box[
         *Graduate Research Assistant* \
         University of Central Florida. Orlando, Florida.
     ]
 
-    , [*June 2024 - Aug 2024*]
+    , [*Aug 2024 - May 2025*]
+    , box[
+        *Graduate Teaching Assistant for COP-3402 Systems Software* \
+        University of Central Florida. Orlando, Florida.
+    ]
+
+    , [*April 2024 - July 2024*]
     , box[
         *Software Engineering Intern* \
         Trail of Bits. Remote.
     ]
 
-    , [*Aug 2023 - May 2024*]
+    , [*Jan 2024 - April 2024*]
     , box[
-        *Graduate Teaching Assistant for COP-3402 Systems Software* \
+        *Graduate Research Assistant* \
+        University of Central Florida. Orlando, Florida.
+    ]
+
+    , [*Dec 2023 - Jan 2024*]
+    , box[
+        *Software Engineering Intern* \
+        Trail of Bits. Remote.
+    ]
+
+    , [*Aug 2023 - Dec 2023*]
+    , box[
+        *Graduate Research Assistant* \
         University of Central Florida. Orlando, Florida.
     ]
 
