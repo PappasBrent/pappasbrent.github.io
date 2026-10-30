@@ -77,14 +77,14 @@
         /* - *Mobile Application Development*. Tested company Android apps for compatibility with various versions of Android. */
     ]
 
-    , [*Jan 2021 - May 2021*]
+    , [*Aug 2019 - Dec 2019*]
     , box[
         *Peer Tutor Mentor* \
         Student Academic Resource Center at the University of Central Florida. Orlando, Florida.
         /* - *Tutor Mentoring* Observed other tutors’ sessions and provided feedback as to how they may improve their communication and tutoring skills. */
     ]
 
-    , [*Aug 2018 - May 2021*]
+    , [*Aug 2018 - Dec 2019*]
     , box[
         *Peer Tutor* \
         Student Academic Resource Center at the University of Central Florida. Orlando, Florida.
