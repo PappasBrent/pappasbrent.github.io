@@ -26,19 +26,7 @@
         Trail of Bits. Remote.
     ]
 
-    , [*Jan 2024 - May 2024*]
-    , box[
-        *Graduate Teaching Assistant for COP-3402 Systems Software* \
-        University of Central Florida. Orlando, Florida.
-    ]
-
-    , [*Dec 2023 - Jan 2023*]
-    , box[
-        *Graduate Teaching Assistant for COP-3402 Systems Software* \
-        University of Central Florida. Orlando, Florida.
-    ]
-
-    , [*Aug 2023 - Dec 2023*]
+    , [*Aug 2023 - May 2024*]
     , box[
         *Graduate Teaching Assistant for COP-3402 Systems Software* \
         University of Central Florida. Orlando, Florida.
