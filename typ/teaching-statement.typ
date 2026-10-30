@@ -102,17 +102,16 @@ instructor of record for *COP~3402: Systems Software* for both the
 and #link("https://www.cs.ucf.edu/~pappas/teaching/cop3402/sum2026/")[Summer
 2026] semesters.
 //
-I am currently teaching the Fall 2026 semester of the course, and plan to teach
-it again in the Spring 2027 semester as well.
+I am currently teaching the Fall 2026 semester of the course.
 //
 // 243 spring 2026
 // 107 summer 2026
-// 209 (and growing) fall 2026
+// 210 fall 2026
 //
 Systems Software is a required course for UCF computer science majors with
 consistently high enrollment numbers: my Spring 2026 section had
-243 enrolled students, my Summer 2026 section had 107, and the section I am set
-to teach in the Fall already has 209 enrollments.
+243 enrolled students, my Summer 2026 section had 107, and the Fall 2026
+section I currently teach has 210 enrollments.
 //
 Most students choose to take Systems Software during their sophomore year,
 after completing prerequisite courses on C programming, and data structures and
@@ -177,6 +176,18 @@ students, not only for myself
 but also for my advisor, who, with my assistance as a GTA, earned the highest
 ratings he had ever received for the course's structure (4.92~/~5) and
 instruction (4.89~/~5).
+
+Next semester I am set to teach *COP~5621: Compiler Construction*.
+//
+This is a graduate-level course focused on teaching students the six major
+phases of compiling source code to assembly code: lexing, parsing, semantic
+analysis, IR code generation, optimization, and assembly code generation.
+//
+I plan to teach this course by requiring students to implement each of these
+phases in plain C using starter code that I will provide.
+//
+Since this is a graduate-level course, I plan to also incorporate my original
+research on translating C preprocessor macros to C code.
 
 = Teaching Awards
 
