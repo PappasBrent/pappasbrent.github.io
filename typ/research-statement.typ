@@ -574,8 +574,8 @@ untenable for medium-to-large build systems, such as that of the Linux kernel
 which spans over 200,000 lines of code @broken-linux @linux.
 //
 To solve this problem, I plan to develop an automated system for inferring
-secure build specifications, which is shown in Figure @fig:infer-specifications
-and follows six steps.
+secure build specifications, which is shown in @fig:infer-specifications and
+follows six steps.
 //
 In Step~1, the build system is run with instrumentation for tracing its normal
 access patterns.
