@@ -593,9 +593,9 @@ responsibility is delegated to Steps~3~and~4.
 To harden the produced permission set against attacks, Step~3 first injects
 into the build system malicious access patterns.
 //
-These malicious access patterns will include patterns obtained found in real
-historical attacks, mutations of the legitimate access patterns obtained in
-Step~1, and attacks synthesized by AI LLM technology.
+These malicious access patterns will include patterns found in real historical
+attacks, mutations of the legitimate access patterns obtained in Step~1, and
+attacks synthesized by AI LLM technology.
 //
 Step~4 will then compare these injected malicious access patterns to the
 program's set of legitimate access patterns, and narrow the final permission
