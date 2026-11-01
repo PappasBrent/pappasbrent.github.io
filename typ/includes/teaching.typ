@@ -60,7 +60,7 @@
                 UCF.
             ]
 
-            , [*Sprint & Fall 2019*]
+            , [*Spring & Fall 2019*]
             , box[
                 *Peer Tutor.*
                 COP-3502 Computer Science 1 & COP-3330 Object Oriented Programming.
