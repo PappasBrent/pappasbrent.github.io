@@ -53,7 +53,7 @@
                 UCF.
             ]
 
-            , [*Fall 2021*]
+            , [*Fall 2019*]
             , box[
                 *Peer Tutor Mentor.*
                 COP-3502 Computer Science 1 & COP-3330 Object Oriented Programming.
