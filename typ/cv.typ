@@ -102,3 +102,7 @@ GitHub: #link("https://www.github.com/PappasBrent")
 // When you're older and have made more of an impact on the world, add an
 // "Impacts" section. This will help others nominate you for the NAE in the
 // future.
+
+= References
+
+#include "includes/references.typ"
