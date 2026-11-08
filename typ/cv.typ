@@ -31,7 +31,7 @@ Last modified: #datetime.today().display(
     "[month repr:long] [day padding:none], [year repr:full]"
 )
 
-Email: brent.pappas\@ucf.edu                        \
+Email: #link("mailto:brent.pappas@ucf.edu")         \
 Portfolio: #link("http://www.pappasbrent.com")      \
 GitHub: #link("https://www.github.com/PappasBrent")
 
