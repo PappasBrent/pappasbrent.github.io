@@ -98,3 +98,7 @@ GitHub: #link("https://www.github.com/PappasBrent")
 #skill(name: "Platforms", elements: ("Linux", "Web", "Windows")) \
 
 #skill(name: "Soft Skills", elements: ("Leadership", "Writing", "Communication", "Time management"))
+
+// When you're older and have made more of an impact on the world, add an
+// "Impacts" section. This will help others nominate you for the NAE in the
+// future.
