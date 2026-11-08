@@ -31,8 +31,8 @@ Last modified: #datetime.today().display(
     "[month repr:long] [day padding:none], [year repr:full]"
 )
 
-Email: pappasbrent at gmail dot com \
-Portfolio: #link("http://www.pappasbrent.com") \
+Email: brent.pappas@ucf.edu                         \
+Portfolio: #link("http://www.pappasbrent.com")      \
 GitHub: #link("https://www.github.com/PappasBrent")
 
 = Education
