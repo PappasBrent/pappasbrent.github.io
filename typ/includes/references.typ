@@ -1,5 +1,3 @@
-== References
-
 #box[Paul Gazzillo. Associate Professor. University of Central Florida. paul.gazzillo\@ucf.edu. 407-823-5239. PhD supervisor.]
 
 #box[Kevin Moran. Assistant Professor. University of Central Florida. kpmoran\@ucf.edu. 407-823-5239. Research collaborator and mentor.]
