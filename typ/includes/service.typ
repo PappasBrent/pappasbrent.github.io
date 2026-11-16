@@ -7,42 +7,43 @@
     inset: 0pt,
     gutter: 10pt
 
-    , [*July 2026*]
+    , [*Jul 2026*]
     , box[
       #link("https://conf.researchr.org/profile/issta-2026/brentpappas")[*SPLASH/ISTTA 2026 Tool Demo Track Committee Member.*]
         Virtual.
     ]
-    , [*June 2026*]
+    , [*Jun 2026*]
     , box[
         *Camp Connect Lab Leader.*
         Orlando, Florida.
-        // - *Inflating Balloons*: Inflated competition balloons for the 2026 North American Championship and Programming Camp (NAC-NAPC), hosted at UCF.
+        // Informed middle and high-school students about the challenges and
+        // rewards of pursuing graduate school.
     ]
-    , [*March 2026*]
+    , [*Mar 2026*]
     , box[
         *NAC - NAPC Volunteer*.
         Orlando, Florida.
         // - *Inflating Balloons*: Inflated competition balloons for the 2026 North American Championship and Programming Camp (NAC-NAPC), hosted at UCF.
     ]
-    , [*October 2025*]
+    , [*Oct 2025*]
     , box[
         *UCF CS Grad Symposium 2025 Student Panelist*.
         Orlando, Florida.
         // - *Early PhD Advice*: Recommended that new graduate students remain humble and start honing their communication skills immediately after starting a PhD.
     ]
-    , [*August 2025*]
+    , [*Aug 2025*]
     , box[
         *UCF GradLaunch PhD Panelist*.
         Orlando, Florida.
         // - *Advising*: Instructed new graduate students how to manage their time and organize their day in order to be productive researchers.
     ]
-    , [*August 2025*]
+    , [*Aug 2025*]
     , box[
         *UCF "Surviving Graduate School" Panelist*.
         Orlando, Florida.
         // - *Community engagement*: Taught prospective graduate students how to become active in the UCF community.
     ]
-    , [*June 2025*]
+    , [*Jun 2025*]
     , box[
         *Camp Connect Lab Leader*.
         Orlando, Florida.
@@ -54,13 +55,13 @@
         Orlando, Florida.
         // - *Advising*: Answered undergraduate students’ questions about UCF’s Computer Science PhD program.
     ]
-    , [*April 2024*]
+    , [*Apr 2024*]
     , box[
         *UCF CECS Senior Design Judge*.
         Orlando, Florida.
         // - *Judging*: Assessed capstone projects for seniors of the College of Engineering and Computer Science.
     ]
-    , [*October 2022*]
+    , [*Oct 2022*]
     , box[
         *UCF CECS Career Kickoff Alumni Mentor*.
         Virtual.
@@ -68,17 +69,17 @@
     ]
     , [*May 2024*]
     , box[
-        // *NAC - NAPC Volunteer*.
+        *NAC - NAPC Volunteer*.
         Orlando, Florida.
         // - *Competition setup*: Moved computers and cables to the competition room for the 2024 North American Championship and Programming Camp (NAC-NAPC), hosted at UCF.
     ]
-    , [*2024*]
+    , [*Jan - Aug 2024*]
     , box[
         *OOPLSA 2024 Artifact Evaluation Committee Member*.
         Virtual.
         // - *Artifact Review*: Reviewed code associated with papers accepted to OOPLSA 2024. Distinguished reviewer.
     ]
-    , [*June 2023*]
+    , [*Jun 2023*]
     , box[
         *Camp Connect Lab Leader*.
         Orlando, Florida.
@@ -90,7 +91,7 @@
         Virtual.
         // - *Paper review*: Reviewed submissions to EuroSys 2023.
     ]
-    , [*June 2021*]
+    , [*Jun 2021*]
     , box[
         *Camp Connect Lab Leader*.
         Orlando, Florida.
